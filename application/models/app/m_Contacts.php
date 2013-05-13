@@ -18,7 +18,7 @@ class M_Contacts extends CRM_Model {
     //public $order_by = '';   //This is set in CRM_Model. Overwrite here if needs be
     //public $primary_key = 'xxxxxxx'; This is set in CRM_Model. Overwrite here if needs be
     
-    //public $contact_id = ''; //This is the ID of the current contact.??? Flashdata? Session?
+    //public $contact_id = ''; //*****This is the ID of the current contact.??? Flashdata? Session?
     
     //Define vars used in the scope of this model only:
     var $data = array();    //This is the var that holds returned data
@@ -33,4 +33,4 @@ class M_Contacts extends CRM_Model {
 }
 
 /* End of file m_Contacts.php */
-/* Location: ./application/models/m_Contacts.php */
+/* Location: ./application/models/app/m_Contacts.php */

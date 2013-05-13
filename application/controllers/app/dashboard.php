@@ -7,7 +7,7 @@ class Dashboard extends CRM_Controller {
 	public function index()
 	{
             echo "<h1>This is the dashboard</h1>";
-            $this->load->model('m_Contacts', 'contacts');
+            $this->load->model('app/m_Contacts', 'contacts');
             $q = $this->contacts->get();
             $this->data['datasets']['contacts'] = $q;
             
@@ -17,4 +17,4 @@ class Dashboard extends CRM_Controller {
 }
 
 /* End of file dashboard.php */
-/* Location: ./application/controllers/dashboard.php */
+/* Location: ./application/controllers/app/dashboard.php */
