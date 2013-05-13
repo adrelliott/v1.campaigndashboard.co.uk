@@ -2,18 +2,19 @@
 
 class Dashboard extends CRM_Controller {
 
-	public $controller_name = 'dashboard';
+    public function __construct()    {
+         parent::__construct();
+
+    }
+
+    public function index($view_file = 'index') {
+        $this->load->model('app/m_Contacts', 'contacts');
+        $q = $this->contacts->get();
+        $this->_load_view($view_file);
         
-	public function index()
-	{
-            echo "<h1>This is the dashboard</h1>";
-            $this->load->model('app/m_Contacts', 'contacts');
-            $q = $this->contacts->get();
-            $this->data['datasets']['contacts'] = $q;
-            
-            print_r($this->data);
-            //$this->load->view('welcome_message');
-	}
+    }
+    
+    
 }
 
 /* End of file dashboard.php */

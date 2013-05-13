@@ -33,10 +33,24 @@ class CRM_Controller extends CI_Controller {
         
         //General set up for this app
         parse_str($_SERVER['QUERY_STRING'], $_GET); //Allow the use of Query Strings
-        define('DATAOWNER_ID', 11);
+        $this->dID = 11;    //will be taken from the session
+        
+        //do a config_dataset query to find out what datasets to load
+        if ( $this->uri->segment(3) ) $seg_3 = $this->uri->segment(3);
+        else $seg_3 = 'index';
+        $this->data['page_setup'] = array 
+            (
+               'ControllerFilePath' => strtolower( $this->uri->segment(1) ),
+               'ControllerName' => strtolower( $this->uri->segment(2) ),
+               'ControllerMethod' => strtolower( $seg_3 )
+            );
+        $this->data['datasets']['config'] = $this->m_Datasets->get_by($this->data['page_setup']);
         
         //Set up the page
         $page_config = $this->set_up_page();    //is this passed as a URL Parameter? Should this have its own fucntion?
+        
+        //Debug
+        if( isset($_GET['debug']) && ! strpos(ENVIRONMENT, 'production') ) $this->output->enable_profiler(TRUE);
         
     }
     
@@ -56,6 +70,39 @@ class CRM_Controller extends CI_Controller {
         
         
         return $retval;
+    }
+    
+    protected function _load_view($view_file) {
+        //is it modal?
+        $ext = '';
+        $pos = strpos($view_file, '_modal');
+        if ( $pos ) 
+        {
+            $ext = '_modal';
+            $view_file = substr_replace($view_file, '', $pos);
+        }       
+        
+        //is the view file in the 'app' directory? (we store these views differently)
+        extract( $this->data['page_setup'] );
+        if ( $ControllerFilePath == 'app' ) 
+            $ControllerFilePath = $ControllerFilePath . '/' . $this->dID;
+        
+        //load views
+        $this->load->vars( $this->data );
+        $this->load->view( $ControllerFilePath . '/common/header' . $ext );
+        $this->load->view( $ControllerFilePath . '/common/navbar' . $ext );
+        $this->load->view( $ControllerFilePath . '/' . $ControllerName . '/v_' . $ControllerName . '_' . $view_file );
+        $this->load->view( $ControllerFilePath . '/common/footer' . $ext );
+    }
+    
+    public function check_permissions($min_admin_level = 3) {
+        //firstly, check we are still logged in
+        
+        //Now check that the user's admin level equals, or exceeds that passed
+        
+        //if not, either log in again, or go back to error page
+        
+        //if so, then carry on
     }
    
 }

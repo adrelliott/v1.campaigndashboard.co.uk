@@ -28,13 +28,6 @@ class CRM_Model extends CI_Model {
      */
     public $order_by = 'Id DESC';
     
-    /**
-     * restrict each query to the records belonging to this dataowner
-     * @var string
-     */
-    public $dID = DATAOWNER_ID;
-    
-    
     function __construct() {
         parent::__construct();
         
@@ -99,7 +92,7 @@ class CRM_Model extends CI_Model {
     /**
      * Get records by one or more keys.
      * 
-     * @param mixed $key can be a string, in which case teh value is in $val. Can also ba a key => value pair array.
+     * @param mixed $key can be a string, in which case the value is in $val. Can also ba a key => value pair array.
      * @param mixed $val The value for a set set $key
      * @param boolean $where_clause This can be where_in, or_where_in, where_not_in, or_where_not_in, etc etc. see  http://ellislab.com/codeigniter/user-guide/database/active_record.html
      * @param boolean $single
@@ -122,6 +115,12 @@ class CRM_Model extends CI_Model {
         // Return results
         $single == FALSE || $this->db->limit(1);
         $method = $single ? 'row_array' : 'result_array';
+        
+        //ONLY get records that are ACTIVE, and belong to this user
+        $condition = $this->table_name . ".dID = " . $this->dID;
+        $condition .= " AND " . $this->table_name . ".ActiveRecordYN = 1";
+        $this->db->where($condition);   
+        
         return $this->db->get($this->table_name)->$method();
     }
     

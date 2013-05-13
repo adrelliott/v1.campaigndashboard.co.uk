@@ -63,7 +63,7 @@ $autoload['libraries'] = array('session', 'database');
 |	$autoload['helper'] = array('url', 'file');
 */
 
-$autoload['helper'] = array('url', 'form'); 
+$autoload['helper'] = array('url', 'form', 'dev_helper'); 
 
 
 /*
@@ -108,7 +108,7 @@ $autoload['language'] = array();
 |
 */
 
-$autoload['model'] = array();
+$autoload['model'] = array('config/m_Datasets');
 
 
 /* End of file autoload.php */

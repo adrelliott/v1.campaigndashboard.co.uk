@@ -16,20 +16,23 @@ class Setup extends CRM_Controller {
         parent::__construct();
     }
 
-    public function index() {
-        $this->load->view('config/setup');
+    public function index($view_file = 'index') {
+        $this->_load_view($view_file);
     }
     
-    public function datasets($id = FALSE) {
+    public function datasets($view_file = 'edit_datasets', $id = FALSE, $contact_id = FALSE) {
         //is ID set? then retrieve this dataset for editing
         
         //is post set? then submit as new data?
         
         //neither of these? OK, show a table of 
-        $this->load->view('config/setup');
+        
+        $this->_load_view($view_file);
     }
+    
+    
 
 }
 
 /* End of file setup.php */
-/* Location: ./application/controllers/setup.php */
+/* Location: ./application/controllers/config/setup.php */
