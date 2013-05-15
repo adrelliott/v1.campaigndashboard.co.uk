@@ -1,1 +1,1 @@
-<H1>This si the common Navbar file</H1>
+<?php echo anchor('config/dataset', 'List of Datasets') ?> | <?php echo anchor('config/dataset', 'List of Datasets') ?>

@@ -9,16 +9,18 @@ class CRM_Controller extends CI_Controller {
     public $data = array();
     
     /**
-     * DESCRIPTION
+     * This is the id of the record being manipulated 
+     * (it may also be the Contact Id if the record is in the table contacts)
      * @var string
      */
-    public $var2 = 'Id';
+    public $id = '';
     
     /**
-     * DESCRIPTION
+     * This is the contact's Id. May also be the same as $id if dealing just
+     * in contacts table.
      * @var string
      */
-    public $var3 = 'intval'; // htmlentities for string keys
+    public $contact_id = ''; 
     
     /**
      * This is the ID that links each record to their respective owners
@@ -35,7 +37,7 @@ class CRM_Controller extends CI_Controller {
         parse_str($_SERVER['QUERY_STRING'], $_GET); //Allow the use of Query Strings
         $this->dID = 11;    //will be taken from the session
         
-        //do a config_dataset query to find out what datasets to load
+        //Set up the templating vars so we can load the right view files
         if ( $this->uri->segment(3) ) $seg_3 = $this->uri->segment(3);
         else $seg_3 = 'index';
         $this->data['page_setup'] = array 
@@ -44,11 +46,17 @@ class CRM_Controller extends CI_Controller {
                'ControllerName' => strtolower( $this->uri->segment(2) ),
                'ControllerMethod' => strtolower( $seg_3 )
             );
-        $this->data['datasets']['config'] = $this->m_Datasets->get_by($this->data['page_setup']);
         
-        //Set up the page
-        $page_config = $this->set_up_page();    //is this passed as a URL Parameter? Should this have its own fucntion?
+        //do a config_dataset query to find out what datasets to load
+        //(Not applicable to controllers in the 'config' directory)
+        if ($this->data['page_setup']['ControllerFilePath'] !== 'config')
+        {
+            $this->load->model('config/m_Datasets', 'datasets');
+            $this->data['datasets']['config'] = $this->datasets->get_by($this->data['page_setup']);
+        }
         
+        
+       
         //Debug
         if( isset($_GET['debug']) && ! strpos(ENVIRONMENT, 'production') ) $this->output->enable_profiler(TRUE);
         

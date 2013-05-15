@@ -52,7 +52,7 @@ $autoload['packages'] = array();
 |	$autoload['libraries'] = array('database', 'session', 'xmlrpc');
 */
 
-$autoload['libraries'] = array('session', 'database');
+$autoload['libraries'] = array('session', 'database', 'table', 'form_validation');
 
 /*
 | -------------------------------------------------------------------
@@ -63,7 +63,7 @@ $autoload['libraries'] = array('session', 'database');
 |	$autoload['helper'] = array('url', 'file');
 */
 
-$autoload['helper'] = array('url', 'form', 'dev_helper'); 
+$autoload['helper'] = array('url', 'form', 'dev_helper', 'array'); 
 
 
 /*
@@ -108,7 +108,7 @@ $autoload['language'] = array();
 |
 */
 
-$autoload['model'] = array('config/m_Datasets');
+$autoload['model'] = array();
 
 
 /* End of file autoload.php */

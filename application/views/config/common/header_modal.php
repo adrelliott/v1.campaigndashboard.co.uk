@@ -1,4 +1,3 @@
-<H1>This si the BESPOKE MODAL header file for config</H1>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -66,8 +65,6 @@
         </style>
     </head>
     <body>
-
         <div id="container">
             <h1>Set up your application here!</h1>
-
             <div id="body">

@@ -84,11 +84,6 @@ class CRM_Model extends CI_Model {
     }
     
     
-    
-    //================================= tested up to here ==========================/
-    
-    
-    
     /**
      * Get records by one or more keys.
      * 
@@ -123,6 +118,77 @@ class CRM_Model extends CI_Model {
         
         return $this->db->get($this->table_name)->$method();
     }
+    
+     /**
+     * Save or update a record.
+     * 
+     * @param array $data
+     * @param mixed $id Optional
+     * @return mixed The ID of the saved record
+     * @author Joost van Veen & Al Elliott
+     */
+    public function save($data, $id = 'new') {
+        //Get rid of unwanted fields & check submission
+        $data = $this->clean_post_data($data);
+        
+        //Now test id and either INSERT or UPDATE
+        if ( $id == 'new' ) {
+            
+            // This is an insert
+            if ( ! element('dID', $data)) $data['dID'] = $this->dID;
+            $this->db->set($data)->insert($this->table_name);
+            $id = $this->db->insert_id();
+        }
+        else {
+            
+            // This is an update
+            $filter = $this->primaryFilter;
+            if ( ! element('dID', $data)) $data['dID'] = $this->dID;
+            $this->db->set($data)->where($this->primary_key, $filter($id))->update($this->table_name);
+        }
+        // Return the ID
+        return $id;
+    }
+    
+    public function make_inactive($ids) {
+        if ( ! $ids ) return FALSE;
+        
+        //Turn single id into an array
+        $ids = ! is_array($ids) ? array($ids) : $ids;
+        $r = array();
+        
+        //Cycle through each one in the array and set the 'ActiveRecordYN' field to 0
+        foreach ( $ids as $id ) 
+        {
+            $this->db->where('dID', $this->dID);
+            $this->db->where('Id', $id);
+            $r[$id] = $this->db->update($this->table_name, array('ActiveRecordYN' => 0));
+        }
+        
+        return $r;
+    }
+    
+    
+    public function clean_post_data($data) {
+        $retval = array();
+        
+        //remove any non-db fields (they are prepended with '_::_'
+        foreach ($data as $col => $value )
+        {
+            if (substr($col, 0, 4) !== '_::_')
+                    $retval[$col] = $value;
+        }
+        
+        //maybe put some verification here that we're only going to accept data
+        //that matches field names form the database
+        return $retval;
+    }
+    
+    
+    
+    
+    
+    //================================= tested up to here ==========================/
     
      /**
      * Get one or more records as a key=>value pair array.
@@ -205,42 +271,14 @@ class CRM_Model extends CI_Model {
         return $data;
     }
     
-    /**
-     * Save or update a record.
-     * 
-     * @param array $data
-     * @param mixed $id Optional
-     * @return mixed The ID of the saved record
-     * @author Joost van Veen
-     */
-    public function save($data, $id = FALSE) {
-        if ( $id == FALSE || $id == 'new' ) {
-            
-            // This is an insert
-            //if ( isset($data['_dID']) ) $data['_dID'] = $this->dID;
-            //else $data['_dID'] = $this->dID;
-            $data['_dID'] = $this->dID;
-            $this->db->set($data)->insert($this->table_name);
-        }
-        else {
-            
-            // This is an update
-            $filter = $this->primaryFilter;
-            $data['_dID'] = $this->dID;
-            $this->db->set($data)->where($this->primary_key, $filter($id))->update($this->table_name);
-        }
-        $data['_dID'] = $this->dID;
-        // Return the ID
-        return $id == FALSE ? $this->db->insert_id() : $id;
-    }
-    
+   
     /**
      * Delete one or more records by ID
      * @param mixed $ids
      * @return void
      * @author Joost van Veen
      */
-    public function delete($ids){
+    public function delete_deprecated($ids){
         
         $filter = $this->primaryFilter; 
         $ids = ! is_array($ids) ? array($ids) : $ids;
@@ -254,7 +292,9 @@ class CRM_Model extends CI_Model {
         }
     }
     
-    public function make_inactive($ids = FALSE, $id_field_name) {
+    
+    
+    public function make_inactive_deprecated($ids = FALSE, $id_field_name) {
         if ( ! $ids ) return FALSE;
         
         //Turn single id into an array
@@ -371,14 +411,6 @@ class CRM_Model extends CI_Model {
         return $this->get();
     } 
     
-    function add($input, $rID) {
-       if ($rID == 'new')
-       {
-          $rID = NULL;
-       }      
-       
-       return $this->save($input, $rID);
-    }
     
     
     

@@ -1,9 +1,8 @@
-<H1>This si the BESPOKE header file for config</H1>
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Set up an Application</title>
+        <title>Campaign Dashboard Admin</title>
 
         <style type="text/css">
 
@@ -66,8 +65,7 @@
         </style>
     </head>
     <body>
-
         <div id="container">
-            <h1>Set up your application here!</h1>
-
+            <h1>Campaign Dashboard Admin Area</h1>
             <div id="body">
+                
