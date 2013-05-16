@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class CRM_Model extends CI_Model {
+class Config_Model extends CI_Model {
     
      /**
      * The database table to use.
@@ -75,8 +75,7 @@ class CRM_Model extends CI_Model {
         $method = $single ? 'row_array' : 'result_array';
         
         //ONLY get records that are ACTIVE, and belong to this user
-        $condition = $this->table_name . ".dID = " . $this->dID;
-        $condition .= " AND " . $this->table_name . ".ActiveRecordYN = 1";
+        $condition = $this->table_name . ".ActiveRecordYN = 1";
         $this->db->where($condition);   
         
         //Go get 'em!
@@ -112,8 +111,7 @@ class CRM_Model extends CI_Model {
         $method = $single ? 'row_array' : 'result_array';
         
         //ONLY get records that are ACTIVE, and belong to this user
-        $condition = $this->table_name . ".dID = " . $this->dID;
-        $condition .= " AND " . $this->table_name . ".ActiveRecordYN = 1";
+        $condition = $this->table_name . ".ActiveRecordYN = 1";
         $this->db->where($condition);   
         
         return $this->db->get($this->table_name)->$method();
@@ -135,7 +133,6 @@ class CRM_Model extends CI_Model {
         if ( $id == 'new' ) {
             
             // This is an insert
-            if ( ! element('dID', $data)) $data['dID'] = $this->dID;
             $this->db->set($data)->insert($this->table_name);
             $id = $this->db->insert_id();
         }
@@ -143,7 +140,6 @@ class CRM_Model extends CI_Model {
             
             // This is an update
             $filter = $this->primaryFilter;
-            if ( ! element('dID', $data)) $data['dID'] = $this->dID;
             $this->db->set($data)->where($this->primary_key, $filter($id))->update($this->table_name);
         }
         // Return the ID
@@ -160,7 +156,6 @@ class CRM_Model extends CI_Model {
         //Cycle through each one in the array and set the 'ActiveRecordYN' field to 0
         foreach ( $ids as $id ) 
         {
-            $this->db->where('dID', $this->dID);
             $this->db->where('Id', $id);
             $r[$id] = $this->db->update($this->table_name, array('ActiveRecordYN' => 0));
         }
@@ -180,7 +175,8 @@ class CRM_Model extends CI_Model {
         }
         
         //maybe put some verification here that we're only going to accept data
-        //that matches field names form the database
+        //that matches field names from the database?
+        
         return $retval;
     }
     
@@ -286,7 +282,7 @@ class CRM_Model extends CI_Model {
         foreach ($ids as $id) {
             $id = $filter($id);
             if ($id) {
-                $this->db->where('_dID', $this->dID);
+                //$this->db->where('_dID', $this->dID);
                 $this->db->where($this->primary_key, $id)->limit(1)->delete($this->table_name);
             }
         }
@@ -422,5 +418,5 @@ class CRM_Model extends CI_Model {
     
 }
 
-/* End of file CRM_Model.php */
-/* Location: ./application/libraries/core_classes/CRM_Model.php */
+/* End of file Config_Model.php */
+/* Location: ./application/libraries/core_classes/Config_Model.php */

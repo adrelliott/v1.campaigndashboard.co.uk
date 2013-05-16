@@ -6,7 +6,16 @@ class CRM_Controller extends CI_Controller {
      * General array used to hold all data required by the page
      * @var array
      */
-    public $data = array();
+    public $data = array
+        (
+            'page_setup' => array
+            (
+                'ControllerFilePath' => '',
+                'ControllerName' => '',
+                'ControllerMethod' => 'index',
+                
+            ),
+        );
     
     /**
      * This is the id of the record being manipulated 
@@ -38,14 +47,7 @@ class CRM_Controller extends CI_Controller {
         $this->dID = 11;    //will be taken from the session
         
         //Set up the templating vars so we can load the right view files
-        if ( $this->uri->segment(3) ) $seg_3 = $this->uri->segment(3);
-        else $seg_3 = 'index';
-        $this->data['page_setup'] = array 
-            (
-               'ControllerFilePath' => strtolower( $this->uri->segment(1) ),
-               'ControllerName' => strtolower( $this->uri->segment(2) ),
-               'ControllerMethod' => strtolower( $seg_3 )
-            );
+        
         
         //do a config_dataset query to find out what datasets to load
         //(Not applicable to controllers in the 'config' directory)
@@ -59,6 +61,17 @@ class CRM_Controller extends CI_Controller {
        
         //Debug
         if( isset($_GET['debug']) && ! strpos(ENVIRONMENT, 'production') ) $this->output->enable_profiler(TRUE);
+        
+    }
+    
+    public function set_up_page_vars() {
+        $segments = $this->uri->segment_array();
+        $this->data['page_setup'] = array 
+        (
+           'ControllerFilePath' => strtolower(element(1, $segments, 'app')),
+           'ControllerName' => strtolower(element(2, $segments, 'contact')),
+           'ControllerMethod' => strtolower(element(3, $segments, 'index')),
+        );
         
     }
     
