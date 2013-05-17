@@ -1,132 +1,111 @@
-<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+<?php
 
-class CRM_Controller extends CI_Controller {
-    
-     /**
-     * General array used to hold all data required by the page
-     * @var array
-     */
-    public $data = array
-        (
-            'page_setup' => array
-            (
-                'ControllerFilePath' => '',
-                'ControllerName' => '',
-                'ControllerMethod' => 'index',
-                
-            ),
-        );
-    
-    /**
-     * This is the id of the record being manipulated 
-     * (it may also be the Contact Id if the record is in the table contacts)
-     * @var string
-     */
-    public $id = '';
-    
-    /**
-     * This is the contact's Id. May also be the same as $id if dealing just
-     * in contacts table.
-     * @var string
-     */
-    public $contact_id = ''; 
-    
-    /**
-     * This is the ID that links each record to their respective owners
-     * E.g. Every FC Utd contact record has the dID of 22232
-     * @var string
-     */
-    public $dID = '';
-    
-    
-    function __construct() {
+if (!defined('BASEPATH'))
+    exit('No direct script access allowed');
+
+/**
+ * Controller - App_Controller
+ * @author Al Elliott
+ * 
+ * Description goes here
+ * 
+ */
+class App_Controller extends Base_Controller {
+
+    public function __construct() {
         parent::__construct();
-        
-        //General set up for this app
-        parse_str($_SERVER['QUERY_STRING'], $_GET); //Allow the use of Query Strings
-        $this->dID = 11;    //will be taken from the session
-        
-        //Set up the templating vars so we can load the right view files
-        
-        
-        //do a config_dataset query to find out what datasets to load
-        //(Not applicable to controllers in the 'config' directory)
-        if ($this->data['page_setup']['ControllerFilePath'] !== 'config')
-        {
-            $this->load->model('config/m_Datasets', 'datasets');
-            $this->data['datasets']['config'] = $this->datasets->get_by($this->data['page_setup']);
-        }
-        
-        
-       
-        //Debug
-        if( isset($_GET['debug']) && ! strpos(ENVIRONMENT, 'production') ) $this->output->enable_profiler(TRUE);
-        
+        //Extract the view_setup array to allow us to use vars here
+        extract($this->data['view_setup']);
     }
     
-    public function set_up_page_vars() {
-        $segments = $this->uri->segment_array();
-        $this->data['page_setup'] = array 
-        (
-           'ControllerFilePath' => strtolower(element(1, $segments, 'app')),
-           'ControllerName' => strtolower(element(2, $segments, 'contact')),
-           'ControllerMethod' => strtolower(element(3, $segments, 'index')),
-        );
-        
-    }
-    
-    
-    /**
-     * Set up the page config
-     * 
-     * @param string $page_name The name of the page we are loading
-     * 
-     * @return array - this is the config values drawn from the database
-     * @author Al Elliott
-     */
-    public function set_up_page($page_name = 'dashboard') {
+    public function fetch_datasets() {
+        //first set up vars
         $retval = array();
-        //Load the config model
-        //get the values from the config table
+        $conditions = $this->data['view_setup'];
+        $conditions['dID'] = $this->dID;
         
+        //now load model and get dataset configs
+        $this->load->model('M_Datasets');
+        $q = $this->M_Datasets->get_by($conditions);
         
-        return $retval;
+        return $q;
+        //now do each query
+    }
+
+    public function index($view_file = 'list', $id = FALSE) {
+        //retrive datasets for this view 
+        $this->data['datasets_config'] = $this->fetch_datasets();
+        
+        //print_array($datasets_config, 1);
+        
+        //$this->data['datasets'] = $this->->get_all_datasets($dID);
+        
+        //show in a table (with edit | delete )
+        $this->_load_view($view_file);
+        
+        //print_array($this->data);
+       
     }
     
-    protected function _load_view($view_file) {
-        //is it modal?
-        $ext = '';
-        $pos = strpos($view_file, '_modal');
-        if ( $pos ) 
-        {
-            $ext = '_modal';
-            $view_file = substr_replace($view_file, '', $pos);
-        }       
+    public function view($view_file = 'edit', $id = 'new', $contact_id = NULL) {
+        $this->id = $id;
+        $this->contact_id = $contact_id;
         
-        //is the view file in the 'app' directory? (we store these views differently)
-        extract( $this->data['page_setup'] );
-        if ( $ControllerFilePath == 'app' ) 
-            $ControllerFilePath = $ControllerFilePath . '/' . $this->dID;
+        //retrive datasets for this view 
+        //$this->data['datasets'] = $this->M_Datasets->get_all_datasets($dID);
+        //$this->data['datasets'] = $this->->get_all_datasets($dID);
         
-        //load views
-        $this->load->vars( $this->data );
-        $this->load->view( $ControllerFilePath . '/common/header' . $ext );
-        $this->load->view( $ControllerFilePath . '/common/navbar' . $ext );
-        $this->load->view( $ControllerFilePath . '/' . $ControllerName . '/v_' . $ControllerName . '_' . $view_file );
-        $this->load->view( $ControllerFilePath . '/common/footer' . $ext );
+        //show in a table (with edit | delete )
+        $this->_load_view($view_file);
+        
+        //print_array($this->data);
+       
     }
     
-    public function check_permissions($min_admin_level = 3) {
-        //firstly, check we are still logged in
+    public function add($view_file, $id = 'new', $contact_id = NULL) {
+        //Set vars
+        if (count($this->input_data)) $input = $this->input_data;
+        else $input = $this->input->post();
+        extract($this->data['view_setup']);
+        $url = site_url($ControllerName . '/view/' . $view_file . '/' . $id . '/' . $contact_id);
         
-        //Now check that the user's admin level equals, or exceeds that passed
+        //Insert or Update this record
+        $model = $this->model_name;
+        $id = $this->$model->save($input, $id);
         
-        //if not, either log in again, or go back to error page
-        
-        //if so, then carry on
+         //Have we set any client-specific methods to run?
+        $method_name = $this->dID . '_' . $ControllerName . '_add';
+        if (method_exists($this, $method_name)) $this->$method_name($input, $rID);
+
+        //Is it a redirect or an Ajax re-load?
+        if ($this->input->is_ajax_request ()) 
+            {
+                $response = array ('success' => true,);
+
+            if ($id === 'new') $response['redirect'] = $url;
+
+            $this->output->set_content_type('application/json');
+            $this->output->set_output(json_encode($response));
+            return;
+        }
+        else redirect($url);
     }
-   
+    
+    public function append_data($field_name, $view_file, $id = 'new', $contact_id = NULL) {
+        //Set up vars
+        $this->input_data = $this->input->post();
+        $extra_info = "\n:::: On " . date('d-m-Y H:i') . ', ' . 
+                    $this->session->userdata('FirstName') . ' ' . 
+                    $this->session->userdata('LastName') . " wrote:::: \n";
+        $field_data = element($field_name, $this->input_data, FALSE);
+        
+        if ($field_data) $this->input_data[$field_name] = $extra_info . $field_data;
+        
+        $this->add($view_file, $id, $contact_id);
+    }
+
+
 }
 
-/* End of file CRM_Controller.php */
-/* Location: ./application/libraries/core_classes/CRM_Controller.php */
+/* End of file App_Controller.php */
+/* Location: ./application/core_classes/App_Controller.php */

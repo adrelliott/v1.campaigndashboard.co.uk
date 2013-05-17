@@ -4,33 +4,28 @@ if (!defined('BASEPATH'))
     exit('No direct script access allowed');
 
 /**
- * Model - m_Contacts
+ * Model - M_Contacts
  * @author Al Elliott
  * Table Name: contacts
  * 
- * CRUD for Contacts Table
+ * Description goes here
  * 
  */
-class M_Contacts extends App_Model {
+class M_Contacts extends Base_Model {
 
     //Define vars used throught the process
     public $table_name = 'contacts';
-    //public $order_by = '';   //This is set in CRM_Model. Overwrite here if needs be
-    //public $primary_key = 'xxxxxxx'; This is set in CRM_Model. Overwrite here if needs be
-    
-    //public $contact_id = ''; //*****This is the ID of the current contact.??? Flashdata? Session?
-    
-    //Define vars used in the scope of this model only:
-    var $data = array();    //This is the var that holds returned data
-    var $options = array();     //This array holds query options for select (e.g 'Id' => 1)
+   
+    public $condition = array('CrmUserYN'=> 0);
+
+    //public $order_by = '';   //This is set in CRM_Model. Overwrite here 
+    //public $primary_key = ''; //This is set in CRM_Model. Overwrite here
 
     public function __construct() {
         parent::__construct();
     }
-    
-    
 
 }
 
-/* End of file m_Contacts.php */
-/* Location: ./application/models/app/m_Contacts.php */
+/* End of file M_Contacts.php */
+/* Location: ./application/models/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/M_Contacts.php */

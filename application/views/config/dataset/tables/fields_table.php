@@ -1,5 +1,5 @@
 <?php 
-    $tmpl = $this->M_Datasets->table_template;
+    $tmpl = $this->M_Datasets_config->table_template;
     $table_headers = array('Field Name', 'Dropdown/Table Label', 'Include in Dataset?');
     $table_data = $datasets['field_list'];
 

@@ -57,6 +57,12 @@
             <?php echo form_dropdown('CrmUserSuspendReason', array('' => 'Not Suspended', '301' => 'Account Suspended','105' => 'User Left Company', '944' => 'Unpaid Bills'), element('CrmUserSuspendReason', $datasets['record'], ''), 'id=""'); ?>
         </div>
     </div>
+    <div class="clearfix" id="">
+        <label for="ActiveRecordYN" class="" id="">Record Deleted?</label>
+        <div class="input " id="">
+            <?php echo form_dropdown('ActiveRecordYN', array('0' => 'Record Inactive', '1' => 'Record Active'), element('ActiveRecordYN', $datasets['record'], '3'), 'id=""'); ?>
+        </div>
+    </div>
     <?php echo form_hidden('CrmUserYN', '1'); ?>
     <?php echo form_submit('_::_submit', 'Save!', 'class="button blue right medium"'); ?>
     <?php echo form_close(); ?>

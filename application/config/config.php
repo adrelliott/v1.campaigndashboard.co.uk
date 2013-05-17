@@ -247,10 +247,10 @@ switch (ENVIRONMENT)
 {
     case 'al_MBP_development':
         //Add more dev environments here...
-        $config['log_threshold'] = 0; //On Dev server log everything
+        $config['log_threshold'] = 4; //On Dev server log everything
         break;    
     default:
-       $config['log_threshold'] = 0; //On staging & production server only log PHP errors
+       $config['log_threshold'] = 1; //On staging & production server only log PHP errors
         break;
 }
 

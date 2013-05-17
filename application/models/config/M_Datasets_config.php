@@ -11,26 +11,30 @@ if (!defined('BASEPATH'))
  * Description goes here
  * 
  */
-class M_Datasets extends Config_Model {
+class M_Datasets_config extends Config_Model {
 
     //Define vars used throught the process
     public $table_name = 'configDatasets';
-    public $order_by = 'dID ASC';   //This is set in CRM_Model. Overwrite here if needs be
+    public $order_by = 'Name ASC';   //This is set in CRM_Model. Overwrite here if needs be
     //public $primary_key = 'xxxxxxx'; This is set in CRM_Model. Overwrite here if needs be
     public $cols = array
         (
-        'Id' => 'Id', 
-        'Name' => 'Name', 
-        'Slug' => 'Slug', 
-        'Type' => 'Type', 
-        'Table' => 'Table', 
-        'Model' => '', 
-        'ControllerFilePath' => 'Directory', 
-        'ControllerName' => 'Controller', 
-        'ControllerMethod' => 'Method', 
-        'Fields' => '', 
-        'dID' => 'Dataowner Id',
+            'Id' => 'Id', 
+            'Name' => 'Name', 
+            'Slug' => 'Slug', 
+            'Type' => 'Type', 
+            'Table' => 'Table', 
+            'Model' => '', 
+            'Method' => '', 
+            'Params' => '', 
+            'ControllerFilePath' => 'Directory', 
+            'ControllerName' => 'Controller', 
+            'ControllerMethod' => 'Method', 
+            'Fields' => '', 
+            'ActiveRecordYN' => 'Active?',
+            'dID' => 'Dataowner Id',
         );
+    
     public $table_template = array
         (
             'table_open'  => '<table border="1" cellpadding="2" cellspacing="1" class="mytable" width="100%">',
@@ -40,10 +44,10 @@ class M_Datasets extends Config_Model {
     
     public function __construct() {
         parent::__construct();
-        $this->db->select(array_keys($this->cols));
+        
     }
     
-    public function get_all_datasets($dID) {
+    public function get_all_datasets($dID = NULL) {
         if ($dID) $this->db->where('dID', $dID);
         $retval = array();
         $q = $this->get();

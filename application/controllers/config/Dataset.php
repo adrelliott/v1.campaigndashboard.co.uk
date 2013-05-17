@@ -14,12 +14,12 @@ class Dataset extends Config_Controller {
     
     public function __construct() {
         parent::__construct();
-        $this->load->model('config/M_Datasets');
+        $this->load->model('config/M_Datasets_config');
     }
 
     public function index($view_file = 'list', $dID = FALSE) { //Show all datasets for this owner
         //retrive every single dataset, and sort by dID 
-        $this->data['datasets']['all_datasets'] = $this->M_Datasets->get_all_datasets($dID);
+        $this->data['datasets']['all_datasets'] = $this->M_Datasets_config->get_all_datasets($dID);
         
         //show in a table (with edit | delete )
         $this->_load_view($view_file);
@@ -33,7 +33,7 @@ class Dataset extends Config_Controller {
         if ($id !== 'new')
         {
             //retrieve the dataset info
-             $this->data['datasets']['record'] = $this->M_Datasets->get($id);
+             $this->data['datasets']['record'] = $this->M_Datasets_config->get($id);
              
              //is the col 'Table' set yet? (We'll get field list of that table if so)
              $table_name = element('Table', $this->data['datasets']['record'], FALSE);
@@ -44,7 +44,7 @@ class Dataset extends Config_Controller {
         if ($table_name) 
         {
             $field_list = element('Fields', $this->data['datasets']['record'], array()); 
-            $this->data['datasets']['field_list'] = $this->M_Datasets->get_fields($table_name, $field_list);
+            $this->data['datasets']['field_list'] = $this->M_Datasets_config->get_fields($table_name, $field_list);
         }
                 
         //load the view
@@ -52,15 +52,15 @@ class Dataset extends Config_Controller {
     }
     
     public function add($view_file, $id = 'new') { //adds a new dataset
-        $this->load->model('config/M_Datasets');
+        $this->load->model('config/M_Datasets_config');
         $input = $this->input->post();
         
         //Turn the table into a CSV value for column 'Fields'
         if ($this->input->post('_::_used')) 
-            $input['Fields'] = $this->M_Datasets->process_field_table($input);
+            $input['Fields'] = $this->M_Datasets_config->process_field_table($input);
         
         //Create or Update the data
-        $id = $this->M_Datasets->save_dataset($input, $id);
+        $id = $this->M_Datasets_config->save_dataset($input, $id);
         
         //Return user to the page
         if ($id === 'new') $this->session->set_flashdata('message','Update Failed! Try Again.');
@@ -86,7 +86,7 @@ class Dataset extends Config_Controller {
     public function delete($method_name, $view_file, $record_id = array(), $current_id = NULL) {
         $message = 'Success! Records Deleted';
         
-        $result = $this->M_Datasets->make_inactive($record_id);
+        $result = $this->M_Datasets_config->make_inactive($record_id);
         //put some error reporting in here
         
         $this->session->set_flashdata('message', $message);

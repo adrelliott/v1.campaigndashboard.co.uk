@@ -54,9 +54,27 @@
         </div>
     </div>
     <div class="clearfix" id="">
+        <label for="Method" class="" id="">Method Name</label>
+        <div class="input " id="">
+            <input class="large" id="Method" type="text" name="Method" length="" value="<?php echo element('Method', $datasets['record'], ''); ?>">
+        </div>
+    </div>
+    <div class="clearfix" id="">
+        <label for="Params" class="" id="">Params</label>
+        <div class="input " id="">
+            <input class="large" id="Params" type="text" name="Params" length="" value="<?php echo element('Params', $datasets['record'], ''); ?>">
+        </div>
+    </div>
+    <div class="clearfix" id="">
         <label for="dID" class="" id="">Dataowner's Id</label>
         <div class="input " id="">
             <input class="large" id="dID" type="text" name="dID" length="" value="<?php echo element('dID', $datasets['record'], ''); ?>">
+        </div>
+    </div>
+    <div class="clearfix" id="">
+        <label for="ActiveRecordYN" class="" id="">Record Deleted?</label>
+        <div class="input " id="">
+            <?php echo form_dropdown('ActiveRecordYN', array('0' => 'Record Inactive', '1' => 'Record Active'), element('ActiveRecordYN', $datasets['record'], '3'), 'id=""'); ?>
         </div>
     </div>
     <?php echo form_submit('_::_submit', 'Save!', 'class="button blue right medium"'); ?>

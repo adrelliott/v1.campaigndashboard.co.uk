@@ -28,6 +28,7 @@ class M_Users extends Config_Model {
         'Username' => 'Username',
         'CrmUserAdminLevel' => 'Admin Level',
         'CrmUserSuspendReason' => '',
+            'ActiveRecordYN' => 'Active?',
         'dID' => 'Dataowner Id',
         );
     
@@ -40,9 +41,9 @@ class M_Users extends Config_Model {
 
     public function __construct() {
         parent::__construct();
-        $this->db->select(array_keys($this->cols));
         $this->db->where('CrmUserYN', 1);
     }
+        
     
     public function get_all_users($dID = FALSE) {
         if ($dID) $this->db->where('dID', $dID);
