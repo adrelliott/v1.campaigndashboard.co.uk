@@ -34,6 +34,80 @@ class M_Logins extends Base_Model {
     public function __construct() {
         parent::__construct();
     }
+    
+    /* Checks $_POST data against known users in the contact table
+    * 
+    * @return nothing
+    * @author Al Elliott
+    */
+    public function validate_user() {
+        $input = array();
+        $q = array();
+        $retval = array('message_flag' => 1, 'reference' => '');
+        
+        //clean post
+        foreach ($this->input->post() as $key => $value)
+        {
+            $v = $this->security->xss_clean($value);
+            if ($key == 'Password')
+            {
+               $input['Password'] = md5($v);
+            }
+            elseif ($key === 'Username') $input['Username'] = $value;
+        }
+        
+        //do query
+        if (count($input)) 
+        {
+            $this->db->select(array_keys($this->cols));
+            $this->db->where('CrmUserYN', 1);
+            $q = $this->get_by($input, FALSE, NULL, TRUE);
+        }
+        else return $retval;
+        
+        //Now check what's been returned
+        if (count($q))
+        {
+            //Are we suspended?
+            if ($q['CrmUserSuspendReason'])
+            {
+                $retval = array
+                    (
+                        'message_flag' => 2, 
+                        'reference' => $q['CrmUserSuspendReason']
+                    );
+                return $retval;
+            }
+            else
+            {
+                //All good? Save to session, set flag and move on...
+                $_SESSION['user_data'] = $q;
+                $_SESSION['user_data']['is_logged_in'] = 1;
+                return TRUE;
+            }
+        }
+        else return $retval;
+    }
+    
+    
+    
+    /* Logs out the user, deletes all session data and redirects to the login page
+    * 
+    * @return nothing
+    * @author Al Elliott
+    */
+    public function log_out() {
+        //destroy session variables
+        $this->session->sess_destroy();
+        session_destroy();  //destroys PHP session too
+        
+        $this->session->set_flashdata('message', 'You\'ve been logged out! Please log back in here.');
+        
+        //redirect to login page
+        redirect(site_url('login', 'refresh'));
+        
+        return;
+    }
 
 }
 

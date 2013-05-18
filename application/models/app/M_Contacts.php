@@ -11,12 +11,11 @@ if (!defined('BASEPATH'))
  * Description goes here
  * 
  */
-class M_Contacts extends Base_Model {
+class M_Contacts extends App_Model {
 
     //Define vars used throught the process
     public $table_name = 'contacts';
-   
-    public $condition = array('CrmUserYN'=> 0);
+    public $condition = array('CrmUserYN !=' => 1);
 
     //public $order_by = '';   //This is set in CRM_Model. Overwrite here 
     //public $primary_key = ''; //This is set in CRM_Model. Overwrite here

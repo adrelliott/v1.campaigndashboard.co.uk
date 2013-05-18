@@ -11,6 +11,8 @@ if (!defined('BASEPATH'))
  * 
  */
 class App_Controller extends Base_Controller {
+    
+    public $model_name = '';
 
     public function __construct() {
         parent::__construct();
@@ -18,23 +20,15 @@ class App_Controller extends Base_Controller {
         extract($this->data['view_setup']);
     }
     
-    public function fetch_datasets() {
-        //first set up vars
-        $retval = array();
-        $conditions = $this->data['view_setup'];
-        $conditions['dID'] = $this->dID;
-        
-        //now load model and get dataset configs
-        $this->load->model('M_Datasets');
-        $q = $this->M_Datasets->get_by($conditions);
-        
-        return $q;
-        //now do each query
-    }
+    
 
     public function index($view_file = 'list', $id = FALSE) {
         //retrive datasets for this view 
-        $this->data['datasets_config'] = $this->fetch_datasets();
+        $this->load->model('app/M_Datasets');
+        $this->data['datasets_config'] = $this->M_Datasets->fetch_datasets();
+        
+        //Now get data using this dataset config
+        $this->data['datasets'] = $this->M_Datasets->do_dataset_query();
         
         //print_array($datasets_config, 1);
         
@@ -52,8 +46,11 @@ class App_Controller extends Base_Controller {
         $this->contact_id = $contact_id;
         
         //retrive datasets for this view 
-        //$this->data['datasets'] = $this->M_Datasets->get_all_datasets($dID);
-        //$this->data['datasets'] = $this->->get_all_datasets($dID);
+        $this->load->model('app/M_Datasets');
+        $this->data['datasets_config'] = $this->M_Datasets->fetch_datasets();
+        
+        //Now get data using this dataset config
+        $this->data['datasets'] = $this->M_Datasets->do_dataset_query();
         
         //show in a table (with edit | delete )
         $this->_load_view($view_file);
@@ -68,6 +65,9 @@ class App_Controller extends Base_Controller {
         else $input = $this->input->post();
         extract($this->data['view_setup']);
         $url = site_url($ControllerName . '/view/' . $view_file . '/' . $id . '/' . $contact_id);
+        
+        //ensure that the datawoner id is included in the array to be Inserted/updated
+        $input['dID'] = $this->dID;
         
         //Insert or Update this record
         $model = $this->model_name;

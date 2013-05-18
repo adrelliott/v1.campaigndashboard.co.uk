@@ -13,12 +13,19 @@ if (!defined('BASEPATH'))
  */
 class App_Model extends Base_Model {
 
+    public $table_name = '';
+    public $condition = array();
+    
     public function __construct() {
         parent::__construct();
         //Set up query to always get the active records
         $this->condition = array_merge(
                 $this->condition, 
-                array($this->table_name . '.ActiveRecordYN' => 1)
+                array
+                    (
+                        $this->table_name . '.ActiveRecordYN' => 1,
+                        $this->table_name . '.dID' => $this->dID,
+                    )
                 );
     }
 

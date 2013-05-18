@@ -98,8 +98,7 @@ class Base_Model extends CI_Model {
         $single == FALSE || $this->db->limit(1);
         $method = $single ? 'row_array' : 'result_array';
         
-        //ONLY get records that are ACTIVE
-        //$condition = ;
+        //ONLY get records that meet conditions set out (here and in indiv model)
         $this->db->where($this->condition);   
         
         //Go get 'em!
@@ -132,9 +131,8 @@ class Base_Model extends CI_Model {
         $single == FALSE || $this->db->limit(1);
         $method = $single ? 'row_array' : 'result_array';
         
-        //ONLY get records that are ACTIVE
-        $condition = $this->table_name . ".ActiveRecordYN = 1";
-        $this->db->where($condition);   
+        //ONLY get records that meet conditions set out (here and in indiv model)
+        $this->db->where($this->condition);
         
         return $this->db->get($this->table_name)->$method();
     }
@@ -176,9 +174,15 @@ class Base_Model extends CI_Model {
         //remove any non-db fields (they are prepended with '_::_' )
         foreach ($data as $col => $value )
         {
-            if ( ! is_array($value))    //ignore arrays!
-            if (substr($col, 0, 4) !== '_::_' OR strtolower($value) === 'submit')
-                $retval[$col] = $value;
+            //Remove fields prepended with _::_ 
+            //(we uses these to pass values for the contrller, not the model)
+            if (substr($col, 0, 4) !== '_::_')
+            {
+                if ($value != 'submit') $retval[$col] = $value;
+            }
+            
+            //Hash the password field
+            if ($col === 'Password') $retval[$col] = md5($value);
         }
         
         //Check the input against the cols defined in the model and remove if not
@@ -192,7 +196,61 @@ class Base_Model extends CI_Model {
         return $retval;
     }
     
+    /**
+     * Turn a multidimensional array into an associative array, where the index 
+     * equals the value of the first index. 
+     * 
+     * Example output when $key = FALSE:
+     * array(0 => array('pag_id' => 23, 'pag_title' => 'foo'))
+     * becomes
+     * array(23 => array('pag_id' => 23, 'pag_title' => 'foo'))
+     * 
+     * Example output when $key = 'pag_title:
+     * array(0 => array('pag_id' => 23, 'pag_title' => 'foo'))
+     * becomes
+     * array(pag_title => array('pag_id' => 23, 'pag_title' => 'foo'))
+     * 
+     * @param $array
+     * @param string  $key. if this is passed it makes assoc by this key
+     * @return array
+     * @author Joost van Veen& Al Elliott
+     */
+    public function to_assoc($result = array(), $key = FALSE){
+        
+        $data = array();
+        if (count($result) > 0) {
+            foreach ($result as $row) {
+                //Have we passed the key that we want to arrange assoc by?
+                if ( ! $key) $tmp = array_values(array_slice($row, 0, 1));
+                else $tmp = array($row[$key]);
+                $data[$tmp[0]] = $row;
+            }
+        }  
 
+        return $data;
+    }
+    
+    public function make_inactive($ids = FALSE) {
+        //Set up vars & restrict editing to dataowner's records
+        if ( ! $ids ) return FALSE;
+        if (isset($this->dID)) $this->db->where('dID', $this->dID);
+        
+        //Turn single id into an array
+        $ids = ! is_array($ids) ? array($ids) : $ids;
+        
+        //Now cycle through and build the update fo reach id
+        foreach ($ids as $id)
+        {
+            $filter = $this->primaryFilter;
+            $this->db->set('ActiveRecordYN', 0)->where($this->primary_key, $filter($id))->update($this->table_name);
+        }
+        
+        //Set message
+        $this->session->set_flashdata('message', 'Record(s) deleted!');
+        
+        return;
+    }
+    
 }
 
 /* End of file Base_Model.php */

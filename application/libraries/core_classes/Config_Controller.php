@@ -13,6 +13,9 @@ class Config_Controller extends Base_Controller {
 
     public function __construct() {
         parent::__construct();
+        
+        //We don't use dID in the config context
+        if(isset($this->dID)) unset($this->dID);
     }
 
     public function index() {

@@ -74,7 +74,7 @@
     <div class="clearfix" id="">
         <label for="ActiveRecordYN" class="" id="">Record Deleted?</label>
         <div class="input " id="">
-            <?php echo form_dropdown('ActiveRecordYN', array('0' => 'Record Inactive', '1' => 'Record Active'), element('ActiveRecordYN', $datasets['record'], '3'), 'id=""'); ?>
+            <?php echo form_dropdown('ActiveRecordYN', array('0' => 'Record Inactive', '1' => 'Record Active'), element('ActiveRecordYN', $datasets['record'], '1'), 'id=""'); ?>
         </div>
     </div>
     <?php echo form_submit('_::_submit', 'Save!', 'class="button blue right medium"'); ?>

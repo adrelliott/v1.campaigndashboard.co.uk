@@ -12,6 +12,8 @@ if (!defined('BASEPATH'))
  */
 class User extends Config_Controller {
     
+    public $model_name = 'M_Users';
+    
     public function __construct() {
         parent::__construct();
         $this->load->model('config/M_Users');
@@ -32,6 +34,7 @@ class User extends Config_Controller {
         {
             //retrieve the user info
              $this->data['datasets']['record'] = $this->M_Users->get($id);
+             
         }
         else $this->data['datasets']['record'] = array();   //set up the blank data
         
@@ -67,7 +70,7 @@ class User extends Config_Controller {
      * e.g. view_path = 'app_contact_view_edit  
     * 
     */
-    public function delete($method_name, $view_file, $record_id = array(), $current_id = NULL) {
+    /*public function delete($method_name, $view_file, $record_id = array(), $current_id = NULL) {
         $message = 'Success! Records Deleted';
         
         $result = $this->M_Users->make_inactive($record_id);
@@ -77,7 +80,7 @@ class User extends Config_Controller {
         
         redirect('config/users/' . $method_name . '/' . $view_file . '/' . $current_id);
     }
-
+*/
 }
 
 /* End of file User.php */

@@ -112,17 +112,11 @@ $_SESSION['dID'] = 11;  //delet me!
         return;
     }
     
-    /*protected function _redirect($view_file = 'list', $id = NULL, $type = 'refresh') {
-        $url_segs = $this->data['view_setup'];
-        $url_segs['view'] = $view_file;
-        $url_segs['id'] = $id;
-        
-        //Create redirect url
-        redirect(site_url($url_segs, $type));
-    }*/
+    
     
 
     ##################  APP SECURITY METHODS ##############################
+    
     
    /* This method is designed to test for a valid logged in session, and log out
     * if one is not found. Redirects the user to login screen if there is an issue. 
@@ -161,28 +155,40 @@ $_SESSION['dID'] = 11;  //delet me!
         if ($_SESSION['CrmUserAdminLevel'] >= $min_permission) $retval = TRUE;
         
         //Redirect, or return boolean
-        if ($redirect) $this->log_out();
+        //if ($redirect) $this->log_out();
+        if ($redirect) redirect (site_url('login/log_out'));
         else return $retval;
     }
     
-    /* Logs out the user, deletes all session data and redirects to the login page
-    * 
-    * @return nothing
-    * @author Al Elliott
-    */
-    public function log_out() {
-        //destroy session variables
-        $this->session->sess_destroy();
-        session_destroy();  //destroys PHP session too
+   
+
+    ##################### MANIPULATING DATA ################
+    
+    
+    /* 'Deletes' a record.
+     * (To avoid orphaned recods, it only marks the col 'ActiveRecordYN' as 0
+     * 
+     * @param string, array $id the id of the record to delete
+     * @param $redirect a URI in the format of '/seg1/seg2/seg3'
+     * @return nothing
+     * @author Al Elliott
+     * 
+     */
+    public function delete($id, $redirect = FALSE) {
+        //Get redirect
+        if ( ! $redirect) $redirect = $_GET['redirect'];
         
-        $this->session->set_flashdata('message', 'You\'ve been logged out! Please log back in here.');
+        //Make record inactive
+        $model = $this->model_name;
+        $this->$model->make_inactive($id);
         
-        //redirect to login page
-        redirect(site_url('login', 'refresh'));
+        //now redirect (if no GET param passed then just load index
+        if ($redirect) redirect(site_url($redirect));
+        else $this->index();
         
         return;
     }
-
+    
 
 }
 

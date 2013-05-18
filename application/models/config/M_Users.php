@@ -47,6 +47,13 @@ class M_Users extends Config_Model {
     
     public function get_all_users($dID = FALSE) {
         if ($dID) $this->db->where('dID', $dID);
+        if ( ! isset($_GET['show_deleted']))
+        {
+            $this->condition = array_merge(
+                $this->condition, 
+                $this->active_records_only
+                );
+        }
         $retval = array();
         $q = $this->get();
         
@@ -57,12 +64,11 @@ class M_Users extends Config_Model {
             
             //Now add a link to edit or delete this dataset
             $edit = anchor('config/user/view/edit/' . $array['Id'], 'Edit');
-            $delete = anchor('config/user/delete/index/list/' . $array['Id'], 'Delete');
+            $delete = anchor('config/user/delete/' . $array['Id'] . '?redirect=' . uri_string(), 'Delete');
             $retval[$key]['_::_Action'] = $edit . ' | ' . $delete;
         }
         return $retval;
     }
-    
     
 
 }

@@ -39,12 +39,12 @@
             <input class="large" id="Password" type="password" name="Password" length="" value="">
         </div>
     </div>
-    <div class="clearfix" id="">
+    <!--<div class="clearfix" id="">
         <label for="_::_PasswordCheck" class="" id="">Pleas re-enter your Password</label>
         <div class="input " id="">
             <input class="large" id="_::_PasswordCheck" type="password" name="_::_PasswordCheck" length="" value="">
         </div>
-    </div>
+    </div>-->
     <div class="clearfix" id="">
         <label for="CrmUserAdminLevel" class="" id="">Admin level</label>
         <div class="input " id="">
@@ -60,7 +60,7 @@
     <div class="clearfix" id="">
         <label for="ActiveRecordYN" class="" id="">Record Deleted?</label>
         <div class="input " id="">
-            <?php echo form_dropdown('ActiveRecordYN', array('0' => 'Record Inactive', '1' => 'Record Active'), element('ActiveRecordYN', $datasets['record'], '3'), 'id=""'); ?>
+            <?php echo form_dropdown('ActiveRecordYN', array('0' => 'Record Inactive', '1' => 'Record Active'), element('ActiveRecordYN', $datasets['record'], '1'), 'id=""'); ?>
         </div>
     </div>
     <?php echo form_hidden('CrmUserYN', '1'); ?>

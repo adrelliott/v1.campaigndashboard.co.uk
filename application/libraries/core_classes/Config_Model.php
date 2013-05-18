@@ -13,20 +13,20 @@ if (!defined('BASEPATH'))
  */
 class Config_Model extends Base_Model {
 
+    public $active_records_only = '';
+    
     public function __construct() {
         parent::__construct();
         
         //Set up cols to be retrieved
         $this->db->select(array_keys($this->cols));
         
-        //show deleted records?
-        if ( ! isset($_GET['show_deleted']))
-        {
-            $this->condition = array_merge(
-                $this->condition, 
-                array($this->table_name . '.ActiveRecordYN' => 1)
-                );
-        }
+        //Set up condition to restrict to just active records
+        $this->active_records_only = array
+            (
+                $this->table_name . '.ActiveRecordYN' => 1
+            );
+        
     }
 
 }
