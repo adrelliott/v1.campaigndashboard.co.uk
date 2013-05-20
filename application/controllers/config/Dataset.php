@@ -48,6 +48,11 @@ class Dataset extends Config_Controller {
             $field_list = element('Fields', $this->data['datasets']['record'], array()); 
             $this->data['datasets']['field_list'] = $this->M_Datasets_config->get_fields($table_name, $field_list);
         }
+        
+        //Set up the drop downlists
+        $this->data['datasets']['table_list'] = $this->M_Datasets_config->get_all_tables();
+        $this->data['datasets']['model_list'] = $this->M_Datasets_config->get_all_models();
+        $this->data['datasets']['controller_list'] = $this->M_Datasets_config->get_all_controllers();
                 
         //load the view
         $this->_load_view($view_file);

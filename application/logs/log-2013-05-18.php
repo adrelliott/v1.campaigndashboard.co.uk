@@ -9288,3 +9288,2845 @@ DEBUG - 2013-05-18 13:58:28 --> Language file loaded: language/english/profiler_
 DEBUG - 2013-05-18 13:58:28 --> Helper loaded: text_helper
 DEBUG - 2013-05-18 13:58:28 --> Final output sent to browser
 DEBUG - 2013-05-18 13:58:28 --> Total execution time: 0.0165
+DEBUG - 2013-05-18 17:22:27 --> Config Class Initialized
+DEBUG - 2013-05-18 17:22:27 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:22:27 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:22:27 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:22:27 --> URI Class Initialized
+DEBUG - 2013-05-18 17:22:27 --> Router Class Initialized
+DEBUG - 2013-05-18 17:22:27 --> Output Class Initialized
+DEBUG - 2013-05-18 17:22:27 --> Security Class Initialized
+DEBUG - 2013-05-18 17:22:27 --> Input Class Initialized
+DEBUG - 2013-05-18 17:22:27 --> CRSF cookie Set
+DEBUG - 2013-05-18 17:22:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:22:27 --> Language Class Initialized
+DEBUG - 2013-05-18 17:22:27 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:22:27 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:22:27 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 17:22:27 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 17:22:27 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 17:22:27 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:22:27 --> Session Class Initialized
+DEBUG - 2013-05-18 17:22:27 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:22:27 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 17:22:27 --> A session cookie was not found.
+DEBUG - 2013-05-18 17:22:27 --> Session routines successfully run
+DEBUG - 2013-05-18 17:22:27 --> Table Class Initialized
+DEBUG - 2013-05-18 17:22:27 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 17:22:27 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:22:27 --> Model Class Initialized
+DEBUG - 2013-05-18 17:22:27 --> Model Class Initialized
+DEBUG - 2013-05-18 17:22:27 --> File loaded: ../application/views/app/11/common/header.php
+DEBUG - 2013-05-18 17:22:27 --> File loaded: ../application/views/app/11/common/navbar.php
+DEBUG - 2013-05-18 17:22:27 --> File loaded: ../application/views/app/11/contact/v_contact_list.php
+DEBUG - 2013-05-18 17:22:27 --> File loaded: ../application/views/app/11/common/footer.php
+DEBUG - 2013-05-18 17:22:27 --> Final output sent to browser
+DEBUG - 2013-05-18 17:22:27 --> Total execution time: 0.0140
+DEBUG - 2013-05-18 17:22:44 --> Config Class Initialized
+DEBUG - 2013-05-18 17:22:44 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:22:44 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:22:44 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:22:44 --> URI Class Initialized
+DEBUG - 2013-05-18 17:22:44 --> Router Class Initialized
+DEBUG - 2013-05-18 17:22:44 --> Output Class Initialized
+DEBUG - 2013-05-18 17:22:44 --> Security Class Initialized
+DEBUG - 2013-05-18 17:22:44 --> Input Class Initialized
+DEBUG - 2013-05-18 17:22:44 --> CRSF cookie Set
+DEBUG - 2013-05-18 17:22:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:22:44 --> Language Class Initialized
+DEBUG - 2013-05-18 17:22:44 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:22:44 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:22:44 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 17:22:44 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 17:22:44 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 17:22:44 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:22:44 --> Session Class Initialized
+DEBUG - 2013-05-18 17:22:44 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:22:44 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 17:22:44 --> Session routines successfully run
+DEBUG - 2013-05-18 17:22:44 --> Table Class Initialized
+DEBUG - 2013-05-18 17:22:44 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 17:22:44 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:22:44 --> Model Class Initialized
+DEBUG - 2013-05-18 17:22:44 --> Model Class Initialized
+DEBUG - 2013-05-18 17:22:44 --> File loaded: ../application/views/app/11/common/header.php
+DEBUG - 2013-05-18 17:22:44 --> File loaded: ../application/views/app/11/common/navbar.php
+DEBUG - 2013-05-18 17:22:44 --> File loaded: ../application/views/app/11/contact/v_contact_list.php
+DEBUG - 2013-05-18 17:22:44 --> File loaded: ../application/views/app/11/common/footer.php
+DEBUG - 2013-05-18 17:22:44 --> Language file loaded: language/english/profiler_lang.php
+DEBUG - 2013-05-18 17:22:44 --> Helper loaded: text_helper
+DEBUG - 2013-05-18 17:22:44 --> Final output sent to browser
+DEBUG - 2013-05-18 17:22:44 --> Total execution time: 0.0132
+DEBUG - 2013-05-18 17:23:03 --> Config Class Initialized
+DEBUG - 2013-05-18 17:23:03 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:23:03 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:23:03 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:23:03 --> URI Class Initialized
+DEBUG - 2013-05-18 17:23:03 --> Router Class Initialized
+DEBUG - 2013-05-18 17:23:03 --> Output Class Initialized
+DEBUG - 2013-05-18 17:23:03 --> Security Class Initialized
+DEBUG - 2013-05-18 17:23:03 --> Input Class Initialized
+DEBUG - 2013-05-18 17:23:03 --> CRSF cookie Set
+DEBUG - 2013-05-18 17:23:03 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:23:03 --> Language Class Initialized
+DEBUG - 2013-05-18 17:23:03 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:23:03 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:23:03 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 17:23:03 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 17:23:03 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 17:23:03 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:23:03 --> Session Class Initialized
+DEBUG - 2013-05-18 17:23:03 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:23:03 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 17:23:03 --> Session routines successfully run
+DEBUG - 2013-05-18 17:23:03 --> Table Class Initialized
+DEBUG - 2013-05-18 17:23:03 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 17:23:03 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:23:03 --> Model Class Initialized
+DEBUG - 2013-05-18 17:23:03 --> Model Class Initialized
+DEBUG - 2013-05-18 17:23:03 --> File loaded: ../application/views/config/common/header.php
+DEBUG - 2013-05-18 17:23:03 --> File loaded: ../application/views/config/common/navbar.php
+DEBUG - 2013-05-18 17:23:03 --> File loaded: ../application/views/config/dataset/v_dataset_list.php
+DEBUG - 2013-05-18 17:23:03 --> File loaded: ../application/views/config/common/footer.php
+DEBUG - 2013-05-18 17:23:03 --> Final output sent to browser
+DEBUG - 2013-05-18 17:23:03 --> Total execution time: 0.0136
+DEBUG - 2013-05-18 17:24:48 --> Config Class Initialized
+DEBUG - 2013-05-18 17:24:48 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:24:48 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:24:48 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:24:48 --> URI Class Initialized
+DEBUG - 2013-05-18 17:24:48 --> Router Class Initialized
+DEBUG - 2013-05-18 17:24:48 --> Output Class Initialized
+DEBUG - 2013-05-18 17:24:48 --> Security Class Initialized
+DEBUG - 2013-05-18 17:24:48 --> Input Class Initialized
+DEBUG - 2013-05-18 17:24:48 --> CRSF cookie Set
+DEBUG - 2013-05-18 17:24:48 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:24:48 --> Language Class Initialized
+DEBUG - 2013-05-18 17:24:48 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:24:48 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:24:48 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 17:24:48 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 17:24:48 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 17:24:48 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:24:48 --> Session Class Initialized
+DEBUG - 2013-05-18 17:24:48 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:24:48 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 17:24:48 --> Session routines successfully run
+DEBUG - 2013-05-18 17:24:48 --> Table Class Initialized
+DEBUG - 2013-05-18 17:24:48 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 17:24:48 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:24:48 --> Model Class Initialized
+DEBUG - 2013-05-18 17:24:48 --> Model Class Initialized
+DEBUG - 2013-05-18 17:24:48 --> File loaded: ../application/views/config/common/header.php
+DEBUG - 2013-05-18 17:24:48 --> File loaded: ../application/views/config/common/navbar.php
+DEBUG - 2013-05-18 17:24:48 --> File loaded: ../application/views/config/dataset/v_dataset_edit.php
+DEBUG - 2013-05-18 17:24:48 --> File loaded: ../application/views/config/common/footer.php
+DEBUG - 2013-05-18 17:24:48 --> Final output sent to browser
+DEBUG - 2013-05-18 17:24:48 --> Total execution time: 0.0253
+DEBUG - 2013-05-18 17:27:51 --> Config Class Initialized
+DEBUG - 2013-05-18 17:27:51 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:27:51 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:27:51 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:27:51 --> URI Class Initialized
+DEBUG - 2013-05-18 17:27:51 --> Router Class Initialized
+DEBUG - 2013-05-18 17:27:51 --> Output Class Initialized
+DEBUG - 2013-05-18 17:27:51 --> Security Class Initialized
+DEBUG - 2013-05-18 17:27:51 --> Input Class Initialized
+DEBUG - 2013-05-18 17:27:51 --> CRSF cookie Set
+DEBUG - 2013-05-18 17:27:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:27:51 --> Language Class Initialized
+DEBUG - 2013-05-18 17:27:51 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:27:51 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:27:51 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 17:27:51 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 17:27:51 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 17:27:51 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:27:51 --> Session Class Initialized
+DEBUG - 2013-05-18 17:27:51 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:27:51 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 17:27:51 --> Session routines successfully run
+DEBUG - 2013-05-18 17:27:51 --> Table Class Initialized
+DEBUG - 2013-05-18 17:27:51 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 17:27:51 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:27:51 --> Model Class Initialized
+DEBUG - 2013-05-18 17:27:51 --> Model Class Initialized
+DEBUG - 2013-05-18 17:27:51 --> File loaded: ../application/views/config/common/header.php
+DEBUG - 2013-05-18 17:27:51 --> File loaded: ../application/views/config/common/navbar.php
+DEBUG - 2013-05-18 17:27:51 --> File loaded: ../application/views/config/dataset/v_dataset_list.php
+DEBUG - 2013-05-18 17:27:51 --> File loaded: ../application/views/config/common/footer.php
+DEBUG - 2013-05-18 17:27:51 --> Final output sent to browser
+DEBUG - 2013-05-18 17:27:51 --> Total execution time: 0.0186
+DEBUG - 2013-05-18 17:27:53 --> Config Class Initialized
+DEBUG - 2013-05-18 17:27:53 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:27:53 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:27:53 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:27:53 --> URI Class Initialized
+DEBUG - 2013-05-18 17:27:53 --> Router Class Initialized
+DEBUG - 2013-05-18 17:27:53 --> Output Class Initialized
+DEBUG - 2013-05-18 17:27:53 --> Security Class Initialized
+DEBUG - 2013-05-18 17:27:53 --> Input Class Initialized
+DEBUG - 2013-05-18 17:27:53 --> CRSF cookie Set
+DEBUG - 2013-05-18 17:27:53 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:27:53 --> Language Class Initialized
+DEBUG - 2013-05-18 17:27:53 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:27:53 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:27:53 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 17:27:53 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 17:27:53 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 17:27:53 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:27:53 --> Session Class Initialized
+DEBUG - 2013-05-18 17:27:53 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:27:53 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 17:27:53 --> Session routines successfully run
+DEBUG - 2013-05-18 17:27:53 --> Table Class Initialized
+DEBUG - 2013-05-18 17:27:53 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 17:27:53 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:27:53 --> Model Class Initialized
+DEBUG - 2013-05-18 17:27:53 --> Model Class Initialized
+DEBUG - 2013-05-18 17:27:53 --> File loaded: ../application/views/config/common/header.php
+DEBUG - 2013-05-18 17:27:53 --> File loaded: ../application/views/config/common/navbar.php
+DEBUG - 2013-05-18 17:27:53 --> File loaded: ../application/views/config/dataset/v_dataset_edit.php
+DEBUG - 2013-05-18 17:27:53 --> File loaded: ../application/views/config/common/footer.php
+DEBUG - 2013-05-18 17:27:53 --> Final output sent to browser
+DEBUG - 2013-05-18 17:27:53 --> Total execution time: 0.0254
+DEBUG - 2013-05-18 17:27:58 --> Config Class Initialized
+DEBUG - 2013-05-18 17:27:58 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:27:58 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:27:58 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:27:58 --> URI Class Initialized
+DEBUG - 2013-05-18 17:27:58 --> Router Class Initialized
+DEBUG - 2013-05-18 17:27:58 --> Output Class Initialized
+DEBUG - 2013-05-18 17:27:58 --> Security Class Initialized
+DEBUG - 2013-05-18 17:27:58 --> Input Class Initialized
+DEBUG - 2013-05-18 17:27:58 --> CRSF cookie Set
+DEBUG - 2013-05-18 17:27:58 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:27:58 --> Language Class Initialized
+DEBUG - 2013-05-18 17:27:58 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:27:58 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:27:58 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 17:27:58 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 17:27:58 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 17:27:58 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:27:58 --> Session Class Initialized
+DEBUG - 2013-05-18 17:27:58 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:27:58 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 17:27:58 --> Session routines successfully run
+DEBUG - 2013-05-18 17:27:58 --> Table Class Initialized
+DEBUG - 2013-05-18 17:27:58 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 17:27:58 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:27:58 --> Model Class Initialized
+DEBUG - 2013-05-18 17:27:58 --> Model Class Initialized
+DEBUG - 2013-05-18 17:27:58 --> File loaded: ../application/views/config/common/header.php
+DEBUG - 2013-05-18 17:27:58 --> File loaded: ../application/views/config/common/navbar.php
+DEBUG - 2013-05-18 17:27:58 --> File loaded: ../application/views/config/dataset/v_dataset_edit.php
+DEBUG - 2013-05-18 17:27:58 --> File loaded: ../application/views/config/common/footer.php
+DEBUG - 2013-05-18 17:27:58 --> Final output sent to browser
+DEBUG - 2013-05-18 17:27:58 --> Total execution time: 0.0241
+DEBUG - 2013-05-18 17:28:52 --> Config Class Initialized
+DEBUG - 2013-05-18 17:28:52 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:28:52 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:28:52 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:28:52 --> URI Class Initialized
+DEBUG - 2013-05-18 17:28:52 --> Router Class Initialized
+DEBUG - 2013-05-18 17:28:52 --> Output Class Initialized
+DEBUG - 2013-05-18 17:28:52 --> Security Class Initialized
+DEBUG - 2013-05-18 17:28:52 --> Input Class Initialized
+DEBUG - 2013-05-18 17:28:52 --> CRSF cookie Set
+DEBUG - 2013-05-18 17:28:52 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:28:52 --> Language Class Initialized
+DEBUG - 2013-05-18 17:28:52 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:28:52 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:28:52 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 17:28:52 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 17:28:52 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 17:28:52 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:28:52 --> Session Class Initialized
+DEBUG - 2013-05-18 17:28:52 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:28:52 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 17:28:52 --> Session routines successfully run
+DEBUG - 2013-05-18 17:28:52 --> Table Class Initialized
+DEBUG - 2013-05-18 17:28:52 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 17:28:52 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:28:52 --> Model Class Initialized
+DEBUG - 2013-05-18 17:28:52 --> Model Class Initialized
+DEBUG - 2013-05-18 17:28:52 --> File loaded: ../application/views/config/common/header.php
+DEBUG - 2013-05-18 17:28:52 --> File loaded: ../application/views/config/common/navbar.php
+DEBUG - 2013-05-18 17:28:52 --> File loaded: ../application/views/config/dataset/v_dataset_edit.php
+DEBUG - 2013-05-18 17:28:52 --> File loaded: ../application/views/config/common/footer.php
+DEBUG - 2013-05-18 17:28:52 --> Final output sent to browser
+DEBUG - 2013-05-18 17:28:52 --> Total execution time: 0.0338
+DEBUG - 2013-05-18 17:29:06 --> Config Class Initialized
+DEBUG - 2013-05-18 17:29:06 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:29:06 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:29:06 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:29:06 --> URI Class Initialized
+DEBUG - 2013-05-18 17:29:06 --> Router Class Initialized
+DEBUG - 2013-05-18 17:29:06 --> Output Class Initialized
+DEBUG - 2013-05-18 17:29:06 --> Security Class Initialized
+DEBUG - 2013-05-18 17:29:06 --> Input Class Initialized
+DEBUG - 2013-05-18 17:29:06 --> CRSF cookie Set
+DEBUG - 2013-05-18 17:29:06 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:29:06 --> Language Class Initialized
+DEBUG - 2013-05-18 17:29:06 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:29:06 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:29:06 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 17:29:06 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 17:29:06 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 17:29:06 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:29:06 --> Session Class Initialized
+DEBUG - 2013-05-18 17:29:06 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:29:06 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 17:29:06 --> Session routines successfully run
+DEBUG - 2013-05-18 17:29:06 --> Table Class Initialized
+DEBUG - 2013-05-18 17:29:06 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 17:29:06 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:29:06 --> Model Class Initialized
+DEBUG - 2013-05-18 17:29:06 --> Model Class Initialized
+DEBUG - 2013-05-18 17:29:06 --> File loaded: ../application/views/config/common/header.php
+DEBUG - 2013-05-18 17:29:06 --> File loaded: ../application/views/config/common/navbar.php
+DEBUG - 2013-05-18 17:29:06 --> File loaded: ../application/views/config/dataset/v_dataset_edit.php
+DEBUG - 2013-05-18 17:29:06 --> File loaded: ../application/views/config/common/footer.php
+DEBUG - 2013-05-18 17:29:06 --> Final output sent to browser
+DEBUG - 2013-05-18 17:29:06 --> Total execution time: 0.0319
+DEBUG - 2013-05-18 17:29:12 --> Config Class Initialized
+DEBUG - 2013-05-18 17:29:12 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:29:12 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:29:12 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:29:12 --> URI Class Initialized
+DEBUG - 2013-05-18 17:29:12 --> Router Class Initialized
+DEBUG - 2013-05-18 17:29:12 --> Output Class Initialized
+DEBUG - 2013-05-18 17:29:12 --> Security Class Initialized
+DEBUG - 2013-05-18 17:29:12 --> Input Class Initialized
+DEBUG - 2013-05-18 17:29:12 --> CRSF cookie Set
+DEBUG - 2013-05-18 17:29:12 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:29:12 --> Language Class Initialized
+DEBUG - 2013-05-18 17:29:12 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:29:12 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:29:12 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 17:29:12 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 17:29:12 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 17:29:12 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:29:12 --> Session Class Initialized
+DEBUG - 2013-05-18 17:29:12 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:29:12 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 17:29:12 --> Session routines successfully run
+DEBUG - 2013-05-18 17:29:12 --> Table Class Initialized
+DEBUG - 2013-05-18 17:29:12 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 17:29:12 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:29:12 --> Model Class Initialized
+DEBUG - 2013-05-18 17:29:12 --> Model Class Initialized
+DEBUG - 2013-05-18 17:29:12 --> File loaded: ../application/views/config/common/header.php
+DEBUG - 2013-05-18 17:29:12 --> File loaded: ../application/views/config/common/navbar.php
+DEBUG - 2013-05-18 17:29:12 --> File loaded: ../application/views/config/dataset/v_dataset_edit.php
+DEBUG - 2013-05-18 17:29:12 --> File loaded: ../application/views/config/common/footer.php
+DEBUG - 2013-05-18 17:29:12 --> Final output sent to browser
+DEBUG - 2013-05-18 17:29:12 --> Total execution time: 0.0370
+DEBUG - 2013-05-18 17:29:25 --> Config Class Initialized
+DEBUG - 2013-05-18 17:29:25 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:29:25 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:29:25 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:29:25 --> URI Class Initialized
+DEBUG - 2013-05-18 17:29:25 --> Router Class Initialized
+DEBUG - 2013-05-18 17:29:25 --> Output Class Initialized
+DEBUG - 2013-05-18 17:29:25 --> Security Class Initialized
+DEBUG - 2013-05-18 17:29:25 --> Input Class Initialized
+DEBUG - 2013-05-18 17:29:25 --> CRSF cookie Set
+DEBUG - 2013-05-18 17:29:25 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:29:25 --> Language Class Initialized
+DEBUG - 2013-05-18 17:29:25 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:29:25 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:29:25 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 17:29:25 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 17:29:25 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 17:29:25 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:29:25 --> Session Class Initialized
+DEBUG - 2013-05-18 17:29:25 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:29:25 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 17:29:25 --> Session routines successfully run
+DEBUG - 2013-05-18 17:29:25 --> Table Class Initialized
+DEBUG - 2013-05-18 17:29:25 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 17:29:25 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:29:25 --> Model Class Initialized
+DEBUG - 2013-05-18 17:29:25 --> Model Class Initialized
+DEBUG - 2013-05-18 17:29:25 --> File loaded: ../application/views/config/common/header.php
+DEBUG - 2013-05-18 17:29:25 --> File loaded: ../application/views/config/common/navbar.php
+DEBUG - 2013-05-18 17:29:25 --> File loaded: ../application/views/config/dataset/v_dataset_edit.php
+DEBUG - 2013-05-18 17:29:25 --> File loaded: ../application/views/config/common/footer.php
+DEBUG - 2013-05-18 17:29:25 --> Final output sent to browser
+DEBUG - 2013-05-18 17:29:25 --> Total execution time: 0.0266
+DEBUG - 2013-05-18 17:30:15 --> Config Class Initialized
+DEBUG - 2013-05-18 17:30:15 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:30:15 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:30:15 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:30:15 --> URI Class Initialized
+DEBUG - 2013-05-18 17:30:15 --> Router Class Initialized
+DEBUG - 2013-05-18 17:30:15 --> Output Class Initialized
+DEBUG - 2013-05-18 17:30:15 --> Security Class Initialized
+DEBUG - 2013-05-18 17:30:15 --> Input Class Initialized
+DEBUG - 2013-05-18 17:30:15 --> CRSF cookie Set
+DEBUG - 2013-05-18 17:30:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:30:15 --> Language Class Initialized
+DEBUG - 2013-05-18 17:30:15 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:30:15 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:30:15 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 17:30:15 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 17:30:15 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 17:30:15 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:30:15 --> Session Class Initialized
+DEBUG - 2013-05-18 17:30:15 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:30:15 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 17:30:15 --> Session routines successfully run
+DEBUG - 2013-05-18 17:30:15 --> Table Class Initialized
+DEBUG - 2013-05-18 17:30:15 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 17:30:15 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:30:15 --> Model Class Initialized
+DEBUG - 2013-05-18 17:30:15 --> Model Class Initialized
+DEBUG - 2013-05-18 17:30:15 --> File loaded: ../application/views/config/common/header.php
+DEBUG - 2013-05-18 17:30:15 --> File loaded: ../application/views/config/common/navbar.php
+DEBUG - 2013-05-18 17:30:15 --> File loaded: ../application/views/config/dataset/v_dataset_list.php
+DEBUG - 2013-05-18 17:30:15 --> File loaded: ../application/views/config/common/footer.php
+DEBUG - 2013-05-18 17:30:15 --> Final output sent to browser
+DEBUG - 2013-05-18 17:30:15 --> Total execution time: 0.0146
+DEBUG - 2013-05-18 17:30:18 --> Config Class Initialized
+DEBUG - 2013-05-18 17:30:18 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:30:18 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:30:18 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:30:18 --> URI Class Initialized
+DEBUG - 2013-05-18 17:30:18 --> Router Class Initialized
+DEBUG - 2013-05-18 17:30:18 --> Output Class Initialized
+DEBUG - 2013-05-18 17:30:18 --> Security Class Initialized
+DEBUG - 2013-05-18 17:30:18 --> Input Class Initialized
+DEBUG - 2013-05-18 17:30:18 --> CRSF cookie Set
+DEBUG - 2013-05-18 17:30:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:30:18 --> Language Class Initialized
+DEBUG - 2013-05-18 17:30:18 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:30:18 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:30:18 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 17:30:18 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 17:30:18 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 17:30:18 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:30:18 --> Session Class Initialized
+DEBUG - 2013-05-18 17:30:18 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:30:18 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 17:30:18 --> Session routines successfully run
+DEBUG - 2013-05-18 17:30:18 --> Table Class Initialized
+DEBUG - 2013-05-18 17:30:18 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 17:30:18 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:30:18 --> Model Class Initialized
+DEBUG - 2013-05-18 17:30:18 --> Model Class Initialized
+DEBUG - 2013-05-18 17:30:18 --> File loaded: ../application/views/config/common/header.php
+DEBUG - 2013-05-18 17:30:18 --> File loaded: ../application/views/config/common/navbar.php
+DEBUG - 2013-05-18 17:30:18 --> File loaded: ../application/views/config/dataset/v_dataset_edit.php
+DEBUG - 2013-05-18 17:30:18 --> File loaded: ../application/views/config/common/footer.php
+DEBUG - 2013-05-18 17:30:18 --> Final output sent to browser
+DEBUG - 2013-05-18 17:30:18 --> Total execution time: 0.0298
+DEBUG - 2013-05-18 17:30:21 --> Config Class Initialized
+DEBUG - 2013-05-18 17:30:21 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:30:21 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:30:21 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:30:21 --> URI Class Initialized
+DEBUG - 2013-05-18 17:30:21 --> Router Class Initialized
+DEBUG - 2013-05-18 17:30:21 --> Output Class Initialized
+DEBUG - 2013-05-18 17:30:21 --> Security Class Initialized
+DEBUG - 2013-05-18 17:30:21 --> Input Class Initialized
+DEBUG - 2013-05-18 17:30:21 --> CRSF cookie Set
+DEBUG - 2013-05-18 17:30:21 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:30:21 --> Language Class Initialized
+DEBUG - 2013-05-18 17:30:21 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:30:21 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:30:21 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 17:30:21 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 17:30:21 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 17:30:21 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:30:21 --> Session Class Initialized
+DEBUG - 2013-05-18 17:30:21 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:30:21 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 17:30:21 --> Session routines successfully run
+DEBUG - 2013-05-18 17:30:21 --> Table Class Initialized
+DEBUG - 2013-05-18 17:30:21 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 17:30:21 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:30:21 --> Model Class Initialized
+DEBUG - 2013-05-18 17:30:21 --> Model Class Initialized
+DEBUG - 2013-05-18 17:30:21 --> File loaded: ../application/views/config/common/header.php
+DEBUG - 2013-05-18 17:30:21 --> File loaded: ../application/views/config/common/navbar.php
+DEBUG - 2013-05-18 17:30:21 --> File loaded: ../application/views/config/dataset/v_dataset_edit.php
+DEBUG - 2013-05-18 17:30:21 --> File loaded: ../application/views/config/common/footer.php
+DEBUG - 2013-05-18 17:30:21 --> Final output sent to browser
+DEBUG - 2013-05-18 17:30:21 --> Total execution time: 0.0242
+DEBUG - 2013-05-18 17:30:33 --> Config Class Initialized
+DEBUG - 2013-05-18 17:30:33 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:30:33 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:30:33 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:30:33 --> URI Class Initialized
+DEBUG - 2013-05-18 17:30:33 --> Router Class Initialized
+DEBUG - 2013-05-18 17:30:33 --> Output Class Initialized
+DEBUG - 2013-05-18 17:30:33 --> Security Class Initialized
+DEBUG - 2013-05-18 17:30:33 --> Input Class Initialized
+DEBUG - 2013-05-18 17:30:33 --> CRSF cookie Set
+DEBUG - 2013-05-18 17:30:33 --> CSRF token verified
+DEBUG - 2013-05-18 17:30:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:30:33 --> Language Class Initialized
+DEBUG - 2013-05-18 17:30:33 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:30:33 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:30:33 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 17:30:33 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 17:30:33 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 17:30:33 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:30:33 --> Session Class Initialized
+DEBUG - 2013-05-18 17:30:33 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:30:33 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 17:30:33 --> Session routines successfully run
+DEBUG - 2013-05-18 17:30:33 --> Table Class Initialized
+DEBUG - 2013-05-18 17:30:33 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 17:30:33 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:30:33 --> Model Class Initialized
+DEBUG - 2013-05-18 17:30:33 --> Model Class Initialized
+DEBUG - 2013-05-18 17:30:33 --> Helper loaded: inflector_helper
+DEBUG - 2013-05-18 17:30:34 --> Config Class Initialized
+DEBUG - 2013-05-18 17:30:34 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:30:34 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:30:34 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:30:34 --> URI Class Initialized
+DEBUG - 2013-05-18 17:30:34 --> Router Class Initialized
+DEBUG - 2013-05-18 17:30:34 --> Output Class Initialized
+DEBUG - 2013-05-18 17:30:34 --> Security Class Initialized
+DEBUG - 2013-05-18 17:30:34 --> Input Class Initialized
+DEBUG - 2013-05-18 17:30:34 --> CRSF cookie Set
+DEBUG - 2013-05-18 17:30:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:30:34 --> Language Class Initialized
+DEBUG - 2013-05-18 17:30:34 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:30:34 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:30:34 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 17:30:34 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 17:30:34 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 17:30:34 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:30:34 --> Session Class Initialized
+DEBUG - 2013-05-18 17:30:34 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:30:34 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 17:30:34 --> Session routines successfully run
+DEBUG - 2013-05-18 17:30:34 --> Table Class Initialized
+DEBUG - 2013-05-18 17:30:34 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 17:30:34 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:30:34 --> Model Class Initialized
+DEBUG - 2013-05-18 17:30:34 --> Model Class Initialized
+DEBUG - 2013-05-18 17:30:34 --> File loaded: ../application/views/config/common/header.php
+DEBUG - 2013-05-18 17:30:34 --> File loaded: ../application/views/config/common/navbar.php
+DEBUG - 2013-05-18 17:30:34 --> File loaded: ../application/views/config/dataset/v_dataset_edit.php
+DEBUG - 2013-05-18 17:30:34 --> File loaded: ../application/views/config/common/footer.php
+DEBUG - 2013-05-18 17:30:34 --> Final output sent to browser
+DEBUG - 2013-05-18 17:30:34 --> Total execution time: 0.0305
+DEBUG - 2013-05-18 17:30:35 --> Config Class Initialized
+DEBUG - 2013-05-18 17:30:35 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:30:35 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:30:35 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:30:35 --> URI Class Initialized
+DEBUG - 2013-05-18 17:30:35 --> Router Class Initialized
+DEBUG - 2013-05-18 17:30:35 --> Output Class Initialized
+DEBUG - 2013-05-18 17:30:35 --> Security Class Initialized
+DEBUG - 2013-05-18 17:30:35 --> Input Class Initialized
+DEBUG - 2013-05-18 17:30:35 --> CRSF cookie Set
+DEBUG - 2013-05-18 17:30:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:30:35 --> Language Class Initialized
+DEBUG - 2013-05-18 17:30:35 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:30:35 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:30:35 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 17:30:35 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 17:30:35 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 17:30:35 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:30:35 --> Session Class Initialized
+DEBUG - 2013-05-18 17:30:35 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:30:35 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 17:30:35 --> Session routines successfully run
+DEBUG - 2013-05-18 17:30:35 --> Table Class Initialized
+DEBUG - 2013-05-18 17:30:35 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 17:30:35 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:30:35 --> Model Class Initialized
+DEBUG - 2013-05-18 17:30:35 --> Model Class Initialized
+DEBUG - 2013-05-18 17:30:35 --> File loaded: ../application/views/config/common/header.php
+DEBUG - 2013-05-18 17:30:35 --> File loaded: ../application/views/config/common/navbar.php
+DEBUG - 2013-05-18 17:30:35 --> File loaded: ../application/views/config/dataset/v_dataset_list.php
+DEBUG - 2013-05-18 17:30:35 --> File loaded: ../application/views/config/common/footer.php
+DEBUG - 2013-05-18 17:30:35 --> Final output sent to browser
+DEBUG - 2013-05-18 17:30:35 --> Total execution time: 0.0168
+DEBUG - 2013-05-18 17:30:39 --> Config Class Initialized
+DEBUG - 2013-05-18 17:30:39 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:30:39 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:30:39 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:30:39 --> URI Class Initialized
+DEBUG - 2013-05-18 17:30:39 --> Router Class Initialized
+DEBUG - 2013-05-18 17:30:39 --> Output Class Initialized
+DEBUG - 2013-05-18 17:30:39 --> Security Class Initialized
+DEBUG - 2013-05-18 17:30:39 --> Input Class Initialized
+DEBUG - 2013-05-18 17:30:39 --> CRSF cookie Set
+DEBUG - 2013-05-18 17:30:39 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:30:39 --> Language Class Initialized
+DEBUG - 2013-05-18 17:30:39 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:30:39 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:30:39 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 17:30:39 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 17:30:39 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 17:30:39 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:30:39 --> Session Class Initialized
+DEBUG - 2013-05-18 17:30:39 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:30:39 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 17:30:39 --> Session routines successfully run
+DEBUG - 2013-05-18 17:30:39 --> Table Class Initialized
+DEBUG - 2013-05-18 17:30:39 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 17:30:39 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:30:39 --> Model Class Initialized
+DEBUG - 2013-05-18 17:30:39 --> Model Class Initialized
+DEBUG - 2013-05-18 17:30:39 --> File loaded: ../application/views/config/common/header.php
+DEBUG - 2013-05-18 17:30:39 --> File loaded: ../application/views/config/common/navbar.php
+DEBUG - 2013-05-18 17:30:39 --> File loaded: ../application/views/config/dataset/v_dataset_edit.php
+DEBUG - 2013-05-18 17:30:39 --> File loaded: ../application/views/config/common/footer.php
+DEBUG - 2013-05-18 17:30:39 --> Final output sent to browser
+DEBUG - 2013-05-18 17:30:39 --> Total execution time: 0.0255
+DEBUG - 2013-05-18 17:31:01 --> Config Class Initialized
+DEBUG - 2013-05-18 17:31:01 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:31:01 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:31:01 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:31:01 --> URI Class Initialized
+DEBUG - 2013-05-18 17:31:01 --> Router Class Initialized
+DEBUG - 2013-05-18 17:31:01 --> Output Class Initialized
+DEBUG - 2013-05-18 17:31:01 --> Security Class Initialized
+DEBUG - 2013-05-18 17:31:01 --> Input Class Initialized
+DEBUG - 2013-05-18 17:31:01 --> CRSF cookie Set
+DEBUG - 2013-05-18 17:31:01 --> CSRF token verified
+DEBUG - 2013-05-18 17:31:01 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:31:01 --> Language Class Initialized
+DEBUG - 2013-05-18 17:31:01 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:31:01 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:31:01 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 17:31:01 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 17:31:01 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 17:31:01 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:31:01 --> Session Class Initialized
+DEBUG - 2013-05-18 17:31:01 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:31:01 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 17:31:01 --> Session routines successfully run
+DEBUG - 2013-05-18 17:31:01 --> Table Class Initialized
+DEBUG - 2013-05-18 17:31:01 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 17:31:01 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:31:01 --> Model Class Initialized
+DEBUG - 2013-05-18 17:31:01 --> Model Class Initialized
+DEBUG - 2013-05-18 17:31:01 --> Helper loaded: inflector_helper
+DEBUG - 2013-05-18 17:31:01 --> Config Class Initialized
+DEBUG - 2013-05-18 17:31:01 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:31:01 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:31:01 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:31:01 --> URI Class Initialized
+DEBUG - 2013-05-18 17:31:01 --> Router Class Initialized
+DEBUG - 2013-05-18 17:31:01 --> Output Class Initialized
+DEBUG - 2013-05-18 17:31:01 --> Security Class Initialized
+DEBUG - 2013-05-18 17:31:01 --> Input Class Initialized
+DEBUG - 2013-05-18 17:31:01 --> CRSF cookie Set
+DEBUG - 2013-05-18 17:31:01 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:31:01 --> Language Class Initialized
+DEBUG - 2013-05-18 17:31:01 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:31:01 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:31:01 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 17:31:01 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 17:31:01 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 17:31:01 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:31:01 --> Session Class Initialized
+DEBUG - 2013-05-18 17:31:01 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:31:01 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 17:31:01 --> Session routines successfully run
+DEBUG - 2013-05-18 17:31:01 --> Table Class Initialized
+DEBUG - 2013-05-18 17:31:01 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 17:31:01 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:31:01 --> Model Class Initialized
+DEBUG - 2013-05-18 17:31:01 --> Model Class Initialized
+DEBUG - 2013-05-18 17:31:01 --> File loaded: ../application/views/config/common/header.php
+DEBUG - 2013-05-18 17:31:01 --> File loaded: ../application/views/config/common/navbar.php
+DEBUG - 2013-05-18 17:31:01 --> File loaded: ../application/views/config/dataset/v_dataset_edit.php
+DEBUG - 2013-05-18 17:31:01 --> File loaded: ../application/views/config/common/footer.php
+DEBUG - 2013-05-18 17:31:01 --> Final output sent to browser
+DEBUG - 2013-05-18 17:31:01 --> Total execution time: 0.0422
+DEBUG - 2013-05-18 17:31:06 --> Config Class Initialized
+DEBUG - 2013-05-18 17:31:06 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:31:06 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:31:06 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:31:06 --> URI Class Initialized
+DEBUG - 2013-05-18 17:31:06 --> Router Class Initialized
+DEBUG - 2013-05-18 17:31:06 --> Output Class Initialized
+DEBUG - 2013-05-18 17:31:06 --> Security Class Initialized
+DEBUG - 2013-05-18 17:31:06 --> Input Class Initialized
+DEBUG - 2013-05-18 17:31:06 --> CRSF cookie Set
+DEBUG - 2013-05-18 17:31:06 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:31:06 --> Language Class Initialized
+DEBUG - 2013-05-18 17:31:06 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:31:06 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:31:06 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 17:31:06 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 17:31:06 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 17:31:06 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:31:06 --> Session Class Initialized
+DEBUG - 2013-05-18 17:31:06 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:31:06 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 17:31:06 --> Session routines successfully run
+DEBUG - 2013-05-18 17:31:06 --> Table Class Initialized
+DEBUG - 2013-05-18 17:31:06 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 17:31:06 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:31:06 --> Model Class Initialized
+DEBUG - 2013-05-18 17:31:06 --> Model Class Initialized
+DEBUG - 2013-05-18 17:31:06 --> Model Class Initialized
+DEBUG - 2013-05-18 17:31:06 --> Model Class Initialized
+DEBUG - 2013-05-18 17:31:06 --> File loaded: ../application/views/app/11/common/header.php
+DEBUG - 2013-05-18 17:31:06 --> File loaded: ../application/views/app/11/common/navbar.php
+DEBUG - 2013-05-18 17:31:06 --> File loaded: ../application/views/app/11/contact/v_contact_list.php
+DEBUG - 2013-05-18 17:31:06 --> File loaded: ../application/views/app/11/common/footer.php
+DEBUG - 2013-05-18 17:31:06 --> Language file loaded: language/english/profiler_lang.php
+DEBUG - 2013-05-18 17:31:06 --> Helper loaded: text_helper
+DEBUG - 2013-05-18 17:31:06 --> Final output sent to browser
+DEBUG - 2013-05-18 17:31:06 --> Total execution time: 0.0171
+DEBUG - 2013-05-18 17:31:14 --> Config Class Initialized
+DEBUG - 2013-05-18 17:31:14 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:31:14 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:31:14 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:31:14 --> URI Class Initialized
+DEBUG - 2013-05-18 17:31:14 --> Router Class Initialized
+DEBUG - 2013-05-18 17:31:14 --> Output Class Initialized
+DEBUG - 2013-05-18 17:31:14 --> Security Class Initialized
+DEBUG - 2013-05-18 17:31:14 --> Input Class Initialized
+DEBUG - 2013-05-18 17:31:14 --> CRSF cookie Set
+DEBUG - 2013-05-18 17:31:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:31:14 --> Language Class Initialized
+DEBUG - 2013-05-18 17:31:14 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:31:14 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:31:14 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 17:31:14 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 17:31:14 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 17:31:14 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:31:14 --> Session Class Initialized
+DEBUG - 2013-05-18 17:31:14 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:31:14 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 17:31:14 --> Session routines successfully run
+DEBUG - 2013-05-18 17:31:14 --> Table Class Initialized
+DEBUG - 2013-05-18 17:31:14 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 17:31:14 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:31:14 --> Model Class Initialized
+DEBUG - 2013-05-18 17:31:14 --> Model Class Initialized
+DEBUG - 2013-05-18 17:31:14 --> File loaded: ../application/views/config/common/header.php
+DEBUG - 2013-05-18 17:31:14 --> File loaded: ../application/views/config/common/navbar.php
+DEBUG - 2013-05-18 17:31:14 --> File loaded: ../application/views/config/dataset/v_dataset_list.php
+DEBUG - 2013-05-18 17:31:14 --> File loaded: ../application/views/config/common/footer.php
+DEBUG - 2013-05-18 17:31:14 --> Final output sent to browser
+DEBUG - 2013-05-18 17:31:14 --> Total execution time: 0.0152
+DEBUG - 2013-05-18 17:31:20 --> Config Class Initialized
+DEBUG - 2013-05-18 17:31:20 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:31:20 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:31:20 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:31:20 --> URI Class Initialized
+DEBUG - 2013-05-18 17:31:20 --> Router Class Initialized
+DEBUG - 2013-05-18 17:31:20 --> Output Class Initialized
+DEBUG - 2013-05-18 17:31:20 --> Security Class Initialized
+DEBUG - 2013-05-18 17:31:20 --> Input Class Initialized
+DEBUG - 2013-05-18 17:31:20 --> CRSF cookie Set
+DEBUG - 2013-05-18 17:31:20 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:31:20 --> Language Class Initialized
+DEBUG - 2013-05-18 17:31:20 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:31:20 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:31:20 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 17:31:20 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 17:31:20 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 17:31:20 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:31:20 --> Session Class Initialized
+DEBUG - 2013-05-18 17:31:20 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:31:20 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 17:31:20 --> Session routines successfully run
+DEBUG - 2013-05-18 17:31:20 --> Table Class Initialized
+DEBUG - 2013-05-18 17:31:20 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 17:31:20 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:31:20 --> Model Class Initialized
+DEBUG - 2013-05-18 17:31:20 --> Model Class Initialized
+DEBUG - 2013-05-18 17:31:20 --> File loaded: ../application/views/config/common/header.php
+DEBUG - 2013-05-18 17:31:20 --> File loaded: ../application/views/config/common/navbar.php
+DEBUG - 2013-05-18 17:31:20 --> File loaded: ../application/views/config/dataset/v_dataset_edit.php
+DEBUG - 2013-05-18 17:31:20 --> File loaded: ../application/views/config/common/footer.php
+DEBUG - 2013-05-18 17:31:20 --> Final output sent to browser
+DEBUG - 2013-05-18 17:31:20 --> Total execution time: 0.0275
+DEBUG - 2013-05-18 17:39:23 --> Config Class Initialized
+DEBUG - 2013-05-18 17:39:23 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:39:23 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:39:23 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:39:23 --> URI Class Initialized
+DEBUG - 2013-05-18 17:39:23 --> Router Class Initialized
+DEBUG - 2013-05-18 17:39:23 --> Output Class Initialized
+DEBUG - 2013-05-18 17:39:23 --> Security Class Initialized
+DEBUG - 2013-05-18 17:39:23 --> Input Class Initialized
+DEBUG - 2013-05-18 17:39:23 --> CRSF cookie Set
+DEBUG - 2013-05-18 17:39:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:39:23 --> Language Class Initialized
+DEBUG - 2013-05-18 17:39:23 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:39:23 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:39:23 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 17:39:23 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 17:39:23 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 17:39:23 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:39:23 --> Session Class Initialized
+DEBUG - 2013-05-18 17:39:23 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:39:23 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 17:39:23 --> Session routines successfully run
+DEBUG - 2013-05-18 17:39:23 --> Table Class Initialized
+DEBUG - 2013-05-18 17:39:23 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 17:39:23 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:39:23 --> Model Class Initialized
+DEBUG - 2013-05-18 17:39:23 --> Model Class Initialized
+DEBUG - 2013-05-18 17:39:23 --> File loaded: ../application/views/config/common/header.php
+DEBUG - 2013-05-18 17:39:23 --> File loaded: ../application/views/config/common/navbar.php
+DEBUG - 2013-05-18 17:39:23 --> File loaded: ../application/views/config/dataset/v_dataset_edit.php
+DEBUG - 2013-05-18 17:39:23 --> File loaded: ../application/views/config/common/footer.php
+DEBUG - 2013-05-18 17:39:23 --> Final output sent to browser
+DEBUG - 2013-05-18 17:39:23 --> Total execution time: 0.0307
+DEBUG - 2013-05-18 17:40:19 --> Config Class Initialized
+DEBUG - 2013-05-18 17:40:19 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:40:19 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:40:19 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:40:19 --> URI Class Initialized
+DEBUG - 2013-05-18 17:40:19 --> Router Class Initialized
+DEBUG - 2013-05-18 17:40:19 --> Output Class Initialized
+DEBUG - 2013-05-18 17:40:19 --> Security Class Initialized
+DEBUG - 2013-05-18 17:40:19 --> Input Class Initialized
+DEBUG - 2013-05-18 17:40:19 --> CRSF cookie Set
+DEBUG - 2013-05-18 17:40:19 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:40:19 --> Language Class Initialized
+DEBUG - 2013-05-18 17:40:19 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:40:19 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:40:19 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 17:40:19 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 17:40:19 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 17:40:19 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:40:19 --> Session Class Initialized
+DEBUG - 2013-05-18 17:40:19 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:40:19 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 17:40:19 --> Session routines successfully run
+DEBUG - 2013-05-18 17:40:19 --> Table Class Initialized
+DEBUG - 2013-05-18 17:40:19 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 17:40:19 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:40:19 --> Model Class Initialized
+DEBUG - 2013-05-18 17:40:19 --> Model Class Initialized
+DEBUG - 2013-05-18 17:40:19 --> File loaded: ../application/views/config/common/header.php
+DEBUG - 2013-05-18 17:40:19 --> File loaded: ../application/views/config/common/navbar.php
+DEBUG - 2013-05-18 17:40:19 --> File loaded: ../application/views/config/dataset/v_dataset_edit.php
+DEBUG - 2013-05-18 17:40:19 --> File loaded: ../application/views/config/common/footer.php
+DEBUG - 2013-05-18 17:40:19 --> Final output sent to browser
+DEBUG - 2013-05-18 17:40:19 --> Total execution time: 0.0287
+DEBUG - 2013-05-18 17:42:47 --> Config Class Initialized
+DEBUG - 2013-05-18 17:42:47 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:42:47 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:42:47 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:42:47 --> URI Class Initialized
+DEBUG - 2013-05-18 17:42:47 --> Router Class Initialized
+DEBUG - 2013-05-18 17:42:47 --> Output Class Initialized
+DEBUG - 2013-05-18 17:42:47 --> Security Class Initialized
+DEBUG - 2013-05-18 17:42:47 --> Input Class Initialized
+DEBUG - 2013-05-18 17:42:47 --> CRSF cookie Set
+DEBUG - 2013-05-18 17:42:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:42:47 --> Language Class Initialized
+DEBUG - 2013-05-18 17:42:47 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:42:47 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:42:47 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 17:42:47 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 17:42:47 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 17:42:47 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:42:47 --> Session Class Initialized
+DEBUG - 2013-05-18 17:42:47 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:42:47 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 17:42:47 --> Session routines successfully run
+DEBUG - 2013-05-18 17:42:47 --> Table Class Initialized
+DEBUG - 2013-05-18 17:42:47 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 17:42:47 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:42:47 --> Model Class Initialized
+DEBUG - 2013-05-18 17:42:47 --> Model Class Initialized
+DEBUG - 2013-05-18 17:42:47 --> File loaded: ../application/views/config/common/header.php
+DEBUG - 2013-05-18 17:42:47 --> File loaded: ../application/views/config/common/navbar.php
+DEBUG - 2013-05-18 17:42:47 --> File loaded: ../application/views/config/dataset/v_dataset_list.php
+DEBUG - 2013-05-18 17:42:47 --> File loaded: ../application/views/config/common/footer.php
+DEBUG - 2013-05-18 17:42:47 --> Final output sent to browser
+DEBUG - 2013-05-18 17:42:47 --> Total execution time: 0.0166
+DEBUG - 2013-05-18 17:42:56 --> Config Class Initialized
+DEBUG - 2013-05-18 17:42:56 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:42:56 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:42:56 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:42:56 --> URI Class Initialized
+DEBUG - 2013-05-18 17:42:56 --> Router Class Initialized
+DEBUG - 2013-05-18 17:42:56 --> Output Class Initialized
+DEBUG - 2013-05-18 17:42:56 --> Security Class Initialized
+DEBUG - 2013-05-18 17:42:56 --> Input Class Initialized
+DEBUG - 2013-05-18 17:42:56 --> CRSF cookie Set
+DEBUG - 2013-05-18 17:42:56 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:42:56 --> Language Class Initialized
+DEBUG - 2013-05-18 17:42:56 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:42:56 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:42:56 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 17:42:56 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 17:42:56 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 17:42:56 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:42:56 --> Session Class Initialized
+DEBUG - 2013-05-18 17:42:56 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:42:56 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 17:42:56 --> Session routines successfully run
+DEBUG - 2013-05-18 17:42:56 --> Table Class Initialized
+DEBUG - 2013-05-18 17:42:56 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 17:42:56 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:42:56 --> Model Class Initialized
+DEBUG - 2013-05-18 17:42:56 --> Model Class Initialized
+DEBUG - 2013-05-18 17:42:56 --> File loaded: ../application/views/config/common/header.php
+DEBUG - 2013-05-18 17:42:56 --> File loaded: ../application/views/config/common/navbar.php
+DEBUG - 2013-05-18 17:42:56 --> File loaded: ../application/views/config/dataset/v_dataset_edit.php
+DEBUG - 2013-05-18 17:42:56 --> File loaded: ../application/views/config/common/footer.php
+DEBUG - 2013-05-18 17:42:56 --> Final output sent to browser
+DEBUG - 2013-05-18 17:42:56 --> Total execution time: 0.0279
+DEBUG - 2013-05-18 17:43:11 --> Config Class Initialized
+DEBUG - 2013-05-18 17:43:11 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:43:11 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:43:11 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:43:11 --> URI Class Initialized
+DEBUG - 2013-05-18 17:43:11 --> Router Class Initialized
+DEBUG - 2013-05-18 17:43:11 --> Output Class Initialized
+DEBUG - 2013-05-18 17:43:11 --> Security Class Initialized
+DEBUG - 2013-05-18 17:43:11 --> Input Class Initialized
+DEBUG - 2013-05-18 17:43:11 --> CRSF cookie Set
+DEBUG - 2013-05-18 17:43:11 --> CSRF token verified
+DEBUG - 2013-05-18 17:43:11 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:43:11 --> Language Class Initialized
+DEBUG - 2013-05-18 17:43:11 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:43:11 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:43:11 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 17:43:11 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 17:43:11 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 17:43:11 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:43:11 --> Session Class Initialized
+DEBUG - 2013-05-18 17:43:11 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:43:11 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 17:43:11 --> Session routines successfully run
+DEBUG - 2013-05-18 17:43:11 --> Table Class Initialized
+DEBUG - 2013-05-18 17:43:11 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 17:43:11 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:43:11 --> Model Class Initialized
+DEBUG - 2013-05-18 17:43:11 --> Model Class Initialized
+DEBUG - 2013-05-18 17:43:11 --> Helper loaded: inflector_helper
+DEBUG - 2013-05-18 17:43:11 --> Config Class Initialized
+DEBUG - 2013-05-18 17:43:11 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:43:11 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:43:11 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:43:11 --> URI Class Initialized
+DEBUG - 2013-05-18 17:43:11 --> Router Class Initialized
+DEBUG - 2013-05-18 17:43:11 --> Output Class Initialized
+DEBUG - 2013-05-18 17:43:11 --> Security Class Initialized
+DEBUG - 2013-05-18 17:43:11 --> Input Class Initialized
+DEBUG - 2013-05-18 17:43:11 --> CRSF cookie Set
+DEBUG - 2013-05-18 17:43:11 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:43:11 --> Language Class Initialized
+DEBUG - 2013-05-18 17:43:11 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:43:11 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:43:11 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 17:43:11 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 17:43:11 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 17:43:11 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:43:11 --> Session Class Initialized
+DEBUG - 2013-05-18 17:43:11 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:43:11 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 17:43:11 --> Session routines successfully run
+DEBUG - 2013-05-18 17:43:11 --> Table Class Initialized
+DEBUG - 2013-05-18 17:43:11 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 17:43:11 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:43:11 --> Model Class Initialized
+DEBUG - 2013-05-18 17:43:11 --> Model Class Initialized
+DEBUG - 2013-05-18 17:43:11 --> File loaded: ../application/views/config/common/header.php
+DEBUG - 2013-05-18 17:43:11 --> File loaded: ../application/views/config/common/navbar.php
+DEBUG - 2013-05-18 17:43:11 --> File loaded: ../application/views/config/dataset/v_dataset_edit.php
+DEBUG - 2013-05-18 17:43:11 --> File loaded: ../application/views/config/common/footer.php
+DEBUG - 2013-05-18 17:43:11 --> Final output sent to browser
+DEBUG - 2013-05-18 17:43:11 --> Total execution time: 0.0388
+DEBUG - 2013-05-18 17:43:13 --> Config Class Initialized
+DEBUG - 2013-05-18 17:43:13 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:43:13 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:43:13 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:43:13 --> URI Class Initialized
+DEBUG - 2013-05-18 17:43:13 --> Router Class Initialized
+DEBUG - 2013-05-18 17:43:13 --> Output Class Initialized
+DEBUG - 2013-05-18 17:43:13 --> Security Class Initialized
+DEBUG - 2013-05-18 17:43:13 --> Input Class Initialized
+DEBUG - 2013-05-18 17:43:13 --> CRSF cookie Set
+DEBUG - 2013-05-18 17:43:13 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:43:13 --> Language Class Initialized
+DEBUG - 2013-05-18 17:43:13 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:43:13 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:43:13 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 17:43:13 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 17:43:13 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 17:43:13 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:43:13 --> Session Class Initialized
+DEBUG - 2013-05-18 17:43:13 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:43:13 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 17:43:13 --> Session routines successfully run
+DEBUG - 2013-05-18 17:43:13 --> Table Class Initialized
+DEBUG - 2013-05-18 17:43:13 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 17:43:13 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:43:13 --> Model Class Initialized
+DEBUG - 2013-05-18 17:43:13 --> Model Class Initialized
+DEBUG - 2013-05-18 17:43:13 --> File loaded: ../application/views/config/common/header.php
+DEBUG - 2013-05-18 17:43:13 --> File loaded: ../application/views/config/common/navbar.php
+DEBUG - 2013-05-18 17:43:13 --> File loaded: ../application/views/config/dataset/v_dataset_list.php
+DEBUG - 2013-05-18 17:43:13 --> File loaded: ../application/views/config/common/footer.php
+DEBUG - 2013-05-18 17:43:13 --> Final output sent to browser
+DEBUG - 2013-05-18 17:43:13 --> Total execution time: 0.0161
+DEBUG - 2013-05-18 17:43:27 --> Config Class Initialized
+DEBUG - 2013-05-18 17:43:27 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:43:27 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:43:27 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:43:27 --> URI Class Initialized
+DEBUG - 2013-05-18 17:43:27 --> Router Class Initialized
+DEBUG - 2013-05-18 17:43:27 --> Output Class Initialized
+DEBUG - 2013-05-18 17:43:27 --> Security Class Initialized
+DEBUG - 2013-05-18 17:43:27 --> Input Class Initialized
+DEBUG - 2013-05-18 17:43:27 --> CRSF cookie Set
+DEBUG - 2013-05-18 17:43:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:43:27 --> Language Class Initialized
+DEBUG - 2013-05-18 17:43:27 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:43:27 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:43:27 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 17:43:27 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 17:43:27 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 17:43:27 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:43:27 --> Session Class Initialized
+DEBUG - 2013-05-18 17:43:27 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:43:27 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 17:43:27 --> Session routines successfully run
+DEBUG - 2013-05-18 17:43:27 --> Table Class Initialized
+DEBUG - 2013-05-18 17:43:27 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 17:43:27 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:43:27 --> Model Class Initialized
+DEBUG - 2013-05-18 17:43:27 --> Model Class Initialized
+DEBUG - 2013-05-18 17:43:27 --> Model Class Initialized
+DEBUG - 2013-05-18 17:43:27 --> Model Class Initialized
+DEBUG - 2013-05-18 17:43:27 --> File loaded: ../application/views/app/11/common/header.php
+DEBUG - 2013-05-18 17:43:27 --> File loaded: ../application/views/app/11/common/navbar.php
+DEBUG - 2013-05-18 17:44:21 --> Config Class Initialized
+DEBUG - 2013-05-18 17:44:21 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:44:21 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:44:21 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:44:21 --> URI Class Initialized
+DEBUG - 2013-05-18 17:44:21 --> Router Class Initialized
+DEBUG - 2013-05-18 17:44:21 --> Output Class Initialized
+DEBUG - 2013-05-18 17:44:21 --> Security Class Initialized
+DEBUG - 2013-05-18 17:44:21 --> Input Class Initialized
+DEBUG - 2013-05-18 17:44:21 --> CRSF cookie Set
+DEBUG - 2013-05-18 17:44:21 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:44:21 --> Language Class Initialized
+DEBUG - 2013-05-18 17:44:21 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:44:21 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:44:21 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 17:44:21 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 17:44:21 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 17:44:21 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:44:21 --> Session Class Initialized
+DEBUG - 2013-05-18 17:44:21 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:44:21 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 17:44:21 --> Session routines successfully run
+DEBUG - 2013-05-18 17:44:21 --> Table Class Initialized
+DEBUG - 2013-05-18 17:44:21 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 17:44:21 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:44:21 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:21 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:21 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:21 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:21 --> File loaded: ../application/views/app/11/common/header.php
+DEBUG - 2013-05-18 17:44:21 --> File loaded: ../application/views/app/11/common/navbar.php
+DEBUG - 2013-05-18 17:44:21 --> File loaded: ../application/views/app/11/broadcast/v_broadcast_list.php
+DEBUG - 2013-05-18 17:44:21 --> File loaded: ../application/views/app/11/common/footer.php
+DEBUG - 2013-05-18 17:44:21 --> Final output sent to browser
+DEBUG - 2013-05-18 17:44:21 --> Total execution time: 0.0161
+DEBUG - 2013-05-18 17:44:29 --> Config Class Initialized
+DEBUG - 2013-05-18 17:44:29 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:44:29 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:44:29 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:44:29 --> URI Class Initialized
+DEBUG - 2013-05-18 17:44:29 --> Router Class Initialized
+DEBUG - 2013-05-18 17:44:29 --> Output Class Initialized
+DEBUG - 2013-05-18 17:44:29 --> Security Class Initialized
+DEBUG - 2013-05-18 17:44:29 --> Input Class Initialized
+DEBUG - 2013-05-18 17:44:29 --> CRSF cookie Set
+DEBUG - 2013-05-18 17:44:29 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:44:29 --> Language Class Initialized
+DEBUG - 2013-05-18 17:44:29 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:44:29 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:44:29 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 17:44:29 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 17:44:29 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 17:44:29 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:44:29 --> Session Class Initialized
+DEBUG - 2013-05-18 17:44:29 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:44:29 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 17:44:29 --> Session routines successfully run
+DEBUG - 2013-05-18 17:44:29 --> Table Class Initialized
+DEBUG - 2013-05-18 17:44:29 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 17:44:29 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:44:29 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:29 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:29 --> File loaded: ../application/views/config/common/header.php
+DEBUG - 2013-05-18 17:44:29 --> File loaded: ../application/views/config/common/navbar.php
+DEBUG - 2013-05-18 17:44:29 --> File loaded: ../application/views/config/dataset/v_dataset_list.php
+DEBUG - 2013-05-18 17:44:29 --> File loaded: ../application/views/config/common/footer.php
+DEBUG - 2013-05-18 17:44:29 --> Final output sent to browser
+DEBUG - 2013-05-18 17:44:29 --> Total execution time: 0.0159
+DEBUG - 2013-05-18 17:44:33 --> Config Class Initialized
+DEBUG - 2013-05-18 17:44:33 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:44:33 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:44:33 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:44:33 --> URI Class Initialized
+DEBUG - 2013-05-18 17:44:33 --> Router Class Initialized
+DEBUG - 2013-05-18 17:44:33 --> Output Class Initialized
+DEBUG - 2013-05-18 17:44:33 --> Security Class Initialized
+DEBUG - 2013-05-18 17:44:33 --> Input Class Initialized
+DEBUG - 2013-05-18 17:44:33 --> CRSF cookie Set
+DEBUG - 2013-05-18 17:44:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:44:33 --> Language Class Initialized
+DEBUG - 2013-05-18 17:44:33 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:44:33 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:44:33 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 17:44:33 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 17:44:33 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 17:44:33 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:44:33 --> Session Class Initialized
+DEBUG - 2013-05-18 17:44:33 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:44:33 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 17:44:33 --> Session routines successfully run
+DEBUG - 2013-05-18 17:44:33 --> Table Class Initialized
+DEBUG - 2013-05-18 17:44:33 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 17:44:33 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:44:33 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:33 --> Model Class Initialized
+DEBUG - 2013-05-18 17:44:33 --> File loaded: ../application/views/config/common/header.php
+DEBUG - 2013-05-18 17:44:33 --> File loaded: ../application/views/config/common/navbar.php
+DEBUG - 2013-05-18 17:44:33 --> File loaded: ../application/views/config/dataset/v_dataset_edit.php
+DEBUG - 2013-05-18 17:44:33 --> File loaded: ../application/views/config/common/footer.php
+DEBUG - 2013-05-18 17:44:33 --> Final output sent to browser
+DEBUG - 2013-05-18 17:44:33 --> Total execution time: 0.0256
+DEBUG - 2013-05-18 17:52:05 --> Config Class Initialized
+DEBUG - 2013-05-18 17:52:05 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:52:05 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:52:05 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:52:05 --> URI Class Initialized
+DEBUG - 2013-05-18 17:52:05 --> Router Class Initialized
+DEBUG - 2013-05-18 17:52:05 --> Output Class Initialized
+DEBUG - 2013-05-18 17:52:05 --> Security Class Initialized
+DEBUG - 2013-05-18 17:52:05 --> Input Class Initialized
+DEBUG - 2013-05-18 17:52:05 --> CRSF cookie Set
+DEBUG - 2013-05-18 17:52:05 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:52:05 --> Language Class Initialized
+DEBUG - 2013-05-18 17:52:05 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:52:05 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:52:05 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 17:52:05 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 17:52:05 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 17:52:05 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:52:05 --> Session Class Initialized
+DEBUG - 2013-05-18 17:52:05 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:52:05 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 17:52:05 --> Session routines successfully run
+DEBUG - 2013-05-18 17:52:05 --> Table Class Initialized
+DEBUG - 2013-05-18 17:52:05 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 17:52:05 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:52:05 --> Model Class Initialized
+DEBUG - 2013-05-18 17:52:05 --> Model Class Initialized
+DEBUG - 2013-05-18 17:52:05 --> File loaded: ../application/views/config/common/header.php
+DEBUG - 2013-05-18 17:52:05 --> File loaded: ../application/views/config/common/navbar.php
+DEBUG - 2013-05-18 17:52:05 --> File loaded: ../application/views/config/dataset/v_dataset_edit.php
+DEBUG - 2013-05-18 17:52:05 --> File loaded: ../application/views/config/common/footer.php
+DEBUG - 2013-05-18 17:52:05 --> Final output sent to browser
+DEBUG - 2013-05-18 17:52:05 --> Total execution time: 0.0317
+DEBUG - 2013-05-18 17:55:37 --> Config Class Initialized
+DEBUG - 2013-05-18 17:55:37 --> Hooks Class Initialized
+DEBUG - 2013-05-18 17:55:37 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 17:55:37 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 17:55:37 --> URI Class Initialized
+DEBUG - 2013-05-18 17:55:37 --> Router Class Initialized
+DEBUG - 2013-05-18 17:55:37 --> Output Class Initialized
+DEBUG - 2013-05-18 17:55:37 --> Security Class Initialized
+DEBUG - 2013-05-18 17:55:37 --> Input Class Initialized
+DEBUG - 2013-05-18 17:55:37 --> CRSF cookie Set
+DEBUG - 2013-05-18 17:55:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 17:55:37 --> Language Class Initialized
+DEBUG - 2013-05-18 17:55:37 --> Loader Class Initialized
+DEBUG - 2013-05-18 17:55:37 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 17:55:37 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 17:55:37 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 17:55:37 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 17:55:37 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 17:55:37 --> Session Class Initialized
+DEBUG - 2013-05-18 17:55:37 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 17:55:37 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 17:55:37 --> Session routines successfully run
+DEBUG - 2013-05-18 17:55:37 --> Table Class Initialized
+DEBUG - 2013-05-18 17:55:37 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 17:55:37 --> Controller Class Initialized
+DEBUG - 2013-05-18 17:55:37 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:37 --> Model Class Initialized
+DEBUG - 2013-05-18 17:55:37 --> File loaded: ../application/views/config/common/header.php
+DEBUG - 2013-05-18 17:55:37 --> File loaded: ../application/views/config/common/navbar.php
+DEBUG - 2013-05-18 17:55:37 --> File loaded: ../application/views/config/dataset/v_dataset_edit.php
+DEBUG - 2013-05-18 17:55:37 --> File loaded: ../application/views/config/common/footer.php
+DEBUG - 2013-05-18 17:55:37 --> Final output sent to browser
+DEBUG - 2013-05-18 17:55:37 --> Total execution time: 0.0364
+DEBUG - 2013-05-18 18:41:25 --> Config Class Initialized
+DEBUG - 2013-05-18 18:41:25 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:41:25 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:41:25 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:41:25 --> URI Class Initialized
+DEBUG - 2013-05-18 18:41:25 --> Router Class Initialized
+DEBUG - 2013-05-18 18:41:25 --> Output Class Initialized
+DEBUG - 2013-05-18 18:41:25 --> Security Class Initialized
+DEBUG - 2013-05-18 18:41:25 --> Input Class Initialized
+DEBUG - 2013-05-18 18:41:25 --> CRSF cookie Set
+DEBUG - 2013-05-18 18:41:25 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:41:25 --> Language Class Initialized
+DEBUG - 2013-05-18 18:41:25 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:41:25 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:41:25 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 18:41:25 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 18:41:25 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 18:41:25 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:41:25 --> Session Class Initialized
+DEBUG - 2013-05-18 18:41:25 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:41:25 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 18:41:25 --> Session routines successfully run
+DEBUG - 2013-05-18 18:41:25 --> Table Class Initialized
+DEBUG - 2013-05-18 18:41:25 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 18:41:25 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:41:25 --> Model Class Initialized
+DEBUG - 2013-05-18 18:41:25 --> Model Class Initialized
+DEBUG - 2013-05-18 18:41:25 --> Model Class Initialized
+DEBUG - 2013-05-18 18:41:25 --> Model Class Initialized
+DEBUG - 2013-05-18 18:41:25 --> File loaded: ../application/views/app/11/common/header.php
+DEBUG - 2013-05-18 18:41:25 --> File loaded: ../application/views/app/11/common/navbar.php
+DEBUG - 2013-05-18 18:41:25 --> File loaded: ../application/views/app/11/broadcast/v_broadcast_list.php
+DEBUG - 2013-05-18 18:41:25 --> File loaded: ../application/views/app/11/common/footer.php
+DEBUG - 2013-05-18 18:41:25 --> Final output sent to browser
+DEBUG - 2013-05-18 18:41:25 --> Total execution time: 0.0161
+DEBUG - 2013-05-18 18:41:41 --> Config Class Initialized
+DEBUG - 2013-05-18 18:41:41 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:41:41 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:41:41 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:41:41 --> URI Class Initialized
+DEBUG - 2013-05-18 18:41:41 --> Router Class Initialized
+DEBUG - 2013-05-18 18:41:41 --> Output Class Initialized
+DEBUG - 2013-05-18 18:41:41 --> Security Class Initialized
+DEBUG - 2013-05-18 18:41:41 --> Input Class Initialized
+DEBUG - 2013-05-18 18:41:41 --> CRSF cookie Set
+DEBUG - 2013-05-18 18:41:41 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:41:41 --> Language Class Initialized
+DEBUG - 2013-05-18 18:41:41 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:41:41 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:41:41 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 18:41:41 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 18:41:41 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 18:41:41 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:41:41 --> Session Class Initialized
+DEBUG - 2013-05-18 18:41:41 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:41:41 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 18:41:41 --> Session routines successfully run
+DEBUG - 2013-05-18 18:41:41 --> Table Class Initialized
+DEBUG - 2013-05-18 18:41:41 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 18:41:41 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:41:41 --> Model Class Initialized
+DEBUG - 2013-05-18 18:41:41 --> Model Class Initialized
+DEBUG - 2013-05-18 18:41:41 --> Model Class Initialized
+DEBUG - 2013-05-18 18:41:41 --> Model Class Initialized
+DEBUG - 2013-05-18 18:41:41 --> File loaded: ../application/views/app/11/common/header.php
+DEBUG - 2013-05-18 18:41:41 --> File loaded: ../application/views/app/11/common/navbar.php
+DEBUG - 2013-05-18 18:41:41 --> File loaded: ../application/views/app/11/broadcast/v_broadcast_list.php
+DEBUG - 2013-05-18 18:41:41 --> File loaded: ../application/views/app/11/common/footer.php
+DEBUG - 2013-05-18 18:41:41 --> Final output sent to browser
+DEBUG - 2013-05-18 18:41:41 --> Total execution time: 0.0157
+DEBUG - 2013-05-18 18:42:01 --> Config Class Initialized
+DEBUG - 2013-05-18 18:42:01 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:42:01 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:42:01 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:42:01 --> URI Class Initialized
+DEBUG - 2013-05-18 18:42:01 --> Router Class Initialized
+DEBUG - 2013-05-18 18:42:01 --> Output Class Initialized
+DEBUG - 2013-05-18 18:42:01 --> Security Class Initialized
+DEBUG - 2013-05-18 18:42:01 --> Input Class Initialized
+DEBUG - 2013-05-18 18:42:01 --> CRSF cookie Set
+DEBUG - 2013-05-18 18:42:01 --> CSRF token verified
+DEBUG - 2013-05-18 18:42:01 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:42:01 --> Language Class Initialized
+DEBUG - 2013-05-18 18:42:01 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:42:01 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:42:01 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 18:42:01 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 18:42:01 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 18:42:01 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:42:01 --> Session Class Initialized
+DEBUG - 2013-05-18 18:42:01 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:42:01 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 18:42:01 --> Session routines successfully run
+DEBUG - 2013-05-18 18:42:01 --> Table Class Initialized
+DEBUG - 2013-05-18 18:42:01 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 18:42:01 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:42:01 --> Model Class Initialized
+DEBUG - 2013-05-18 18:42:01 --> Model Class Initialized
+DEBUG - 2013-05-18 18:42:01 --> Helper loaded: inflector_helper
+DEBUG - 2013-05-18 18:42:01 --> Config Class Initialized
+DEBUG - 2013-05-18 18:42:01 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:42:01 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:42:01 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:42:01 --> URI Class Initialized
+DEBUG - 2013-05-18 18:42:01 --> Router Class Initialized
+DEBUG - 2013-05-18 18:42:01 --> Output Class Initialized
+DEBUG - 2013-05-18 18:42:01 --> Security Class Initialized
+DEBUG - 2013-05-18 18:42:01 --> Input Class Initialized
+DEBUG - 2013-05-18 18:42:01 --> CRSF cookie Set
+DEBUG - 2013-05-18 18:42:01 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:42:01 --> Language Class Initialized
+DEBUG - 2013-05-18 18:42:01 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:42:01 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:42:01 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 18:42:01 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 18:42:01 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 18:42:01 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:42:01 --> Session Class Initialized
+DEBUG - 2013-05-18 18:42:01 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:42:01 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 18:42:01 --> Session routines successfully run
+DEBUG - 2013-05-18 18:42:01 --> Table Class Initialized
+DEBUG - 2013-05-18 18:42:01 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 18:42:01 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:42:01 --> Model Class Initialized
+DEBUG - 2013-05-18 18:42:01 --> Model Class Initialized
+DEBUG - 2013-05-18 18:42:01 --> File loaded: ../application/views/config/common/header.php
+DEBUG - 2013-05-18 18:42:01 --> File loaded: ../application/views/config/common/navbar.php
+DEBUG - 2013-05-18 18:42:01 --> File loaded: ../application/views/config/dataset/v_dataset_edit.php
+DEBUG - 2013-05-18 18:42:01 --> File loaded: ../application/views/config/common/footer.php
+DEBUG - 2013-05-18 18:42:01 --> Final output sent to browser
+DEBUG - 2013-05-18 18:42:01 --> Total execution time: 0.0347
+DEBUG - 2013-05-18 18:42:02 --> Config Class Initialized
+DEBUG - 2013-05-18 18:42:02 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:42:02 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:42:02 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:42:02 --> URI Class Initialized
+DEBUG - 2013-05-18 18:42:02 --> Router Class Initialized
+DEBUG - 2013-05-18 18:42:02 --> Output Class Initialized
+DEBUG - 2013-05-18 18:42:02 --> Security Class Initialized
+DEBUG - 2013-05-18 18:42:02 --> Input Class Initialized
+DEBUG - 2013-05-18 18:42:02 --> CRSF cookie Set
+DEBUG - 2013-05-18 18:42:02 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:42:02 --> Language Class Initialized
+DEBUG - 2013-05-18 18:42:02 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:42:02 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:42:02 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 18:42:02 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 18:42:02 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 18:42:02 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:42:02 --> Session Class Initialized
+DEBUG - 2013-05-18 18:42:02 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:42:02 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 18:42:02 --> Session routines successfully run
+DEBUG - 2013-05-18 18:42:02 --> Table Class Initialized
+DEBUG - 2013-05-18 18:42:02 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 18:42:02 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:42:02 --> Model Class Initialized
+DEBUG - 2013-05-18 18:42:02 --> Model Class Initialized
+DEBUG - 2013-05-18 18:42:02 --> File loaded: ../application/views/config/common/header.php
+DEBUG - 2013-05-18 18:42:02 --> File loaded: ../application/views/config/common/navbar.php
+DEBUG - 2013-05-18 18:42:02 --> File loaded: ../application/views/config/dataset/v_dataset_list.php
+DEBUG - 2013-05-18 18:42:02 --> File loaded: ../application/views/config/common/footer.php
+DEBUG - 2013-05-18 18:42:02 --> Final output sent to browser
+DEBUG - 2013-05-18 18:42:02 --> Total execution time: 0.0152
+DEBUG - 2013-05-18 18:42:19 --> Config Class Initialized
+DEBUG - 2013-05-18 18:42:19 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:42:19 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:42:19 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:42:19 --> URI Class Initialized
+DEBUG - 2013-05-18 18:42:19 --> Router Class Initialized
+DEBUG - 2013-05-18 18:42:19 --> Output Class Initialized
+DEBUG - 2013-05-18 18:42:19 --> Security Class Initialized
+DEBUG - 2013-05-18 18:42:19 --> Input Class Initialized
+DEBUG - 2013-05-18 18:42:19 --> CRSF cookie Set
+DEBUG - 2013-05-18 18:42:19 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:42:19 --> Language Class Initialized
+DEBUG - 2013-05-18 18:42:19 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:42:19 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:42:19 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 18:42:19 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 18:42:19 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 18:42:19 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:42:19 --> Session Class Initialized
+DEBUG - 2013-05-18 18:42:19 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:42:19 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 18:42:19 --> Session routines successfully run
+DEBUG - 2013-05-18 18:42:19 --> Table Class Initialized
+DEBUG - 2013-05-18 18:42:19 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 18:42:19 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:42:19 --> Model Class Initialized
+DEBUG - 2013-05-18 18:42:19 --> Model Class Initialized
+DEBUG - 2013-05-18 18:42:23 --> Config Class Initialized
+DEBUG - 2013-05-18 18:42:23 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:42:23 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:42:23 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:42:23 --> URI Class Initialized
+DEBUG - 2013-05-18 18:42:23 --> Router Class Initialized
+DEBUG - 2013-05-18 18:42:23 --> Output Class Initialized
+DEBUG - 2013-05-18 18:42:23 --> Security Class Initialized
+DEBUG - 2013-05-18 18:42:23 --> Input Class Initialized
+DEBUG - 2013-05-18 18:42:23 --> CRSF cookie Set
+DEBUG - 2013-05-18 18:42:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:42:23 --> Language Class Initialized
+DEBUG - 2013-05-18 18:42:23 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:42:23 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:42:23 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 18:42:23 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 18:42:23 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 18:42:23 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:42:23 --> Session Class Initialized
+DEBUG - 2013-05-18 18:42:23 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:42:23 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 18:42:23 --> Session routines successfully run
+DEBUG - 2013-05-18 18:42:23 --> Table Class Initialized
+DEBUG - 2013-05-18 18:42:23 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 18:42:23 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:42:23 --> Model Class Initialized
+DEBUG - 2013-05-18 18:42:23 --> Model Class Initialized
+DEBUG - 2013-05-18 18:42:29 --> Config Class Initialized
+DEBUG - 2013-05-18 18:42:29 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:42:29 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:42:29 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:42:29 --> URI Class Initialized
+DEBUG - 2013-05-18 18:42:29 --> Router Class Initialized
+ERROR - 2013-05-18 18:42:29 --> 404 Page Not Found --> app/index
+DEBUG - 2013-05-18 18:42:33 --> Config Class Initialized
+DEBUG - 2013-05-18 18:42:33 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:42:33 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:42:33 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:42:33 --> URI Class Initialized
+DEBUG - 2013-05-18 18:42:33 --> Router Class Initialized
+DEBUG - 2013-05-18 18:42:33 --> Output Class Initialized
+DEBUG - 2013-05-18 18:42:33 --> Security Class Initialized
+DEBUG - 2013-05-18 18:42:33 --> Input Class Initialized
+DEBUG - 2013-05-18 18:42:33 --> CRSF cookie Set
+DEBUG - 2013-05-18 18:42:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:42:33 --> Language Class Initialized
+DEBUG - 2013-05-18 18:42:33 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:42:33 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:42:33 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 18:42:33 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 18:42:33 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 18:42:33 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:42:33 --> Session Class Initialized
+DEBUG - 2013-05-18 18:42:33 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:42:33 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 18:42:33 --> Session routines successfully run
+DEBUG - 2013-05-18 18:42:33 --> Table Class Initialized
+DEBUG - 2013-05-18 18:42:33 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 18:42:33 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:42:33 --> Model Class Initialized
+DEBUG - 2013-05-18 18:42:33 --> Model Class Initialized
+DEBUG - 2013-05-18 18:42:33 --> Model Class Initialized
+DEBUG - 2013-05-18 18:42:33 --> Model Class Initialized
+DEBUG - 2013-05-18 18:42:33 --> File loaded: ../application/views/app/11/common/header.php
+DEBUG - 2013-05-18 18:42:33 --> File loaded: ../application/views/app/11/common/navbar.php
+DEBUG - 2013-05-18 18:42:33 --> File loaded: ../application/views/app/11/dashboard/v_dashboard_list.php
+DEBUG - 2013-05-18 18:42:33 --> File loaded: ../application/views/app/11/common/footer.php
+DEBUG - 2013-05-18 18:42:33 --> Final output sent to browser
+DEBUG - 2013-05-18 18:42:33 --> Total execution time: 0.0218
+DEBUG - 2013-05-18 18:42:37 --> Config Class Initialized
+DEBUG - 2013-05-18 18:42:37 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:42:37 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:42:37 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:42:37 --> URI Class Initialized
+DEBUG - 2013-05-18 18:42:37 --> Router Class Initialized
+DEBUG - 2013-05-18 18:42:37 --> Output Class Initialized
+DEBUG - 2013-05-18 18:42:37 --> Security Class Initialized
+DEBUG - 2013-05-18 18:42:37 --> Input Class Initialized
+DEBUG - 2013-05-18 18:42:37 --> CRSF cookie Set
+DEBUG - 2013-05-18 18:42:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:42:37 --> Language Class Initialized
+DEBUG - 2013-05-18 18:42:37 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:42:37 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:42:37 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 18:42:37 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 18:42:37 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 18:42:37 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:42:37 --> Session Class Initialized
+DEBUG - 2013-05-18 18:42:37 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:42:37 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 18:42:37 --> Session routines successfully run
+DEBUG - 2013-05-18 18:42:37 --> Table Class Initialized
+DEBUG - 2013-05-18 18:42:37 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 18:42:37 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:42:37 --> Model Class Initialized
+DEBUG - 2013-05-18 18:42:37 --> Model Class Initialized
+DEBUG - 2013-05-18 18:42:37 --> File loaded: ../application/views/config/common/header.php
+DEBUG - 2013-05-18 18:42:37 --> File loaded: ../application/views/config/common/navbar.php
+DEBUG - 2013-05-18 18:42:37 --> File loaded: ../application/views/config/dataset/v_dataset_edit.php
+DEBUG - 2013-05-18 18:42:37 --> File loaded: ../application/views/config/common/footer.php
+DEBUG - 2013-05-18 18:42:37 --> Final output sent to browser
+DEBUG - 2013-05-18 18:42:37 --> Total execution time: 0.0167
+DEBUG - 2013-05-18 18:44:04 --> Config Class Initialized
+DEBUG - 2013-05-18 18:44:04 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:44:04 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:44:04 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:44:04 --> URI Class Initialized
+DEBUG - 2013-05-18 18:44:04 --> Router Class Initialized
+DEBUG - 2013-05-18 18:44:04 --> Output Class Initialized
+DEBUG - 2013-05-18 18:44:04 --> Security Class Initialized
+DEBUG - 2013-05-18 18:44:04 --> Input Class Initialized
+DEBUG - 2013-05-18 18:44:04 --> CRSF cookie Set
+DEBUG - 2013-05-18 18:44:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:44:04 --> Language Class Initialized
+DEBUG - 2013-05-18 18:44:04 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:44:04 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:44:04 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 18:44:04 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 18:44:04 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 18:44:04 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:44:04 --> Session Class Initialized
+DEBUG - 2013-05-18 18:44:04 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:44:04 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 18:44:04 --> Session routines successfully run
+DEBUG - 2013-05-18 18:44:04 --> Table Class Initialized
+DEBUG - 2013-05-18 18:44:04 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 18:44:04 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:44:04 --> Model Class Initialized
+DEBUG - 2013-05-18 18:44:04 --> Model Class Initialized
+DEBUG - 2013-05-18 18:44:04 --> File loaded: ../application/views/config/common/header.php
+DEBUG - 2013-05-18 18:44:04 --> File loaded: ../application/views/config/common/navbar.php
+DEBUG - 2013-05-18 18:44:04 --> File loaded: ../application/views/config/dataset/v_dataset_edit.php
+DEBUG - 2013-05-18 18:44:04 --> File loaded: ../application/views/config/common/footer.php
+DEBUG - 2013-05-18 18:44:04 --> Final output sent to browser
+DEBUG - 2013-05-18 18:44:04 --> Total execution time: 0.0192
+DEBUG - 2013-05-18 18:44:06 --> Config Class Initialized
+DEBUG - 2013-05-18 18:44:06 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:44:06 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:44:06 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:44:06 --> URI Class Initialized
+DEBUG - 2013-05-18 18:44:06 --> Router Class Initialized
+DEBUG - 2013-05-18 18:44:06 --> Output Class Initialized
+DEBUG - 2013-05-18 18:44:06 --> Security Class Initialized
+DEBUG - 2013-05-18 18:44:06 --> Input Class Initialized
+DEBUG - 2013-05-18 18:44:06 --> CRSF cookie Set
+DEBUG - 2013-05-18 18:44:06 --> CSRF token verified
+DEBUG - 2013-05-18 18:44:06 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:44:06 --> Language Class Initialized
+DEBUG - 2013-05-18 18:44:06 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:44:06 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:44:06 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 18:44:06 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 18:44:06 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 18:44:06 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:44:06 --> Session Class Initialized
+DEBUG - 2013-05-18 18:44:06 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:44:06 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 18:44:06 --> Session routines successfully run
+DEBUG - 2013-05-18 18:44:06 --> Table Class Initialized
+DEBUG - 2013-05-18 18:44:06 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 18:44:06 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:44:06 --> Model Class Initialized
+DEBUG - 2013-05-18 18:44:06 --> Model Class Initialized
+DEBUG - 2013-05-18 18:44:06 --> Helper loaded: inflector_helper
+DEBUG - 2013-05-18 18:44:07 --> Config Class Initialized
+DEBUG - 2013-05-18 18:44:07 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:44:07 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:44:07 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:44:07 --> URI Class Initialized
+DEBUG - 2013-05-18 18:44:07 --> Router Class Initialized
+DEBUG - 2013-05-18 18:44:07 --> Output Class Initialized
+DEBUG - 2013-05-18 18:44:07 --> Security Class Initialized
+DEBUG - 2013-05-18 18:44:07 --> Input Class Initialized
+DEBUG - 2013-05-18 18:44:07 --> CRSF cookie Set
+DEBUG - 2013-05-18 18:44:07 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:44:07 --> Language Class Initialized
+DEBUG - 2013-05-18 18:44:07 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:44:07 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:44:07 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 18:44:07 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 18:44:07 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 18:44:07 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:44:07 --> Session Class Initialized
+DEBUG - 2013-05-18 18:44:07 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:44:07 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 18:44:07 --> Session routines successfully run
+DEBUG - 2013-05-18 18:44:07 --> Table Class Initialized
+DEBUG - 2013-05-18 18:44:07 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 18:44:07 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:44:07 --> Model Class Initialized
+DEBUG - 2013-05-18 18:44:07 --> Model Class Initialized
+DEBUG - 2013-05-18 18:44:07 --> File loaded: ../application/views/config/common/header.php
+DEBUG - 2013-05-18 18:44:07 --> File loaded: ../application/views/config/common/navbar.php
+DEBUG - 2013-05-18 18:44:07 --> File loaded: ../application/views/config/dataset/v_dataset_edit.php
+DEBUG - 2013-05-18 18:44:07 --> File loaded: ../application/views/config/common/footer.php
+DEBUG - 2013-05-18 18:44:07 --> Final output sent to browser
+DEBUG - 2013-05-18 18:44:07 --> Total execution time: 0.0190
+DEBUG - 2013-05-18 18:44:08 --> Config Class Initialized
+DEBUG - 2013-05-18 18:44:08 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:44:08 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:44:08 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:44:08 --> URI Class Initialized
+DEBUG - 2013-05-18 18:44:08 --> Router Class Initialized
+DEBUG - 2013-05-18 18:44:08 --> Output Class Initialized
+DEBUG - 2013-05-18 18:44:08 --> Security Class Initialized
+DEBUG - 2013-05-18 18:44:08 --> Input Class Initialized
+DEBUG - 2013-05-18 18:44:08 --> CRSF cookie Set
+DEBUG - 2013-05-18 18:44:08 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:44:08 --> Language Class Initialized
+DEBUG - 2013-05-18 18:44:08 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:44:08 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:44:08 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 18:44:08 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 18:44:08 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 18:44:08 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:44:08 --> Session Class Initialized
+DEBUG - 2013-05-18 18:44:08 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:44:08 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 18:44:08 --> Session routines successfully run
+DEBUG - 2013-05-18 18:44:08 --> Table Class Initialized
+DEBUG - 2013-05-18 18:44:08 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 18:44:08 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:44:08 --> Model Class Initialized
+DEBUG - 2013-05-18 18:44:08 --> Model Class Initialized
+DEBUG - 2013-05-18 18:44:08 --> File loaded: ../application/views/config/common/header.php
+DEBUG - 2013-05-18 18:44:08 --> File loaded: ../application/views/config/common/navbar.php
+DEBUG - 2013-05-18 18:44:08 --> File loaded: ../application/views/config/dataset/v_dataset_list.php
+DEBUG - 2013-05-18 18:44:08 --> File loaded: ../application/views/config/common/footer.php
+DEBUG - 2013-05-18 18:44:08 --> Final output sent to browser
+DEBUG - 2013-05-18 18:44:08 --> Total execution time: 0.0159
+DEBUG - 2013-05-18 18:44:14 --> Config Class Initialized
+DEBUG - 2013-05-18 18:44:14 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:44:14 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:44:14 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:44:14 --> URI Class Initialized
+DEBUG - 2013-05-18 18:44:14 --> Router Class Initialized
+DEBUG - 2013-05-18 18:44:14 --> Output Class Initialized
+DEBUG - 2013-05-18 18:44:14 --> Security Class Initialized
+DEBUG - 2013-05-18 18:44:14 --> Input Class Initialized
+DEBUG - 2013-05-18 18:44:14 --> CRSF cookie Set
+DEBUG - 2013-05-18 18:44:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:44:14 --> Language Class Initialized
+DEBUG - 2013-05-18 18:44:14 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:44:14 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:44:14 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 18:44:14 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 18:44:14 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 18:44:14 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:44:14 --> Session Class Initialized
+DEBUG - 2013-05-18 18:44:14 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:44:14 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 18:44:14 --> Session routines successfully run
+DEBUG - 2013-05-18 18:44:14 --> Table Class Initialized
+DEBUG - 2013-05-18 18:44:14 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 18:44:14 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:44:14 --> Model Class Initialized
+DEBUG - 2013-05-18 18:44:14 --> Model Class Initialized
+DEBUG - 2013-05-18 18:44:34 --> Config Class Initialized
+DEBUG - 2013-05-18 18:44:34 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:44:34 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:44:34 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:44:34 --> URI Class Initialized
+DEBUG - 2013-05-18 18:44:34 --> Router Class Initialized
+DEBUG - 2013-05-18 18:44:34 --> Output Class Initialized
+DEBUG - 2013-05-18 18:44:34 --> Security Class Initialized
+DEBUG - 2013-05-18 18:44:34 --> Input Class Initialized
+DEBUG - 2013-05-18 18:44:34 --> CRSF cookie Set
+DEBUG - 2013-05-18 18:44:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:44:34 --> Language Class Initialized
+DEBUG - 2013-05-18 18:44:34 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:44:34 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:44:34 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 18:44:34 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 18:44:34 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 18:44:34 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:44:34 --> Session Class Initialized
+DEBUG - 2013-05-18 18:44:34 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:44:34 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 18:44:34 --> Session routines successfully run
+DEBUG - 2013-05-18 18:44:34 --> Table Class Initialized
+DEBUG - 2013-05-18 18:44:34 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 18:44:34 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:44:34 --> Model Class Initialized
+DEBUG - 2013-05-18 18:44:34 --> Model Class Initialized
+DEBUG - 2013-05-18 18:44:39 --> Config Class Initialized
+DEBUG - 2013-05-18 18:44:39 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:44:39 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:44:39 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:44:39 --> URI Class Initialized
+DEBUG - 2013-05-18 18:44:39 --> Router Class Initialized
+DEBUG - 2013-05-18 18:44:39 --> Output Class Initialized
+DEBUG - 2013-05-18 18:44:39 --> Security Class Initialized
+DEBUG - 2013-05-18 18:44:39 --> Input Class Initialized
+DEBUG - 2013-05-18 18:44:39 --> CRSF cookie Set
+DEBUG - 2013-05-18 18:44:39 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:44:39 --> Language Class Initialized
+DEBUG - 2013-05-18 18:44:39 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:44:39 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:44:39 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 18:44:39 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 18:44:39 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 18:44:39 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:44:39 --> Session Class Initialized
+DEBUG - 2013-05-18 18:44:39 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:44:39 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 18:44:39 --> Session routines successfully run
+DEBUG - 2013-05-18 18:44:39 --> Table Class Initialized
+DEBUG - 2013-05-18 18:44:39 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 18:44:39 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:44:39 --> Model Class Initialized
+DEBUG - 2013-05-18 18:44:39 --> Model Class Initialized
+DEBUG - 2013-05-18 18:44:39 --> File loaded: ../application/views/app/11/common/header.php
+DEBUG - 2013-05-18 18:44:39 --> File loaded: ../application/views/app/11/common/navbar.php
+DEBUG - 2013-05-18 18:44:39 --> File loaded: ../application/views/app/11/broadcast/v_broadcast_edit.php
+DEBUG - 2013-05-18 18:44:39 --> File loaded: ../application/views/app/11/common/footer.php
+DEBUG - 2013-05-18 18:44:39 --> Final output sent to browser
+DEBUG - 2013-05-18 18:44:39 --> Total execution time: 0.0151
+DEBUG - 2013-05-18 18:45:08 --> Config Class Initialized
+DEBUG - 2013-05-18 18:45:08 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:45:08 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:45:08 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:45:08 --> URI Class Initialized
+DEBUG - 2013-05-18 18:45:08 --> Router Class Initialized
+DEBUG - 2013-05-18 18:45:08 --> Output Class Initialized
+DEBUG - 2013-05-18 18:45:08 --> Security Class Initialized
+DEBUG - 2013-05-18 18:45:08 --> Input Class Initialized
+DEBUG - 2013-05-18 18:45:08 --> CRSF cookie Set
+DEBUG - 2013-05-18 18:45:08 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:45:08 --> Language Class Initialized
+DEBUG - 2013-05-18 18:45:08 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:45:08 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:45:08 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 18:45:08 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 18:45:08 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 18:45:08 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:45:08 --> Session Class Initialized
+DEBUG - 2013-05-18 18:45:08 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:45:08 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 18:45:08 --> Session routines successfully run
+DEBUG - 2013-05-18 18:45:08 --> Table Class Initialized
+DEBUG - 2013-05-18 18:45:08 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 18:45:08 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:45:08 --> Model Class Initialized
+DEBUG - 2013-05-18 18:45:08 --> Model Class Initialized
+DEBUG - 2013-05-18 18:45:08 --> File loaded: ../application/views/config/common/header.php
+DEBUG - 2013-05-18 18:45:08 --> File loaded: ../application/views/config/common/navbar.php
+DEBUG - 2013-05-18 18:45:08 --> File loaded: ../application/views/config/dataset/v_dataset_edit.php
+DEBUG - 2013-05-18 18:45:08 --> File loaded: ../application/views/config/common/footer.php
+DEBUG - 2013-05-18 18:45:08 --> Final output sent to browser
+DEBUG - 2013-05-18 18:45:08 --> Total execution time: 0.0190
+DEBUG - 2013-05-18 18:45:37 --> Config Class Initialized
+DEBUG - 2013-05-18 18:45:37 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:45:37 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:45:37 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:45:37 --> URI Class Initialized
+DEBUG - 2013-05-18 18:45:37 --> Router Class Initialized
+DEBUG - 2013-05-18 18:45:37 --> Output Class Initialized
+DEBUG - 2013-05-18 18:45:37 --> Security Class Initialized
+DEBUG - 2013-05-18 18:45:37 --> Input Class Initialized
+DEBUG - 2013-05-18 18:45:37 --> CRSF cookie Set
+DEBUG - 2013-05-18 18:45:37 --> CSRF token verified
+DEBUG - 2013-05-18 18:45:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:45:37 --> Language Class Initialized
+DEBUG - 2013-05-18 18:45:37 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:45:37 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:45:37 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 18:45:37 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 18:45:37 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 18:45:37 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:45:37 --> Session Class Initialized
+DEBUG - 2013-05-18 18:45:37 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:45:37 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 18:45:37 --> Session routines successfully run
+DEBUG - 2013-05-18 18:45:37 --> Table Class Initialized
+DEBUG - 2013-05-18 18:45:37 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 18:45:37 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:45:37 --> Model Class Initialized
+DEBUG - 2013-05-18 18:45:37 --> Model Class Initialized
+DEBUG - 2013-05-18 18:45:37 --> Helper loaded: inflector_helper
+DEBUG - 2013-05-18 18:45:37 --> Config Class Initialized
+DEBUG - 2013-05-18 18:45:37 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:45:37 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:45:37 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:45:37 --> URI Class Initialized
+DEBUG - 2013-05-18 18:45:37 --> Router Class Initialized
+DEBUG - 2013-05-18 18:45:37 --> Output Class Initialized
+DEBUG - 2013-05-18 18:45:37 --> Security Class Initialized
+DEBUG - 2013-05-18 18:45:37 --> Input Class Initialized
+DEBUG - 2013-05-18 18:45:37 --> CRSF cookie Set
+DEBUG - 2013-05-18 18:45:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:45:37 --> Language Class Initialized
+DEBUG - 2013-05-18 18:45:37 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:45:37 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:45:37 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 18:45:37 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 18:45:37 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 18:45:37 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:45:37 --> Session Class Initialized
+DEBUG - 2013-05-18 18:45:37 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:45:37 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 18:45:37 --> Session routines successfully run
+DEBUG - 2013-05-18 18:45:37 --> Table Class Initialized
+DEBUG - 2013-05-18 18:45:37 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 18:45:37 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:45:37 --> Model Class Initialized
+DEBUG - 2013-05-18 18:45:37 --> Model Class Initialized
+DEBUG - 2013-05-18 18:45:37 --> File loaded: ../application/views/config/common/header.php
+DEBUG - 2013-05-18 18:45:37 --> File loaded: ../application/views/config/common/navbar.php
+DEBUG - 2013-05-18 18:45:37 --> File loaded: ../application/views/config/dataset/v_dataset_edit.php
+DEBUG - 2013-05-18 18:45:37 --> File loaded: ../application/views/config/common/footer.php
+DEBUG - 2013-05-18 18:45:37 --> Final output sent to browser
+DEBUG - 2013-05-18 18:45:37 --> Total execution time: 0.0395
+DEBUG - 2013-05-18 18:45:40 --> Config Class Initialized
+DEBUG - 2013-05-18 18:45:40 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:45:40 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:45:40 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:45:40 --> URI Class Initialized
+DEBUG - 2013-05-18 18:45:40 --> Router Class Initialized
+DEBUG - 2013-05-18 18:45:40 --> Output Class Initialized
+DEBUG - 2013-05-18 18:45:40 --> Security Class Initialized
+DEBUG - 2013-05-18 18:45:40 --> Input Class Initialized
+DEBUG - 2013-05-18 18:45:40 --> CRSF cookie Set
+DEBUG - 2013-05-18 18:45:40 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:45:40 --> Language Class Initialized
+DEBUG - 2013-05-18 18:45:40 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:45:40 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:45:40 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 18:45:40 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 18:45:40 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 18:45:40 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:45:40 --> Session Class Initialized
+DEBUG - 2013-05-18 18:45:40 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:45:40 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 18:45:40 --> Session routines successfully run
+DEBUG - 2013-05-18 18:45:40 --> Table Class Initialized
+DEBUG - 2013-05-18 18:45:40 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 18:45:40 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:45:40 --> Model Class Initialized
+DEBUG - 2013-05-18 18:45:40 --> Model Class Initialized
+DEBUG - 2013-05-18 18:45:40 --> File loaded: ../application/views/app/11/common/header.php
+DEBUG - 2013-05-18 18:45:40 --> File loaded: ../application/views/app/11/common/navbar.php
+DEBUG - 2013-05-18 18:45:40 --> File loaded: ../application/views/app/11/broadcast/v_broadcast_edit.php
+DEBUG - 2013-05-18 18:45:40 --> File loaded: ../application/views/app/11/common/footer.php
+DEBUG - 2013-05-18 18:45:40 --> Final output sent to browser
+DEBUG - 2013-05-18 18:45:40 --> Total execution time: 0.0140
+DEBUG - 2013-05-18 18:45:42 --> Config Class Initialized
+DEBUG - 2013-05-18 18:45:42 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:45:42 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:45:42 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:45:42 --> URI Class Initialized
+DEBUG - 2013-05-18 18:45:42 --> Router Class Initialized
+DEBUG - 2013-05-18 18:45:42 --> Output Class Initialized
+DEBUG - 2013-05-18 18:45:42 --> Security Class Initialized
+DEBUG - 2013-05-18 18:45:42 --> Input Class Initialized
+DEBUG - 2013-05-18 18:45:42 --> CRSF cookie Set
+DEBUG - 2013-05-18 18:45:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:45:42 --> Language Class Initialized
+DEBUG - 2013-05-18 18:45:42 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:45:42 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:45:42 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 18:45:42 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 18:45:42 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 18:45:42 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:45:42 --> Session Class Initialized
+DEBUG - 2013-05-18 18:45:42 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:45:42 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 18:45:42 --> Session routines successfully run
+DEBUG - 2013-05-18 18:45:42 --> Table Class Initialized
+DEBUG - 2013-05-18 18:45:42 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 18:45:42 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:45:42 --> Model Class Initialized
+DEBUG - 2013-05-18 18:45:42 --> Model Class Initialized
+DEBUG - 2013-05-18 18:45:42 --> Model Class Initialized
+DEBUG - 2013-05-18 18:45:42 --> Model Class Initialized
+DEBUG - 2013-05-18 18:45:45 --> Config Class Initialized
+DEBUG - 2013-05-18 18:45:45 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:45:45 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:45:45 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:45:45 --> URI Class Initialized
+DEBUG - 2013-05-18 18:45:45 --> Router Class Initialized
+DEBUG - 2013-05-18 18:45:45 --> Output Class Initialized
+DEBUG - 2013-05-18 18:45:45 --> Security Class Initialized
+DEBUG - 2013-05-18 18:45:45 --> Input Class Initialized
+DEBUG - 2013-05-18 18:45:45 --> CRSF cookie Set
+DEBUG - 2013-05-18 18:45:45 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:45:45 --> Language Class Initialized
+DEBUG - 2013-05-18 18:45:45 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:45:45 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:45:45 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 18:45:45 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 18:45:45 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 18:45:45 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:45:45 --> Session Class Initialized
+DEBUG - 2013-05-18 18:45:45 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:45:45 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 18:45:45 --> Session routines successfully run
+DEBUG - 2013-05-18 18:45:45 --> Table Class Initialized
+DEBUG - 2013-05-18 18:45:45 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 18:45:45 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:45:45 --> Model Class Initialized
+DEBUG - 2013-05-18 18:45:45 --> Model Class Initialized
+DEBUG - 2013-05-18 18:45:45 --> Model Class Initialized
+DEBUG - 2013-05-18 18:45:45 --> Model Class Initialized
+DEBUG - 2013-05-18 18:45:49 --> Config Class Initialized
+DEBUG - 2013-05-18 18:45:49 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:45:49 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:45:49 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:45:49 --> URI Class Initialized
+DEBUG - 2013-05-18 18:45:49 --> Router Class Initialized
+DEBUG - 2013-05-18 18:45:49 --> Output Class Initialized
+DEBUG - 2013-05-18 18:45:49 --> Security Class Initialized
+DEBUG - 2013-05-18 18:45:49 --> Input Class Initialized
+DEBUG - 2013-05-18 18:45:49 --> CRSF cookie Set
+DEBUG - 2013-05-18 18:45:49 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:45:49 --> Language Class Initialized
+DEBUG - 2013-05-18 18:45:49 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:45:49 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:45:49 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 18:45:49 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 18:45:49 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 18:45:49 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:45:49 --> Session Class Initialized
+DEBUG - 2013-05-18 18:45:49 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:45:49 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 18:45:49 --> Session routines successfully run
+DEBUG - 2013-05-18 18:45:49 --> Table Class Initialized
+DEBUG - 2013-05-18 18:45:49 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 18:45:49 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:45:49 --> Model Class Initialized
+DEBUG - 2013-05-18 18:45:49 --> Model Class Initialized
+DEBUG - 2013-05-18 18:45:49 --> Model Class Initialized
+DEBUG - 2013-05-18 18:45:49 --> Model Class Initialized
+DEBUG - 2013-05-18 18:45:53 --> Config Class Initialized
+DEBUG - 2013-05-18 18:45:53 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:45:53 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:45:53 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:45:53 --> URI Class Initialized
+DEBUG - 2013-05-18 18:45:53 --> Router Class Initialized
+DEBUG - 2013-05-18 18:45:53 --> Output Class Initialized
+DEBUG - 2013-05-18 18:45:53 --> Security Class Initialized
+DEBUG - 2013-05-18 18:45:53 --> Input Class Initialized
+DEBUG - 2013-05-18 18:45:53 --> CRSF cookie Set
+DEBUG - 2013-05-18 18:45:53 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:45:53 --> Language Class Initialized
+DEBUG - 2013-05-18 18:45:53 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:45:53 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:45:53 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 18:45:53 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 18:45:53 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 18:45:53 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:45:53 --> Session Class Initialized
+DEBUG - 2013-05-18 18:45:53 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:45:53 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 18:45:53 --> Session routines successfully run
+DEBUG - 2013-05-18 18:45:53 --> Table Class Initialized
+DEBUG - 2013-05-18 18:45:53 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 18:45:53 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:45:53 --> Model Class Initialized
+DEBUG - 2013-05-18 18:45:53 --> Model Class Initialized
+DEBUG - 2013-05-18 18:45:53 --> Model Class Initialized
+DEBUG - 2013-05-18 18:45:53 --> Model Class Initialized
+DEBUG - 2013-05-18 18:46:10 --> Config Class Initialized
+DEBUG - 2013-05-18 18:46:10 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:46:10 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:46:10 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:46:10 --> URI Class Initialized
+DEBUG - 2013-05-18 18:46:10 --> Router Class Initialized
+DEBUG - 2013-05-18 18:46:10 --> Output Class Initialized
+DEBUG - 2013-05-18 18:46:10 --> Security Class Initialized
+DEBUG - 2013-05-18 18:46:10 --> Input Class Initialized
+DEBUG - 2013-05-18 18:46:10 --> CRSF cookie Set
+DEBUG - 2013-05-18 18:46:10 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:46:10 --> Language Class Initialized
+DEBUG - 2013-05-18 18:46:10 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:46:10 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:46:10 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 18:46:10 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 18:46:10 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 18:46:10 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:46:10 --> Session Class Initialized
+DEBUG - 2013-05-18 18:46:10 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:46:10 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 18:46:10 --> Session routines successfully run
+DEBUG - 2013-05-18 18:46:10 --> Table Class Initialized
+DEBUG - 2013-05-18 18:46:10 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 18:46:10 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:46:10 --> Model Class Initialized
+DEBUG - 2013-05-18 18:46:10 --> Model Class Initialized
+DEBUG - 2013-05-18 18:46:10 --> File loaded: ../application/views/config/common/header.php
+DEBUG - 2013-05-18 18:46:10 --> File loaded: ../application/views/config/common/navbar.php
+DEBUG - 2013-05-18 18:46:10 --> File loaded: ../application/views/config/dataset/v_dataset_list.php
+DEBUG - 2013-05-18 18:46:10 --> File loaded: ../application/views/config/common/footer.php
+DEBUG - 2013-05-18 18:46:10 --> Final output sent to browser
+DEBUG - 2013-05-18 18:46:10 --> Total execution time: 0.0149
+DEBUG - 2013-05-18 18:46:13 --> Config Class Initialized
+DEBUG - 2013-05-18 18:46:13 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:46:13 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:46:13 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:46:13 --> URI Class Initialized
+DEBUG - 2013-05-18 18:46:13 --> Router Class Initialized
+DEBUG - 2013-05-18 18:46:13 --> Output Class Initialized
+DEBUG - 2013-05-18 18:46:13 --> Security Class Initialized
+DEBUG - 2013-05-18 18:46:13 --> Input Class Initialized
+DEBUG - 2013-05-18 18:46:13 --> CRSF cookie Set
+DEBUG - 2013-05-18 18:46:13 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:46:13 --> Language Class Initialized
+DEBUG - 2013-05-18 18:46:13 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:46:13 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:46:13 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 18:46:13 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 18:46:13 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 18:46:13 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:46:13 --> Session Class Initialized
+DEBUG - 2013-05-18 18:46:13 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:46:13 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 18:46:13 --> Session routines successfully run
+DEBUG - 2013-05-18 18:46:13 --> Table Class Initialized
+DEBUG - 2013-05-18 18:46:13 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 18:46:13 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:46:13 --> Model Class Initialized
+DEBUG - 2013-05-18 18:46:13 --> Model Class Initialized
+DEBUG - 2013-05-18 18:46:13 --> File loaded: ../application/views/config/common/header.php
+DEBUG - 2013-05-18 18:46:13 --> File loaded: ../application/views/config/common/navbar.php
+DEBUG - 2013-05-18 18:46:13 --> File loaded: ../application/views/config/dataset/v_dataset_list.php
+DEBUG - 2013-05-18 18:46:13 --> File loaded: ../application/views/config/common/footer.php
+DEBUG - 2013-05-18 18:46:13 --> Final output sent to browser
+DEBUG - 2013-05-18 18:46:13 --> Total execution time: 0.0151
+DEBUG - 2013-05-18 18:46:46 --> Config Class Initialized
+DEBUG - 2013-05-18 18:46:46 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:46:46 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:46:46 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:46:46 --> URI Class Initialized
+DEBUG - 2013-05-18 18:46:46 --> Router Class Initialized
+DEBUG - 2013-05-18 18:46:46 --> Output Class Initialized
+DEBUG - 2013-05-18 18:46:46 --> Security Class Initialized
+DEBUG - 2013-05-18 18:46:46 --> Input Class Initialized
+DEBUG - 2013-05-18 18:46:46 --> CRSF cookie Set
+DEBUG - 2013-05-18 18:46:46 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:46:46 --> Language Class Initialized
+DEBUG - 2013-05-18 18:46:46 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:46:46 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:46:46 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 18:46:46 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 18:46:46 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 18:46:46 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:46:46 --> Session Class Initialized
+DEBUG - 2013-05-18 18:46:46 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:46:46 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 18:46:46 --> Session routines successfully run
+DEBUG - 2013-05-18 18:46:46 --> Table Class Initialized
+DEBUG - 2013-05-18 18:46:46 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 18:46:46 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:46:46 --> Model Class Initialized
+DEBUG - 2013-05-18 18:46:46 --> Model Class Initialized
+DEBUG - 2013-05-18 18:46:46 --> Config Class Initialized
+DEBUG - 2013-05-18 18:46:46 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:46:46 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:46:46 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:46:46 --> URI Class Initialized
+DEBUG - 2013-05-18 18:46:46 --> Router Class Initialized
+DEBUG - 2013-05-18 18:46:46 --> Output Class Initialized
+DEBUG - 2013-05-18 18:46:46 --> Security Class Initialized
+DEBUG - 2013-05-18 18:46:46 --> Input Class Initialized
+DEBUG - 2013-05-18 18:46:46 --> CRSF cookie Set
+DEBUG - 2013-05-18 18:46:46 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:46:46 --> Language Class Initialized
+DEBUG - 2013-05-18 18:46:46 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:46:46 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:46:46 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 18:46:46 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 18:46:46 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 18:46:46 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:46:46 --> Session Class Initialized
+DEBUG - 2013-05-18 18:46:46 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:46:46 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 18:46:46 --> Session routines successfully run
+DEBUG - 2013-05-18 18:46:46 --> Table Class Initialized
+DEBUG - 2013-05-18 18:46:46 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 18:46:46 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:46:46 --> Model Class Initialized
+DEBUG - 2013-05-18 18:46:46 --> Model Class Initialized
+DEBUG - 2013-05-18 18:46:46 --> File loaded: ../application/views/config/common/header.php
+DEBUG - 2013-05-18 18:46:46 --> File loaded: ../application/views/config/common/navbar.php
+DEBUG - 2013-05-18 18:46:46 --> File loaded: ../application/views/config/dataset/v_dataset_list.php
+DEBUG - 2013-05-18 18:46:46 --> File loaded: ../application/views/config/common/footer.php
+DEBUG - 2013-05-18 18:46:46 --> Final output sent to browser
+DEBUG - 2013-05-18 18:46:46 --> Total execution time: 0.0152
+DEBUG - 2013-05-18 18:46:49 --> Config Class Initialized
+DEBUG - 2013-05-18 18:46:49 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:46:49 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:46:49 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:46:49 --> URI Class Initialized
+DEBUG - 2013-05-18 18:46:49 --> Router Class Initialized
+DEBUG - 2013-05-18 18:46:49 --> Output Class Initialized
+DEBUG - 2013-05-18 18:46:49 --> Security Class Initialized
+DEBUG - 2013-05-18 18:46:49 --> Input Class Initialized
+DEBUG - 2013-05-18 18:46:49 --> CRSF cookie Set
+DEBUG - 2013-05-18 18:46:49 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:46:49 --> Language Class Initialized
+DEBUG - 2013-05-18 18:46:49 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:46:49 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:46:49 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 18:46:49 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 18:46:49 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 18:46:49 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:46:49 --> Session Class Initialized
+DEBUG - 2013-05-18 18:46:49 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:46:49 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 18:46:49 --> Session routines successfully run
+DEBUG - 2013-05-18 18:46:49 --> Table Class Initialized
+DEBUG - 2013-05-18 18:46:49 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 18:46:49 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:46:49 --> Model Class Initialized
+DEBUG - 2013-05-18 18:46:49 --> Model Class Initialized
+DEBUG - 2013-05-18 18:46:49 --> Model Class Initialized
+DEBUG - 2013-05-18 18:46:49 --> Model Class Initialized
+DEBUG - 2013-05-18 18:46:49 --> File loaded: ../application/views/app/11/common/header.php
+DEBUG - 2013-05-18 18:46:49 --> File loaded: ../application/views/app/11/common/navbar.php
+DEBUG - 2013-05-18 18:46:49 --> File loaded: ../application/views/app/11/broadcast/v_broadcast_list.php
+DEBUG - 2013-05-18 18:46:49 --> File loaded: ../application/views/app/11/common/footer.php
+DEBUG - 2013-05-18 18:46:49 --> Language file loaded: language/english/profiler_lang.php
+DEBUG - 2013-05-18 18:46:49 --> Helper loaded: text_helper
+DEBUG - 2013-05-18 18:46:49 --> Final output sent to browser
+DEBUG - 2013-05-18 18:46:49 --> Total execution time: 0.0163
+DEBUG - 2013-05-18 18:47:09 --> Config Class Initialized
+DEBUG - 2013-05-18 18:47:09 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:47:09 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:47:09 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:47:09 --> URI Class Initialized
+DEBUG - 2013-05-18 18:47:09 --> Router Class Initialized
+DEBUG - 2013-05-18 18:47:09 --> Output Class Initialized
+DEBUG - 2013-05-18 18:47:09 --> Security Class Initialized
+DEBUG - 2013-05-18 18:47:09 --> Input Class Initialized
+DEBUG - 2013-05-18 18:47:09 --> CRSF cookie Set
+DEBUG - 2013-05-18 18:47:09 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:47:09 --> Language Class Initialized
+DEBUG - 2013-05-18 18:47:09 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:47:09 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:47:09 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 18:47:09 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 18:47:09 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 18:47:09 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:47:09 --> Session Class Initialized
+DEBUG - 2013-05-18 18:47:09 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:47:09 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 18:47:09 --> Session routines successfully run
+DEBUG - 2013-05-18 18:47:09 --> Table Class Initialized
+DEBUG - 2013-05-18 18:47:09 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 18:47:09 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:47:09 --> Model Class Initialized
+DEBUG - 2013-05-18 18:47:09 --> Model Class Initialized
+DEBUG - 2013-05-18 18:47:09 --> File loaded: ../application/views/config/common/header.php
+DEBUG - 2013-05-18 18:47:09 --> File loaded: ../application/views/config/common/navbar.php
+DEBUG - 2013-05-18 18:47:09 --> File loaded: ../application/views/config/dataset/v_dataset_edit.php
+DEBUG - 2013-05-18 18:47:09 --> File loaded: ../application/views/config/common/footer.php
+DEBUG - 2013-05-18 18:47:09 --> Final output sent to browser
+DEBUG - 2013-05-18 18:47:09 --> Total execution time: 0.0268
+DEBUG - 2013-05-18 18:47:23 --> Config Class Initialized
+DEBUG - 2013-05-18 18:47:23 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:47:23 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:47:23 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:47:23 --> URI Class Initialized
+DEBUG - 2013-05-18 18:47:23 --> Router Class Initialized
+DEBUG - 2013-05-18 18:47:23 --> Output Class Initialized
+DEBUG - 2013-05-18 18:47:23 --> Security Class Initialized
+DEBUG - 2013-05-18 18:47:23 --> Input Class Initialized
+DEBUG - 2013-05-18 18:47:23 --> CRSF cookie Set
+DEBUG - 2013-05-18 18:47:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:47:23 --> Language Class Initialized
+DEBUG - 2013-05-18 18:47:23 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:47:23 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:47:23 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 18:47:23 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 18:47:23 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 18:47:23 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:47:23 --> Session Class Initialized
+DEBUG - 2013-05-18 18:47:23 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:47:23 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 18:47:23 --> Session routines successfully run
+DEBUG - 2013-05-18 18:47:23 --> Table Class Initialized
+DEBUG - 2013-05-18 18:47:23 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 18:47:23 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:47:23 --> Model Class Initialized
+DEBUG - 2013-05-18 18:47:23 --> Model Class Initialized
+DEBUG - 2013-05-18 18:47:23 --> File loaded: ../application/views/config/common/header.php
+DEBUG - 2013-05-18 18:47:23 --> File loaded: ../application/views/config/common/navbar.php
+DEBUG - 2013-05-18 18:47:23 --> File loaded: ../application/views/config/dataset/v_dataset_list.php
+DEBUG - 2013-05-18 18:47:23 --> File loaded: ../application/views/config/common/footer.php
+DEBUG - 2013-05-18 18:47:23 --> Final output sent to browser
+DEBUG - 2013-05-18 18:47:23 --> Total execution time: 0.0184
+DEBUG - 2013-05-18 18:48:04 --> Config Class Initialized
+DEBUG - 2013-05-18 18:48:04 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:48:04 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:48:04 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:48:04 --> URI Class Initialized
+DEBUG - 2013-05-18 18:48:04 --> Router Class Initialized
+DEBUG - 2013-05-18 18:48:04 --> Output Class Initialized
+DEBUG - 2013-05-18 18:48:04 --> Security Class Initialized
+DEBUG - 2013-05-18 18:48:04 --> Input Class Initialized
+DEBUG - 2013-05-18 18:48:04 --> CRSF cookie Set
+DEBUG - 2013-05-18 18:48:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:48:04 --> Language Class Initialized
+DEBUG - 2013-05-18 18:48:04 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:48:04 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:48:04 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 18:48:04 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 18:48:04 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 18:48:04 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:48:04 --> Session Class Initialized
+DEBUG - 2013-05-18 18:48:04 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:48:04 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 18:48:04 --> Session routines successfully run
+DEBUG - 2013-05-18 18:48:04 --> Table Class Initialized
+DEBUG - 2013-05-18 18:48:04 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 18:48:04 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:48:04 --> Model Class Initialized
+DEBUG - 2013-05-18 18:48:04 --> Model Class Initialized
+DEBUG - 2013-05-18 18:48:04 --> File loaded: ../application/views/config/common/header.php
+DEBUG - 2013-05-18 18:48:04 --> File loaded: ../application/views/config/common/navbar.php
+DEBUG - 2013-05-18 18:48:04 --> File loaded: ../application/views/config/dataset/v_dataset_list.php
+DEBUG - 2013-05-18 18:48:04 --> File loaded: ../application/views/config/common/footer.php
+DEBUG - 2013-05-18 18:48:04 --> Final output sent to browser
+DEBUG - 2013-05-18 18:48:04 --> Total execution time: 0.0171
+DEBUG - 2013-05-18 18:48:59 --> Config Class Initialized
+DEBUG - 2013-05-18 18:48:59 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:48:59 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:48:59 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:48:59 --> URI Class Initialized
+DEBUG - 2013-05-18 18:48:59 --> Router Class Initialized
+DEBUG - 2013-05-18 18:48:59 --> Output Class Initialized
+DEBUG - 2013-05-18 18:48:59 --> Security Class Initialized
+DEBUG - 2013-05-18 18:48:59 --> Input Class Initialized
+DEBUG - 2013-05-18 18:48:59 --> CRSF cookie Set
+DEBUG - 2013-05-18 18:48:59 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:48:59 --> Language Class Initialized
+DEBUG - 2013-05-18 18:48:59 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:48:59 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:48:59 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 18:48:59 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 18:48:59 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 18:48:59 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:48:59 --> Session Class Initialized
+DEBUG - 2013-05-18 18:48:59 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:48:59 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 18:48:59 --> Session routines successfully run
+DEBUG - 2013-05-18 18:48:59 --> Table Class Initialized
+DEBUG - 2013-05-18 18:48:59 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 18:48:59 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:48:59 --> Model Class Initialized
+DEBUG - 2013-05-18 18:48:59 --> Model Class Initialized
+DEBUG - 2013-05-18 18:48:59 --> File loaded: ../application/views/config/common/header.php
+DEBUG - 2013-05-18 18:48:59 --> File loaded: ../application/views/config/common/navbar.php
+DEBUG - 2013-05-18 18:48:59 --> File loaded: ../application/views/config/dataset/v_dataset_list.php
+DEBUG - 2013-05-18 18:48:59 --> File loaded: ../application/views/config/common/footer.php
+DEBUG - 2013-05-18 18:48:59 --> Final output sent to browser
+DEBUG - 2013-05-18 18:48:59 --> Total execution time: 0.0171
+DEBUG - 2013-05-18 18:49:08 --> Config Class Initialized
+DEBUG - 2013-05-18 18:49:08 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:49:08 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:49:08 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:49:08 --> URI Class Initialized
+DEBUG - 2013-05-18 18:49:08 --> Router Class Initialized
+DEBUG - 2013-05-18 18:49:08 --> Output Class Initialized
+DEBUG - 2013-05-18 18:49:08 --> Security Class Initialized
+DEBUG - 2013-05-18 18:49:08 --> Input Class Initialized
+DEBUG - 2013-05-18 18:49:08 --> CRSF cookie Set
+DEBUG - 2013-05-18 18:49:08 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:49:08 --> Language Class Initialized
+DEBUG - 2013-05-18 18:49:08 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:49:08 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:49:08 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 18:49:08 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 18:49:08 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 18:49:08 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:49:08 --> Session Class Initialized
+DEBUG - 2013-05-18 18:49:08 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:49:08 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 18:49:08 --> Session routines successfully run
+DEBUG - 2013-05-18 18:49:08 --> Table Class Initialized
+DEBUG - 2013-05-18 18:49:08 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 18:49:08 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:49:08 --> Model Class Initialized
+DEBUG - 2013-05-18 18:49:08 --> Model Class Initialized
+DEBUG - 2013-05-18 18:49:08 --> File loaded: ../application/views/config/common/header.php
+DEBUG - 2013-05-18 18:49:08 --> File loaded: ../application/views/config/common/navbar.php
+DEBUG - 2013-05-18 18:49:08 --> File loaded: ../application/views/config/dataset/v_dataset_edit.php
+DEBUG - 2013-05-18 18:49:08 --> File loaded: ../application/views/config/common/footer.php
+DEBUG - 2013-05-18 18:49:08 --> Final output sent to browser
+DEBUG - 2013-05-18 18:49:08 --> Total execution time: 0.0261
+DEBUG - 2013-05-18 18:49:32 --> Config Class Initialized
+DEBUG - 2013-05-18 18:49:32 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:49:32 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:49:32 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:49:32 --> URI Class Initialized
+DEBUG - 2013-05-18 18:49:32 --> Router Class Initialized
+DEBUG - 2013-05-18 18:49:32 --> Output Class Initialized
+DEBUG - 2013-05-18 18:49:32 --> Security Class Initialized
+DEBUG - 2013-05-18 18:49:32 --> Input Class Initialized
+DEBUG - 2013-05-18 18:49:32 --> CRSF cookie Set
+DEBUG - 2013-05-18 18:49:32 --> CSRF token verified
+DEBUG - 2013-05-18 18:49:32 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:49:32 --> Language Class Initialized
+DEBUG - 2013-05-18 18:49:32 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:49:32 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:49:32 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 18:49:32 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 18:49:32 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 18:49:32 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:49:32 --> Session Class Initialized
+DEBUG - 2013-05-18 18:49:32 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:49:32 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 18:49:32 --> Session routines successfully run
+DEBUG - 2013-05-18 18:49:32 --> Table Class Initialized
+DEBUG - 2013-05-18 18:49:32 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 18:49:32 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:49:32 --> Model Class Initialized
+DEBUG - 2013-05-18 18:49:32 --> Model Class Initialized
+DEBUG - 2013-05-18 18:49:32 --> Helper loaded: inflector_helper
+DEBUG - 2013-05-18 18:49:32 --> Config Class Initialized
+DEBUG - 2013-05-18 18:49:32 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:49:32 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:49:32 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:49:32 --> URI Class Initialized
+DEBUG - 2013-05-18 18:49:32 --> Router Class Initialized
+DEBUG - 2013-05-18 18:49:32 --> Output Class Initialized
+DEBUG - 2013-05-18 18:49:32 --> Security Class Initialized
+DEBUG - 2013-05-18 18:49:32 --> Input Class Initialized
+DEBUG - 2013-05-18 18:49:32 --> CRSF cookie Set
+DEBUG - 2013-05-18 18:49:32 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:49:32 --> Language Class Initialized
+DEBUG - 2013-05-18 18:49:32 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:49:32 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:49:32 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 18:49:32 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 18:49:32 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 18:49:32 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:49:32 --> Session Class Initialized
+DEBUG - 2013-05-18 18:49:32 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:49:32 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 18:49:32 --> Session routines successfully run
+DEBUG - 2013-05-18 18:49:32 --> Table Class Initialized
+DEBUG - 2013-05-18 18:49:32 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 18:49:32 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:49:32 --> Model Class Initialized
+DEBUG - 2013-05-18 18:49:32 --> Model Class Initialized
+DEBUG - 2013-05-18 18:49:32 --> File loaded: ../application/views/config/common/header.php
+DEBUG - 2013-05-18 18:49:32 --> File loaded: ../application/views/config/common/navbar.php
+DEBUG - 2013-05-18 18:49:32 --> File loaded: ../application/views/config/dataset/v_dataset_edit.php
+DEBUG - 2013-05-18 18:49:32 --> File loaded: ../application/views/config/common/footer.php
+DEBUG - 2013-05-18 18:49:32 --> Final output sent to browser
+DEBUG - 2013-05-18 18:49:32 --> Total execution time: 0.0386
+DEBUG - 2013-05-18 18:49:35 --> Config Class Initialized
+DEBUG - 2013-05-18 18:49:35 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:49:35 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:49:35 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:49:35 --> URI Class Initialized
+DEBUG - 2013-05-18 18:49:35 --> Router Class Initialized
+DEBUG - 2013-05-18 18:49:35 --> Output Class Initialized
+DEBUG - 2013-05-18 18:49:35 --> Security Class Initialized
+DEBUG - 2013-05-18 18:49:35 --> Input Class Initialized
+DEBUG - 2013-05-18 18:49:35 --> CRSF cookie Set
+DEBUG - 2013-05-18 18:49:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:49:35 --> Language Class Initialized
+DEBUG - 2013-05-18 18:49:35 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:49:35 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:49:35 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 18:49:35 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 18:49:35 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 18:49:35 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:49:35 --> Session Class Initialized
+DEBUG - 2013-05-18 18:49:35 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:49:35 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 18:49:35 --> Session routines successfully run
+DEBUG - 2013-05-18 18:49:35 --> Table Class Initialized
+DEBUG - 2013-05-18 18:49:35 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 18:49:35 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:49:35 --> Model Class Initialized
+DEBUG - 2013-05-18 18:49:35 --> Model Class Initialized
+DEBUG - 2013-05-18 18:49:35 --> Model Class Initialized
+DEBUG - 2013-05-18 18:49:35 --> Model Class Initialized
+DEBUG - 2013-05-18 18:50:05 --> Config Class Initialized
+DEBUG - 2013-05-18 18:50:05 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:50:05 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:50:05 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:50:05 --> URI Class Initialized
+DEBUG - 2013-05-18 18:50:05 --> Router Class Initialized
+DEBUG - 2013-05-18 18:50:05 --> Output Class Initialized
+DEBUG - 2013-05-18 18:50:05 --> Security Class Initialized
+DEBUG - 2013-05-18 18:50:05 --> Input Class Initialized
+DEBUG - 2013-05-18 18:50:05 --> CRSF cookie Set
+DEBUG - 2013-05-18 18:50:05 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:50:05 --> Language Class Initialized
+DEBUG - 2013-05-18 18:50:05 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:50:05 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:50:05 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 18:50:05 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 18:50:05 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 18:50:05 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:50:05 --> Session Class Initialized
+DEBUG - 2013-05-18 18:50:05 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:50:05 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 18:50:05 --> Session routines successfully run
+DEBUG - 2013-05-18 18:50:05 --> Table Class Initialized
+DEBUG - 2013-05-18 18:50:05 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 18:50:05 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:50:05 --> Model Class Initialized
+DEBUG - 2013-05-18 18:50:05 --> Model Class Initialized
+DEBUG - 2013-05-18 18:50:05 --> Model Class Initialized
+DEBUG - 2013-05-18 18:50:05 --> Model Class Initialized
+DEBUG - 2013-05-18 18:50:11 --> Config Class Initialized
+DEBUG - 2013-05-18 18:50:11 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:50:11 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:50:11 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:50:11 --> URI Class Initialized
+DEBUG - 2013-05-18 18:50:11 --> Router Class Initialized
+DEBUG - 2013-05-18 18:50:11 --> Output Class Initialized
+DEBUG - 2013-05-18 18:50:11 --> Security Class Initialized
+DEBUG - 2013-05-18 18:50:11 --> Input Class Initialized
+DEBUG - 2013-05-18 18:50:11 --> CRSF cookie Set
+DEBUG - 2013-05-18 18:50:11 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:50:11 --> Language Class Initialized
+DEBUG - 2013-05-18 18:50:11 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:50:11 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:50:11 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 18:50:11 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 18:50:11 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 18:50:11 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:50:11 --> Session Class Initialized
+DEBUG - 2013-05-18 18:50:11 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:50:11 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 18:50:11 --> Session routines successfully run
+DEBUG - 2013-05-18 18:50:11 --> Table Class Initialized
+DEBUG - 2013-05-18 18:50:11 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 18:50:11 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:50:11 --> Model Class Initialized
+DEBUG - 2013-05-18 18:50:11 --> Model Class Initialized
+DEBUG - 2013-05-18 18:50:11 --> Model Class Initialized
+DEBUG - 2013-05-18 18:50:11 --> Model Class Initialized
+DEBUG - 2013-05-18 18:50:36 --> Config Class Initialized
+DEBUG - 2013-05-18 18:50:36 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:50:36 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:50:36 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:50:36 --> URI Class Initialized
+DEBUG - 2013-05-18 18:50:36 --> Router Class Initialized
+DEBUG - 2013-05-18 18:50:36 --> Output Class Initialized
+DEBUG - 2013-05-18 18:50:36 --> Security Class Initialized
+DEBUG - 2013-05-18 18:50:36 --> Input Class Initialized
+DEBUG - 2013-05-18 18:50:36 --> CRSF cookie Set
+DEBUG - 2013-05-18 18:50:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:50:36 --> Language Class Initialized
+DEBUG - 2013-05-18 18:50:36 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:50:36 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:50:36 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 18:50:36 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 18:50:36 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 18:50:36 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:50:36 --> Session Class Initialized
+DEBUG - 2013-05-18 18:50:36 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:50:36 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 18:50:36 --> Session routines successfully run
+DEBUG - 2013-05-18 18:50:36 --> Table Class Initialized
+DEBUG - 2013-05-18 18:50:36 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 18:50:36 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:50:36 --> Model Class Initialized
+DEBUG - 2013-05-18 18:50:36 --> Model Class Initialized
+DEBUG - 2013-05-18 18:50:36 --> Model Class Initialized
+DEBUG - 2013-05-18 18:50:36 --> Model Class Initialized
+DEBUG - 2013-05-18 18:51:02 --> Config Class Initialized
+DEBUG - 2013-05-18 18:51:02 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:51:02 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:51:02 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:51:02 --> URI Class Initialized
+DEBUG - 2013-05-18 18:51:02 --> Router Class Initialized
+DEBUG - 2013-05-18 18:51:02 --> Output Class Initialized
+DEBUG - 2013-05-18 18:51:02 --> Security Class Initialized
+DEBUG - 2013-05-18 18:51:02 --> Input Class Initialized
+DEBUG - 2013-05-18 18:51:02 --> CRSF cookie Set
+DEBUG - 2013-05-18 18:51:02 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:51:02 --> Language Class Initialized
+DEBUG - 2013-05-18 18:51:02 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:51:02 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:51:02 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 18:51:02 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 18:51:02 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 18:51:02 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:51:02 --> Session Class Initialized
+DEBUG - 2013-05-18 18:51:02 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:51:02 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 18:51:02 --> Session routines successfully run
+DEBUG - 2013-05-18 18:51:02 --> Table Class Initialized
+DEBUG - 2013-05-18 18:51:02 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 18:51:02 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:51:02 --> Model Class Initialized
+DEBUG - 2013-05-18 18:51:02 --> Model Class Initialized
+DEBUG - 2013-05-18 18:52:13 --> Config Class Initialized
+DEBUG - 2013-05-18 18:52:13 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:52:13 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:52:13 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:52:13 --> URI Class Initialized
+DEBUG - 2013-05-18 18:52:13 --> Router Class Initialized
+DEBUG - 2013-05-18 18:52:13 --> Output Class Initialized
+DEBUG - 2013-05-18 18:52:13 --> Security Class Initialized
+DEBUG - 2013-05-18 18:52:13 --> Input Class Initialized
+DEBUG - 2013-05-18 18:52:13 --> CRSF cookie Set
+DEBUG - 2013-05-18 18:52:13 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:52:13 --> Language Class Initialized
+DEBUG - 2013-05-18 18:52:13 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:52:13 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:52:13 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 18:52:13 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 18:52:13 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 18:52:13 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:52:13 --> Session Class Initialized
+DEBUG - 2013-05-18 18:52:13 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:52:13 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 18:52:13 --> Session routines successfully run
+DEBUG - 2013-05-18 18:52:13 --> Table Class Initialized
+DEBUG - 2013-05-18 18:52:13 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 18:52:13 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:52:13 --> Model Class Initialized
+DEBUG - 2013-05-18 18:52:13 --> Model Class Initialized
+DEBUG - 2013-05-18 18:53:10 --> Config Class Initialized
+DEBUG - 2013-05-18 18:53:10 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:53:10 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:53:10 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:53:10 --> URI Class Initialized
+DEBUG - 2013-05-18 18:53:10 --> Router Class Initialized
+DEBUG - 2013-05-18 18:53:10 --> Output Class Initialized
+DEBUG - 2013-05-18 18:53:10 --> Security Class Initialized
+DEBUG - 2013-05-18 18:53:10 --> Input Class Initialized
+DEBUG - 2013-05-18 18:53:10 --> CRSF cookie Set
+DEBUG - 2013-05-18 18:53:10 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:53:10 --> Language Class Initialized
+DEBUG - 2013-05-18 18:53:10 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:53:10 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:53:10 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 18:53:10 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 18:53:10 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 18:53:10 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:53:10 --> Session Class Initialized
+DEBUG - 2013-05-18 18:53:10 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:53:10 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 18:53:10 --> Session routines successfully run
+DEBUG - 2013-05-18 18:53:10 --> Table Class Initialized
+DEBUG - 2013-05-18 18:53:10 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 18:53:10 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:53:10 --> Model Class Initialized
+DEBUG - 2013-05-18 18:53:10 --> Model Class Initialized
+DEBUG - 2013-05-18 18:53:10 --> Model Class Initialized
+DEBUG - 2013-05-18 18:53:10 --> Model Class Initialized
+DEBUG - 2013-05-18 18:53:36 --> Config Class Initialized
+DEBUG - 2013-05-18 18:53:36 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:53:36 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:53:36 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:53:36 --> URI Class Initialized
+DEBUG - 2013-05-18 18:53:37 --> Router Class Initialized
+DEBUG - 2013-05-18 18:53:37 --> Output Class Initialized
+DEBUG - 2013-05-18 18:53:37 --> Security Class Initialized
+DEBUG - 2013-05-18 18:53:37 --> Input Class Initialized
+DEBUG - 2013-05-18 18:53:37 --> CRSF cookie Set
+DEBUG - 2013-05-18 18:53:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:53:37 --> Language Class Initialized
+DEBUG - 2013-05-18 18:53:37 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:53:37 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:53:37 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 18:53:37 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 18:53:37 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 18:53:37 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:53:37 --> Session Class Initialized
+DEBUG - 2013-05-18 18:53:37 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:53:37 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 18:53:37 --> Session routines successfully run
+DEBUG - 2013-05-18 18:53:37 --> Table Class Initialized
+DEBUG - 2013-05-18 18:53:37 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 18:53:37 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:53:37 --> Model Class Initialized
+DEBUG - 2013-05-18 18:53:37 --> Model Class Initialized
+DEBUG - 2013-05-18 18:53:37 --> Model Class Initialized
+DEBUG - 2013-05-18 18:53:37 --> Model Class Initialized
+DEBUG - 2013-05-18 18:54:24 --> Config Class Initialized
+DEBUG - 2013-05-18 18:54:24 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:54:24 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:54:24 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:54:24 --> URI Class Initialized
+DEBUG - 2013-05-18 18:54:24 --> Router Class Initialized
+DEBUG - 2013-05-18 18:54:24 --> Output Class Initialized
+DEBUG - 2013-05-18 18:54:24 --> Security Class Initialized
+DEBUG - 2013-05-18 18:54:24 --> Input Class Initialized
+DEBUG - 2013-05-18 18:54:24 --> CRSF cookie Set
+DEBUG - 2013-05-18 18:54:24 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:54:24 --> Language Class Initialized
+DEBUG - 2013-05-18 18:54:24 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:54:24 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:54:24 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 18:54:24 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 18:54:24 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 18:54:24 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:54:24 --> Session Class Initialized
+DEBUG - 2013-05-18 18:54:24 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:54:24 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 18:54:24 --> Session routines successfully run
+DEBUG - 2013-05-18 18:54:24 --> Table Class Initialized
+DEBUG - 2013-05-18 18:54:24 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 18:54:24 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:54:24 --> Model Class Initialized
+DEBUG - 2013-05-18 18:54:24 --> Model Class Initialized
+DEBUG - 2013-05-18 18:54:24 --> Model Class Initialized
+DEBUG - 2013-05-18 18:54:24 --> Model Class Initialized
+DEBUG - 2013-05-18 18:54:28 --> Config Class Initialized
+DEBUG - 2013-05-18 18:54:28 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:54:28 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:54:28 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:54:28 --> URI Class Initialized
+DEBUG - 2013-05-18 18:54:28 --> Router Class Initialized
+DEBUG - 2013-05-18 18:54:28 --> Output Class Initialized
+DEBUG - 2013-05-18 18:54:28 --> Security Class Initialized
+DEBUG - 2013-05-18 18:54:28 --> Input Class Initialized
+DEBUG - 2013-05-18 18:54:28 --> CRSF cookie Set
+DEBUG - 2013-05-18 18:54:28 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:54:28 --> Language Class Initialized
+DEBUG - 2013-05-18 18:54:28 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:54:28 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:54:28 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 18:54:28 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 18:54:28 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 18:54:28 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:54:28 --> Session Class Initialized
+DEBUG - 2013-05-18 18:54:28 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:54:28 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 18:54:28 --> Session routines successfully run
+DEBUG - 2013-05-18 18:54:28 --> Table Class Initialized
+DEBUG - 2013-05-18 18:54:28 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 18:54:28 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:54:28 --> Model Class Initialized
+DEBUG - 2013-05-18 18:54:28 --> Model Class Initialized
+DEBUG - 2013-05-18 18:54:28 --> Model Class Initialized
+DEBUG - 2013-05-18 18:54:28 --> Model Class Initialized
+DEBUG - 2013-05-18 18:54:47 --> Config Class Initialized
+DEBUG - 2013-05-18 18:54:47 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:54:47 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:54:47 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:54:47 --> URI Class Initialized
+DEBUG - 2013-05-18 18:54:47 --> Router Class Initialized
+DEBUG - 2013-05-18 18:54:47 --> Output Class Initialized
+DEBUG - 2013-05-18 18:54:47 --> Security Class Initialized
+DEBUG - 2013-05-18 18:54:47 --> Input Class Initialized
+DEBUG - 2013-05-18 18:54:47 --> CRSF cookie Set
+DEBUG - 2013-05-18 18:54:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:54:47 --> Language Class Initialized
+DEBUG - 2013-05-18 18:54:47 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:54:47 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:54:47 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 18:54:47 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 18:54:47 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 18:54:47 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:54:47 --> Session Class Initialized
+DEBUG - 2013-05-18 18:54:47 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:54:47 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 18:54:47 --> Session routines successfully run
+DEBUG - 2013-05-18 18:54:47 --> Table Class Initialized
+DEBUG - 2013-05-18 18:54:47 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 18:54:47 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:54:47 --> Model Class Initialized
+DEBUG - 2013-05-18 18:54:47 --> Model Class Initialized
+DEBUG - 2013-05-18 18:54:47 --> File loaded: ../application/views/config/common/header.php
+DEBUG - 2013-05-18 18:54:47 --> File loaded: ../application/views/config/common/navbar.php
+DEBUG - 2013-05-18 18:54:47 --> File loaded: ../application/views/config/dataset/v_dataset_edit.php
+DEBUG - 2013-05-18 18:54:47 --> File loaded: ../application/views/config/common/footer.php
+DEBUG - 2013-05-18 18:54:47 --> Final output sent to browser
+DEBUG - 2013-05-18 18:54:47 --> Total execution time: 0.0181
+DEBUG - 2013-05-18 18:54:53 --> Config Class Initialized
+DEBUG - 2013-05-18 18:54:53 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:54:53 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:54:53 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:54:53 --> URI Class Initialized
+DEBUG - 2013-05-18 18:54:53 --> Router Class Initialized
+DEBUG - 2013-05-18 18:54:53 --> Output Class Initialized
+DEBUG - 2013-05-18 18:54:53 --> Security Class Initialized
+DEBUG - 2013-05-18 18:54:53 --> Input Class Initialized
+DEBUG - 2013-05-18 18:54:53 --> CRSF cookie Set
+DEBUG - 2013-05-18 18:54:53 --> CSRF token verified
+DEBUG - 2013-05-18 18:54:53 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:54:53 --> Language Class Initialized
+DEBUG - 2013-05-18 18:54:53 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:54:53 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:54:53 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 18:54:53 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 18:54:53 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 18:54:53 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:54:53 --> Session Class Initialized
+DEBUG - 2013-05-18 18:54:53 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:54:53 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 18:54:53 --> Session routines successfully run
+DEBUG - 2013-05-18 18:54:53 --> Table Class Initialized
+DEBUG - 2013-05-18 18:54:53 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 18:54:53 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:54:53 --> Model Class Initialized
+DEBUG - 2013-05-18 18:54:53 --> Model Class Initialized
+DEBUG - 2013-05-18 18:54:53 --> Helper loaded: inflector_helper
+DEBUG - 2013-05-18 18:54:53 --> Config Class Initialized
+DEBUG - 2013-05-18 18:54:53 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:54:53 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:54:53 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:54:53 --> URI Class Initialized
+DEBUG - 2013-05-18 18:54:53 --> Router Class Initialized
+DEBUG - 2013-05-18 18:54:53 --> Output Class Initialized
+DEBUG - 2013-05-18 18:54:53 --> Security Class Initialized
+DEBUG - 2013-05-18 18:54:53 --> Input Class Initialized
+DEBUG - 2013-05-18 18:54:53 --> CRSF cookie Set
+DEBUG - 2013-05-18 18:54:53 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:54:53 --> Language Class Initialized
+DEBUG - 2013-05-18 18:54:53 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:54:53 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:54:53 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 18:54:53 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 18:54:53 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 18:54:53 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:54:53 --> Session Class Initialized
+DEBUG - 2013-05-18 18:54:53 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:54:53 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 18:54:53 --> Session routines successfully run
+DEBUG - 2013-05-18 18:54:53 --> Table Class Initialized
+DEBUG - 2013-05-18 18:54:53 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 18:54:53 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:54:53 --> Model Class Initialized
+DEBUG - 2013-05-18 18:54:53 --> Model Class Initialized
+DEBUG - 2013-05-18 18:54:53 --> File loaded: ../application/views/config/common/header.php
+DEBUG - 2013-05-18 18:54:53 --> File loaded: ../application/views/config/common/navbar.php
+DEBUG - 2013-05-18 18:54:53 --> File loaded: ../application/views/config/dataset/v_dataset_edit.php
+DEBUG - 2013-05-18 18:54:53 --> File loaded: ../application/views/config/common/footer.php
+DEBUG - 2013-05-18 18:54:53 --> Final output sent to browser
+DEBUG - 2013-05-18 18:54:53 --> Total execution time: 0.0222
+DEBUG - 2013-05-18 18:54:55 --> Config Class Initialized
+DEBUG - 2013-05-18 18:54:55 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:54:55 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:54:55 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:54:55 --> URI Class Initialized
+DEBUG - 2013-05-18 18:54:55 --> Router Class Initialized
+DEBUG - 2013-05-18 18:54:55 --> Output Class Initialized
+DEBUG - 2013-05-18 18:54:55 --> Security Class Initialized
+DEBUG - 2013-05-18 18:54:55 --> Input Class Initialized
+DEBUG - 2013-05-18 18:54:55 --> CRSF cookie Set
+DEBUG - 2013-05-18 18:54:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:54:55 --> Language Class Initialized
+DEBUG - 2013-05-18 18:54:55 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:54:55 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:54:55 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 18:54:55 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 18:54:55 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 18:54:55 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:54:55 --> Session Class Initialized
+DEBUG - 2013-05-18 18:54:55 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:54:55 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 18:54:55 --> Session routines successfully run
+DEBUG - 2013-05-18 18:54:55 --> Table Class Initialized
+DEBUG - 2013-05-18 18:54:55 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 18:54:55 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:54:55 --> Model Class Initialized
+DEBUG - 2013-05-18 18:54:55 --> Model Class Initialized
+DEBUG - 2013-05-18 18:55:09 --> Config Class Initialized
+DEBUG - 2013-05-18 18:55:09 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:55:09 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:55:09 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:55:09 --> URI Class Initialized
+DEBUG - 2013-05-18 18:55:09 --> Router Class Initialized
+DEBUG - 2013-05-18 18:55:09 --> Output Class Initialized
+DEBUG - 2013-05-18 18:55:09 --> Security Class Initialized
+DEBUG - 2013-05-18 18:55:09 --> Input Class Initialized
+DEBUG - 2013-05-18 18:55:09 --> CRSF cookie Set
+DEBUG - 2013-05-18 18:55:09 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:55:09 --> Language Class Initialized
+DEBUG - 2013-05-18 18:55:09 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:55:09 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:55:09 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 18:55:09 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 18:55:09 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 18:55:09 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:55:09 --> Session Class Initialized
+DEBUG - 2013-05-18 18:55:09 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:55:09 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 18:55:09 --> Session routines successfully run
+DEBUG - 2013-05-18 18:55:09 --> Table Class Initialized
+DEBUG - 2013-05-18 18:55:09 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 18:55:09 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:55:09 --> Model Class Initialized
+DEBUG - 2013-05-18 18:55:09 --> Model Class Initialized
+DEBUG - 2013-05-18 18:55:09 --> File loaded: ../application/views/config/common/header.php
+DEBUG - 2013-05-18 18:55:09 --> File loaded: ../application/views/config/common/navbar.php
+DEBUG - 2013-05-18 18:55:09 --> File loaded: ../application/views/config/dataset/v_dataset_list.php
+DEBUG - 2013-05-18 18:55:09 --> File loaded: ../application/views/config/common/footer.php
+DEBUG - 2013-05-18 18:55:09 --> Final output sent to browser
+DEBUG - 2013-05-18 18:55:09 --> Total execution time: 0.0187
+DEBUG - 2013-05-18 18:56:04 --> Config Class Initialized
+DEBUG - 2013-05-18 18:56:04 --> Hooks Class Initialized
+DEBUG - 2013-05-18 18:56:04 --> Utf8 Class Initialized
+DEBUG - 2013-05-18 18:56:04 --> UTF-8 Support Enabled
+DEBUG - 2013-05-18 18:56:04 --> URI Class Initialized
+DEBUG - 2013-05-18 18:56:04 --> Router Class Initialized
+DEBUG - 2013-05-18 18:56:04 --> Output Class Initialized
+DEBUG - 2013-05-18 18:56:04 --> Security Class Initialized
+DEBUG - 2013-05-18 18:56:04 --> Input Class Initialized
+DEBUG - 2013-05-18 18:56:04 --> CRSF cookie Set
+DEBUG - 2013-05-18 18:56:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-05-18 18:56:04 --> Language Class Initialized
+DEBUG - 2013-05-18 18:56:04 --> Loader Class Initialized
+DEBUG - 2013-05-18 18:56:04 --> Helper loaded: url_helper
+DEBUG - 2013-05-18 18:56:04 --> Helper loaded: form_helper
+DEBUG - 2013-05-18 18:56:04 --> Helper loaded: dev_helper
+DEBUG - 2013-05-18 18:56:04 --> Helper loaded: array_helper
+DEBUG - 2013-05-18 18:56:04 --> Database Driver Class Initialized
+DEBUG - 2013-05-18 18:56:04 --> Session Class Initialized
+DEBUG - 2013-05-18 18:56:04 --> Helper loaded: string_helper
+DEBUG - 2013-05-18 18:56:04 --> Encrypt Class Initialized
+DEBUG - 2013-05-18 18:56:04 --> Session routines successfully run
+DEBUG - 2013-05-18 18:56:04 --> Table Class Initialized
+DEBUG - 2013-05-18 18:56:04 --> Form Validation Class Initialized
+DEBUG - 2013-05-18 18:56:04 --> Controller Class Initialized
+DEBUG - 2013-05-18 18:56:04 --> Model Class Initialized
+DEBUG - 2013-05-18 18:56:04 --> Model Class Initialized
+DEBUG - 2013-05-18 18:56:04 --> Model Class Initialized
+DEBUG - 2013-05-18 18:56:04 --> Model Class Initialized
+ERROR - 2013-05-18 20:39:13 --> Severity: Warning  --> substr() expects parameter 2 to be long, string given /Applications/MAMP/htdocs/projects/leadfarm_v2/application/models/config/m_datasets_config.php 90
+ERROR - 2013-05-18 20:39:13 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/projects/leadfarm_v2/CI_Framework/core/Exceptions.php:185) /Applications/MAMP/htdocs/projects/leadfarm_v2/CI_Framework/libraries/Session.php 675
+ERROR - 2013-05-18 20:39:13 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/projects/leadfarm_v2/CI_Framework/core/Exceptions.php:185) /Applications/MAMP/htdocs/projects/leadfarm_v2/CI_Framework/libraries/Session.php 675
+ERROR - 2013-05-18 20:39:13 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/projects/leadfarm_v2/CI_Framework/core/Exceptions.php:185) /Applications/MAMP/htdocs/projects/leadfarm_v2/CI_Framework/helpers/url_helper.php 540
+ERROR - 2013-05-18 20:42:44 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'broadcasts`.`ActiveRecordYN` =  1
+AND `broadcasts`.`dID` =  11' at line 3
+ERROR - 2013-05-18 20:46:15 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '3 ''
+AND `broadcasts`.`ActiveRecordYN` =  1
+AND `broadcasts`.`dID` =  11' at line 3
+ERROR - 2013-05-18 20:46:48 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '3 ''
+AND `broadcasts`.`ActiveRecordYN` =  1
+AND `broadcasts`.`dID` =  11' at line 3
+ERROR - 2013-05-18 20:47:02 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '''
+AND `broadcasts`.`ActiveRecordYN` =  1
+AND `broadcasts`.`dID` =  11' at line 3
+ERROR - 2013-05-18 20:47:26 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '''
+AND `broadcasts`.`ActiveRecordYN` =  1
+AND `broadcasts`.`dID` =  11' at line 3
+ERROR - 2013-05-18 20:48:44 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '''
+AND `broadcasts`.`ActiveRecordYN` =  1
+AND `broadcasts`.`dID` =  11' at line 3
+ERROR - 2013-05-18 20:52:35 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '''
+AND `broadcasts`.`ActiveRecordYN` =  1
+AND `broadcasts`.`dID` =  11' at line 3
+ERROR - 2013-05-18 20:52:35 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/projects/leadfarm_v2/application/models/app/m_datasets.php:90) /Applications/MAMP/htdocs/projects/leadfarm_v2/CI_Framework/core/Common.php 442
+ERROR - 2013-05-18 20:52:47 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '''
+AND `broadcasts`.`ActiveRecordYN` =  1
+AND `broadcasts`.`dID` =  11' at line 3
+ERROR - 2013-05-18 20:52:47 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/projects/leadfarm_v2/application/models/app/m_datasets.php:90) /Applications/MAMP/htdocs/projects/leadfarm_v2/CI_Framework/core/Common.php 442
+ERROR - 2013-05-18 20:53:08 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '''
+AND `broadcasts`.`ActiveRecordYN` =  1
+AND `broadcasts`.`dID` =  11' at line 3
+ERROR - 2013-05-18 20:53:08 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/projects/leadfarm_v2/application/models/app/m_datasets.php:90) /Applications/MAMP/htdocs/projects/leadfarm_v2/CI_Framework/core/Common.php 442
+ERROR - 2013-05-18 20:53:17 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '''
+AND `broadcasts`.`ActiveRecordYN` =  1
+AND `broadcasts`.`dID` =  11' at line 3
+ERROR - 2013-05-18 20:53:17 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/projects/leadfarm_v2/application/models/app/m_datasets.php:90) /Applications/MAMP/htdocs/projects/leadfarm_v2/CI_Framework/core/Common.php 442
+ERROR - 2013-05-18 20:53:39 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '''
+AND `broadcasts`.`ActiveRecordYN` =  1
+AND `broadcasts`.`dID` =  11' at line 3
+ERROR - 2013-05-18 20:53:39 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/projects/leadfarm_v2/application/helpers/dev_helper.php:4) /Applications/MAMP/htdocs/projects/leadfarm_v2/CI_Framework/core/Common.php 442
+ERROR - 2013-05-18 20:54:11 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '&gt; '3') ''
+AND `broadcasts`.`ActiveRecordYN` =  1
+AND `broadcasts`.`dID` =  11' at line 3
+ERROR - 2013-05-18 20:56:44 --> Query error: Unknown column '0' in 'where clause'
+ERROR - 2013-05-18 20:57:10 --> Query error: Unknown column '0' in 'where clause'

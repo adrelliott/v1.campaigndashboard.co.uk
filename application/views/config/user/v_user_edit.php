@@ -1,3 +1,4 @@
+<?php print_array($_GET['clone'], 0, 'get')?>
 <h2>Create/Edit a User</h2>
 <p>Use the form below to create/edit a user</p>
 <?php if ($this->session->flashdata('message')) echo '<h4 style="color:red">' . $this->session->flashdata('message') . '</h4>'; ?>

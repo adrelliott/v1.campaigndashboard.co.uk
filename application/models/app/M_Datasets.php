@@ -49,6 +49,7 @@ class M_Datasets extends App_Model {
         $retval = array();
         $conditions = $this->data['view_setup'];
         $conditions['dID'] = $this->dID;
+        //print_array($conditions);
         
         $q = $this->get_by($conditions);
         $q = $this->to_assoc($q, 'Slug');
@@ -63,10 +64,6 @@ class M_Datasets extends App_Model {
         //now go through each dataset_config and perform the query
         foreach ($this->data['datasets_config'] as $dataset => $attr)
         {
-            //load the model for this dataset
-            $model_url = $attr['ControllerFilePath'] . '/' . $attr['Model'];
-            $this->load->model($model_url, 'dataset_model');
-            
             //set up the fields to retrieve
             $field_array = $this->convert_fieldlist($attr['Fields']);
             if ($field_array) $this->db->select(array_keys($field_array));
@@ -78,6 +75,7 @@ class M_Datasets extends App_Model {
             $method_name = element('Method', $attr, 'get');
             $method_params = element('Params', $attr, FALSE);
             
+            /*
             //Have we got any placeholders in the parameter?
             if ($method_params)
             {
@@ -89,14 +87,16 @@ class M_Datasets extends App_Model {
                         '%%ContactId%%', 
                         $this->contact_id,
                         $method_params);
+                //if ( ! is_array($method_params))  $method_params = array($method_params);
             }
             
+            //echo "<br/>here are method params for method ($method_name) ".$method_params;
+             */
+             
             //Do query
             $this->load->model($model_url, $model_name);
             $retval[$dataset] = $this->$model_name->$method_name($method_params);
-            
         }
-        
         return $retval;
     }
     

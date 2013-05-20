@@ -2,14 +2,7 @@
 <p>Use the form below to create/edit the dataset for the Dataowner Id of </p>
 <?php if ($this->session->flashdata('message')) echo '<h4 style="color:red">' . $this->session->flashdata('message') . '</h4>'; ?>
 <div class="form">
-    <?php echo form_open('config/dataset/add/edit/' . $this->id); ?>
-    <div class="clearfix" id="">
-        <label for="Name" class="" id="">Dataset Name (no spaces!)</label>
-        <div class="input " id="">
-            <input class="large" id="Name" type="text" name="Name" length="" value="<?php echo element('Name', $datasets['record'], ''); ?>">
-        </div>
-        <small>MANDATORY FIELD!</small>
-    </div>
+    <?php echo form_open('config/dataset/add/edit/' .  element('clone', $_GET, $this->id)); ?>
     <div class="clearfix" id="">
         <label for="Slug" class="" id="">Dataset Slug</label>
         <div class="input " id="">
@@ -19,38 +12,31 @@
     <div class="clearfix" id="">
         <label for="ControllerFilePath" class="" id="">Directory</label>
         <div class="input " id="">
-            <input class="large" id="ControllerFilePath" type="text" name="ControllerFilePath" length="" value="<?php echo element('ControllerFilePath', $datasets['record'], ''); ?>">
+             <?php echo form_dropdown('ControllerFilePath', array('app' => 'app', 'public' => 'public', 'config' => 'config', 'auto' => 'auto', 'api' => 'api'), element('ControllerFilePath', $datasets['record'], 'Record'), 'id=""'); ?>
         </div>
     </div>
     <div class="clearfix" id="">
         <label for="ControllerName" class="" id="">Controller's Name</label>
         <div class="input " id="">
-            <input class="large" id="ControllerName" type="text" name="ControllerName" length="" value="<?php echo element('ControllerName', $datasets['record'], ''); ?>">
+            <div class="input " id="">
+            <?php echo form_dropdown('ControllerName', $this->data['datasets']['controller_list'], element('ControllerName', $datasets['record'], 'Contact'), 'id=""'); ?>
         </div>
     </div>
     <div class="clearfix" id="">
         <label for="ControllerMethod" class="" id="">Controller's Method</label>
         <div class="input " id="">
-            <input class="large" id="ControllerMethod" type="text" name="ControllerMethod" length="" value="<?php echo element('ControllerMethod', $datasets['record'], ''); ?>">
-        </div>
+            <?php echo form_dropdown('ControllerMethod',array('index' => 'index', 'view' => 'view'), element('ControllerMethod', $datasets['record'], 'Contact'), 'id=""'); ?>
     </div>
     <div class="clearfix" id="">
         <label for="Type" class="" id="">Type of Dataset</label>
         <div class="input " id="">
             <?php echo form_dropdown('Type', array('Table' => 'Table', 'Record' => 'Record', 'Dropdown' => 'Dropdown', 'Count' => 'Count'), element('Type', $datasets['record'], 'Record'), 'id=""'); ?>
-
-        </div>
-    </div>
-    <div class="clearfix" id="">
-        <label for="Table" class="" id="">Table Name</label>
-        <div class="input " id="">
-            <?php echo form_dropdown('Table', array('' => '', 'contacts' => 'contacts', 'contactAction' => 'contactAction', 'tags' => 'tags', 'users' => 'users'), element('Table', $datasets['record'], ''), 'id=""'); ?>
         </div>
     </div>
     <div class="clearfix" id="">
         <label for="Model" class="" id="">Model Name</label>
         <div class="input " id="">
-            <?php echo form_dropdown('Model', array('' => '', 'M_Users' => 'M_Users', 'M_Contacts' => 'M_Contacts'), element('Model', $datasets['record'], ''), 'id=""'); ?>
+            <?php echo form_dropdown('Model', $this->data['datasets']['model_list'], element('Model', $datasets['record'], ''), 'id=""'); ?>
         </div>
     </div>
     <div class="clearfix" id="">
@@ -60,7 +46,7 @@
         </div>
     </div>
     <div class="clearfix" id="">
-        <label for="Params" class="" id="">Params</label>
+        <label for="Params" class="" id="">Params (not for queries)</label>
         <div class="input " id="">
             <input class="large" id="Params" type="text" name="Params" length="" value="<?php echo element('Params', $datasets['record'], ''); ?>">
         </div>

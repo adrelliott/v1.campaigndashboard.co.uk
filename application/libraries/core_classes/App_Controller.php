@@ -30,15 +30,8 @@ class App_Controller extends Base_Controller {
         //Now get data using this dataset config
         $this->data['datasets'] = $this->M_Datasets->do_dataset_query();
         
-        //print_array($datasets_config, 1);
-        
-        //$this->data['datasets'] = $this->->get_all_datasets($dID);
-        
         //show in a table (with edit | delete )
         $this->_load_view($view_file);
-        
-        //print_array($this->data);
-       
     }
     
     public function view($view_file = 'edit', $id = 'new', $contact_id = NULL) {
@@ -64,13 +57,14 @@ class App_Controller extends Base_Controller {
         if (count($this->input_data)) $input = $this->input_data;
         else $input = $this->input->post();
         extract($this->data['view_setup']);
-        $url = site_url($ControllerName . '/view/' . $view_file . '/' . $id . '/' . $contact_id);
+        $url = site_url($ControllerFilePath . '/' . $ControllerName . '/view/' . $view_file . '/' . $id . '/' . $contact_id);
         
         //ensure that the datawoner id is included in the array to be Inserted/updated
         $input['dID'] = $this->dID;
         
         //Insert or Update this record
         $model = $this->model_name;
+        $this->load->model('app/' . $model);
         $id = $this->$model->save($input, $id);
         
          //Have we set any client-specific methods to run?

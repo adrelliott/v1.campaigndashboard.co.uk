@@ -23,6 +23,11 @@ class M_Contacts extends App_Model {
     public function __construct() {
         parent::__construct();
     }
+    
+    public function get_users() {
+        $this->condition = array('CrmUserYN =' => 1);
+        return $this->get();
+    }
 
 }
 

@@ -28,6 +28,16 @@ class App_Model extends Base_Model {
                     )
                 );
     }
+    
+    
+    public function get_record() {
+        return $this->get($this->id);
+    }
+    
+    public function get_records_for_contact() {
+        $this->db->where('ContactId', $this->contact_id);
+        return $this->get();
+    }
 
 }
 
