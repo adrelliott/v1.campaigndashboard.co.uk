@@ -61,7 +61,7 @@ class Base_Controller extends CI_Controller {
         //Set up vars to be used through the app
         $this->data['view_setup'] = $this->_set_up_vars();
         
-$_SESSION['dID'] = 11;  //delet me!
+$_SESSION['dID'] = 11110;  //delet me!
 
         $this->dID = $_SESSION['dID'];
         
@@ -105,7 +105,7 @@ $_SESSION['dID'] = 11;  //delet me!
         //load views
         $this->load->vars($this->data);
         $this->load->view($ControllerFilePath . '/common/header' . $ext);
-        $this->load->view($ControllerFilePath . '/common/navbar' . $ext);
+        //$this->load->view($ControllerFilePath . '/common/navbar' . $ext);
         $this->load->view($ControllerFilePath . '/' . $ControllerName . '/v_' . $ControllerName . '_' . $view_file);
         $this->load->view($ControllerFilePath . '/common/footer' . $ext);
         

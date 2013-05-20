@@ -19,8 +19,6 @@ class App_Controller extends Base_Controller {
         //Extract the view_setup array to allow us to use vars here
         extract($this->data['view_setup']);
     }
-    
-    
 
     public function index($view_file = 'list', $id = FALSE) {
         //retrive datasets for this view 
@@ -37,6 +35,8 @@ class App_Controller extends Base_Controller {
     public function view($view_file = 'edit', $id = 'new', $contact_id = NULL) {
         $this->id = $id;
         $this->contact_id = $contact_id;
+        if ($if === 'new') 
+            $this->data['display_none'] = 'class="display_none';
         
         //retrive datasets for this view 
         $this->load->model('app/M_Datasets');

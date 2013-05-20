@@ -1,0 +1,1 @@
+<?php include('debug_bar.php'); ?>
