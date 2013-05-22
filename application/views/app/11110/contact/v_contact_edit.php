@@ -1,41 +1,75 @@
-<?php 
-    //Set up arrays for data
-    $record = $this->data['datasets']['contacts_get_record']; 
-    $all_contacts = $this->data['datasets']['contacts_get'];
-    $users_dropdown = create_dropdown_array
-            ($this->data['datasets']['contacts_get'], 
-            array('FirstName', 'LastName'), 
-            'Id',
-            TRUE);
-    
-    print_array($users_dropdown);
-?>
-<?php if ($this->session->flashdata('message')) echo '<h4 style="color:red">' . $this->session->flashdata('message') . '</h4>'; ?>
-<div class="form">
-    <?php echo form_open('app/contact/add/edit/' .  element('clone', $_GET, $this->id)); ?>
-    <div class="clearfix" id="">
-        <label for="Title" class="" id="">Title</label>
-        <div class="input " id="">
-            <?php echo form_dropdown('Title', array('Mr' => 'Mr', 'Mrs' => 'Mrs', 'Miss' => 'Miss', 'Ms' => 'Ms', 'Dr' => 'Dr'), element('Title', $record, 'Mr'), 'id=""'); ?>
+<div class="col_6"><!-- Start Column 1-->	
+    <?php include('other/v_notifications_garage.php'); ?>
+    <?php echo flashdata_message($this->session->flashdata('message')); ?>
+    <div class="row clearfix">
+        <div class="row"><!-- Tabs begin -->
+            <div class="widget clearfix tabs">
+                <ul>
+                    <li>
+                        <h2><a href="#tab-1">Details</a></h2>
+                    </li>
+                    <li style="<?php echo $display_none; ?>">
+                        <h2><a href="#tab-2">Notes</a></h2>
+                    </li>
+                    <li style="<?php echo $display_none; ?>">
+                        <h2><a href="#tab-3">Relationships</a></h2>
+                    </li>
+                </ul>
+                <div class="widget_inside">
+                    <div id="tab-1">
+                        <?php include('fieldset/v_fieldset_mainfields'); ?>
+                        <span class="notification done" style="display:none">Record Updated!</span>
+                    </div><!-- End of form div-->
+                    <p id="option1_toggle" class="button left">
+                        <span>View Opt In Settings</span>
+                    </p> 
+                    <div class="hide_toggle" id="option1">
+                        <div class="form margin_top_30">
+                            <?php include('fieldset/v_fieldset_optin.php'); ?>
+                        </div>
+                    </div>
+                    <div id="tab-2">
+                        <?php include('fieldset/v_fieldset_contactnotes.php'); ?>
+                    </div>
+                    <div id="tab-3">
+                        <?php include('tables/v_table_relationships.php'); ?>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="clearfix" id="">
-        <label for="FirstName" class="" id="">First Name</label>
-        <div class="input " id="">
-             <input class="large" id="FirstName" type="text" name="FirstName" length="" value="<?php echo element('FirstName', $record, ''); ?>">
+</div>
+<!-- Start Column 2-->
+<div class="col_6 last" style="<?php echo $display_none; ?>">
+    <span class="notification information">
+        <h4><strong>Discussing</strong> this contact? Quote Contact Id <strong><?php echo $this->contact_id; ?></strong></h4>
+    </span>
+    <div class="row clearfix"> 
+        <div class="row"><!-- Tabs begin -->
+            <div class="widget clearfix tabs">
+                <ul>
+                    <li><h2><a href='#tab-5'>Purchases</a></h2></li>
+                    <li><h2><a href='#tab-6'>Comms</a></h2></li>
+                    <li><h2><a href='#tab-7'>Roles</a></h2></li>
+                </ul>
+                <div class="widget_inside">
+                    <div id="tab-5">
+                        <?php include('tables/v_table_relationships.php'); ?>
+                    </div>
+                    <div id="tab-6">
+                        <?php include('tables/v_table_relationships.php'); ?>
+                    </div>
+                    <div id="tab-7">
+                        <?php include('tables/v_table_relationships.php'); ?>
+                    </div>
+                </div>
+            </div>
         </div>
+        <div class='row'>
+            <div class="widget clearfix  form">
+                <h2>Quick Actions</h2>
+                    <?php include('fieldset/v_fieldset_quickactions.php'); ?>
+            </div>
+        </div>        
     </div>
-    <div class="clearfix" id="">
-        <label for="LastName" class="" id="">Last Name</label>
-        <div class="input " id="">
-             <input class="large" id="LastName" type="text" name="LastName" length="" value="<?php echo element('LastName', $record, ''); ?>">
-        </div>
-    </div>
-    <?php echo form_submit('_::_submit', 'Save'); ?>
-    <?php echo form_close();
-
-echo 'this si the contact page:';
-
-print_array($this->data);
-
-print_array($record, 0, 'this si record');
+</div>
