@@ -18,29 +18,42 @@
  *
  */
 
-$server = explode ( '.', strtolower( $_SERVER['HTTP_HOST'] ) );
-switch ( $server[0] )
-{  
-    case 'leadfarm-staging':
-        define('ENVIRONMENT', 'staging');
-        break;
-    case 'garagedashboard':
-        define('ENVIRONMENT', 'garage');
-        break;
-    //case 'automatingmarketing':
-    case 'mymarketingcentre':
-        define('ENVIRONMENT', 'demo');
-        break;
-    case 'campaigndashboard':
-        define('ENVIRONMENT', 'production');
-        break;
-    default:
-        define('ENVIRONMENT', 'al_MBP_development');
+//Include the file that sets out the app & environment
+include('../application/config/app_settings.php');
+
+//var_dump(dirname(__FILE__)); 
+
+//now test the root and determine the environment
+foreach ($app_settings['environment'] as $k => $v)
+{
+    if (strtolower(dirname(__FILE__)) == strtolower($v))
+        define('ENVIRONMENT', $k);
 }
+/*
+ *---------------------------------------------------------------
+ * SETUP DATABASE CONFIG
+ *---------------------------------------------------------------
+ *
+ * Different environments will require different levels of error reporting.
+ * By default development will show errors but testing and live will hide them.
+ */
+
+//Start native PHP session
+session_start();
+
+//Determine what db to use (only on 'staging' environment)
+// (reset to stagin db by loging out or passing '?db'
+if (isset($_GET['db']))
+{
+    if ($_GET['db'] == 'p') $_SESSION['settings']['db'] = 'p';
+    else unset($_SESSION['settings']['db']);
+}
+        
+
 
 /*
  *---------------------------------------------------------------
- * ERROR REPORTING & PATHS
+ * ERROR REPORTING
  *---------------------------------------------------------------
  *
  * Different environments will require different levels of error reporting.
@@ -51,19 +64,14 @@ if (defined('ENVIRONMENT'))
 {	
     switch (ENVIRONMENT)
     {
-        case 'al_MBP_development':
+        case 'development':
             error_reporting(E_ALL);
-            $root = '../';
                 break;
         case 'staging': 
             error_reporting(E_ERROR | E_WARNING | E_PARSE);
-            $root = '../';
                 break;
-        case 'demo': 
         case 'production':
-        case 'garage':
             error_reporting(0);
-            $root = '../';
                 break;
 
         default:
@@ -81,7 +89,10 @@ if (defined('ENVIRONMENT'))
  * as this file.
  *
  */
-	$system_path = $root . 'CI_Framework';
+
+    if (defined('ENVIRONMENT') && $app_settings['system'][ENVIRONMENT]) 
+        $system_path = $app_settings['system'][ENVIRONMENT] . 'CI_Framework';
+    else exit('The application environment or the system path is not set correctly.');
 
 /*
  *---------------------------------------------------------------
@@ -97,7 +108,10 @@ if (defined('ENVIRONMENT'))
  * NO TRAILING SLASH!
  *
  */
-	$application_folder = $root . 'application';
+    if (defined('ENVIRONMENT') && $app_settings['application'][ENVIRONMENT]) 
+        $application_folder = $app_settings['application'][ENVIRONMENT] . 'application';
+    else exit('The application environment or the application path is not set correctly.');
+
 
 /*
  * --------------------------------------------------------------------
@@ -225,6 +239,5 @@ if (defined('ENVIRONMENT'))
  *
  */
 require_once BASEPATH.'core/CodeIgniter.php';
-
 /* End of file index.php */
 /* Location: ./index.php */

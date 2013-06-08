@@ -10,12 +10,11 @@ if (!defined('BASEPATH'))
  * Dashboard for the application
  * 
  */
-class Dashboard extends App_Controller {
+class Dashboard extends CI_Controller {
 
     public function __construct() {
         parent::__construct();
     }
-
 }
 
 /* End of file Dashboard.php */

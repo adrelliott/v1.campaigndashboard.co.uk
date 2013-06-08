@@ -53,7 +53,7 @@ class Base_Controller extends CI_Controller {
     
     public function __construct() {
         parent::__construct();
-        session_start();
+        //PHP Session started in index.php
         
         //Test for login
         //?????????????? add me here!!!!!!!!   ??????????????????????
@@ -71,6 +71,7 @@ $_SESSION['dID'] = 11110;  //delet me!
         //Show debug info if asked:
         if (isset($_GET['debug']) && strpos(ENVIRONMENT, 'development')) 
                 $this->output->enable_profiler(TRUE);
+        
     }
     
     ##################  SET UP THE VIEW/PAGE ##############################
