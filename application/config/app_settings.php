@@ -17,7 +17,8 @@ $app_settings = array();
  * 2. The staging sudomain should be staging.{domainname.co.uk}
  * 3. The production domain should be {domainname.co.uk}
  */
-define('DOMAIN_NAME', 'campaigndashboard.co.uk'); //This is used throughout the app 
+//define('DOMAIN_NAME', 'campaigndashboard.co.uk'); //This is used throughout the app 
+define('DOMAIN_NAME', 'leadfarm-staging.co.uk'); //This is used throughout the app 
 
 
 
