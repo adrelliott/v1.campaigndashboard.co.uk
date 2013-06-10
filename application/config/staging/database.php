@@ -50,7 +50,7 @@ $active_record = TRUE;
 
 $db['staging']['hostname'] = '10.168.1.57';
 $db['staging']['username'] = 'campaign2_master';
-$db['staging']['password'] = 'DMmanch130';
+$db['staging']['password'] = 'r7g63S*UZ^n?';
 $db['staging']['database'] = 'campaign2_staging';
 $db['staging']['dbdriver'] = 'mysql';
 $db['staging']['dbprefix'] = '';
@@ -66,7 +66,7 @@ $db['staging']['stricton'] = FALSE;
 
 $db['production']['hostname'] = '10.168.1.57';
 $db['production']['username'] = 'campaign2_master';
-$db['production']['password'] = 'DMmanch130';
+$db['production']['password'] = 'r7g63S*UZ^n?';
 $db['production']['database'] = 'campaign2_master';
 $db['production']['dbdriver'] = 'mysql';
 $db['production']['dbprefix'] = '';
