@@ -64,10 +64,10 @@ $db['staging']['swap_pre'] = '';
 $db['staging']['autoinit'] = TRUE;
 $db['staging']['stricton'] = FALSE;
 
-$db['production']['hostname'] = '10.168.1.57';
+$db['production']['hostname'] = '10.168.1.56';
 $db['production']['username'] = 'campaign2_master';
 $db['production']['password'] = 'r7g63S*UZ^n?';
-$db['production']['database'] = 'campaign2_master';
+$db['production']['database'] = 'campaign2_production';
 $db['production']['dbdriver'] = 'mysql';
 $db['production']['dbprefix'] = '';
 $db['production']['pconnect'] = TRUE;
