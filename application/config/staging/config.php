@@ -78,7 +78,7 @@ $config['sess_time_to_update']	= 300;
 | path to your installation.
 |
 */
-$config['base_url'] = 'http://staging.' . DOMAIN_NAME . '/public_html'; //or subdomain
+$config['base_url'] = 'http://staging.' . DOMAIN_NAME . '/public_html/'; //or subdomain
 
 /*
 |--------------------------------------------------------------------------
@@ -130,7 +130,7 @@ $config['index_page'] = '';
 */
 ###NOTE: the server enviuronment we use needs $config['uri_protocol']	= 'ORIG_PATH_INFO';
 #### however the dev environment need $config['uri_protocol']	= 'PATH_INFO';
-$config['uri_protocol']	= 'PATH_INFO';
+$config['uri_protocol']	= 'ORIG_PATH_INFO';
 
 /*
 |--------------------------------------------------------------------------
