@@ -22,11 +22,11 @@ class App_Controller extends Base_Controller {
 
     public function index($view_file = 'list', $id = FALSE) {
         //retrive datasets for this view 
-        $this->load->model('app/M_Datasets');
-        $this->data['datasets_config'] = $this->M_Datasets->fetch_datasets();
+        $this->load->model('app/m_datasets');
+        $this->data['datasets_config'] = $this->m_datasets->fetch_datasets();
         
         //Now get data using this dataset config
-        $this->data['datasets'] = $this->M_Datasets->do_dataset_query();
+        $this->data['datasets'] = $this->m_datasets->do_dataset_query();
         
         //show in a table (with edit | delete )
         $this->_load_view($view_file);
@@ -39,11 +39,11 @@ class App_Controller extends Base_Controller {
             $this->data['display_none'] = 'class="display_none';
         
         //retrive datasets for this view 
-        $this->load->model('app/M_Datasets');
-        $this->data['datasets_config'] = $this->M_Datasets->fetch_datasets();
+        $this->load->model('app/m_datasets');
+        $this->data['datasets_config'] = $this->m_datasets->fetch_datasets();
         
         //Now get data using this dataset config
-        $this->data['datasets'] = $this->M_Datasets->do_dataset_query();
+        $this->data['datasets'] = $this->m_datasets->do_dataset_query();
         
         //show in a table (with edit | delete )
         $this->_load_view($view_file);
