@@ -12,16 +12,16 @@ if (!defined('BASEPATH'))
  */
 class Dataset extends Config_Controller {
     
-    public $model_name = 'M_Datasets_config';
+    public $model_name = 'm_datasets_config';
     
     public function __construct() {
         parent::__construct();
-        $this->load->model('config/M_Datasets_config');
+        $this->load->model('config/m_datasets_config');
     }
 
     public function index($view_file = 'list', $dID = FALSE) { //Show all datasets for this owner
         //retrive every single dataset, and sort by dID 
-        $this->data['datasets']['all_datasets'] = $this->M_Datasets_config->get_all_datasets($dID);
+        $this->data['datasets']['all_datasets'] = $this->m_datasets_config->get_all_datasets($dID);
         
         //show in a table (with edit | delete )
         $this->_load_view($view_file);
@@ -35,7 +35,7 @@ class Dataset extends Config_Controller {
         if ($id !== 'new')
         {
             //retrieve the dataset info
-             $this->data['datasets']['record'] = $this->M_Datasets_config->get($id);
+             $this->data['datasets']['record'] = $this->m_datasets_config->get($id);
              
              //is the col 'Table' set yet? (We'll get field list of that table if so)
              $table_name = element('Table', $this->data['datasets']['record'], FALSE);
@@ -46,28 +46,28 @@ class Dataset extends Config_Controller {
         if ($table_name) 
         {
             $field_list = element('Fields', $this->data['datasets']['record'], array()); 
-            $this->data['datasets']['field_list'] = $this->M_Datasets_config->get_fields($table_name, $field_list);
+            $this->data['datasets']['field_list'] = $this->m_datasets_config->get_fields($table_name, $field_list);
         }
         
         //Set up the drop downlists
-        $this->data['datasets']['table_list'] = $this->M_Datasets_config->get_all_tables();
-        $this->data['datasets']['model_list'] = $this->M_Datasets_config->get_all_models();
-        $this->data['datasets']['controller_list'] = $this->M_Datasets_config->get_all_controllers();
+        $this->data['datasets']['table_list'] = $this->m_datasets_config->get_all_tables();
+        $this->data['datasets']['model_list'] = $this->m_datasets_config->get_all_models();
+        $this->data['datasets']['controller_list'] = $this->m_datasets_config->get_all_controllers();
                 
         //load the view
         $this->_load_view($view_file);
     }
     
     public function add($view_file, $id = 'new') { //adds a new dataset
-        $this->load->model('config/M_Datasets_config');
+        $this->load->model('config/m_datasets_config');
         $input = $this->input->post();
         
         //Turn the table into a CSV value for column 'Fields'
         if ($this->input->post('_::_used')) 
-            $input['Fields'] = $this->M_Datasets_config->process_field_table($input);
+            $input['Fields'] = $this->m_datasets_config->process_field_table($input);
         
         //Create or Update the data
-        $id = $this->M_Datasets_config->save_dataset($input, $id);
+        $id = $this->m_datasets_config->save_dataset($input, $id);
         
         //Return user to the page
         if ($id === 'new') $this->session->set_flashdata('message','Update Failed! Try Again.');

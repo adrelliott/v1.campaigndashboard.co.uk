@@ -12,16 +12,16 @@ if (!defined('BASEPATH'))
  */
 class User extends Config_Controller {
     
-    public $model_name = 'M_Users';
+    public $model_name = 'm_users';
     
     public function __construct() {
         parent::__construct();
-        $this->load->model('config/M_Users');
+        $this->load->model('config/m_users');
     }
 
     public function index($view_file = 'list', $dID = FALSE) { //Show all datasets for this owner
         //retrive every single dataset, and sort by dID 
-        $this->data['datasets']['all_users'] = $this->M_Users->get_all_users($dID);
+        $this->data['datasets']['all_users'] = $this->m_users->get_all_users($dID);
         
         //show in a table (with edit | delete )
         $this->_load_view($view_file);
@@ -33,7 +33,7 @@ class User extends Config_Controller {
         if ($id !== 'new')
         {
             //retrieve the user info
-             $this->data['datasets']['record'] = $this->M_Users->get($id);
+             $this->data['datasets']['record'] = $this->m_users->get($id);
              
         }
         else $this->data['datasets']['record'] = array();   //set up the blank data
@@ -45,7 +45,7 @@ class User extends Config_Controller {
     public function add($view_file, $id = 'new') { //adds a new dataset
         //Create or Update the data
         //print_array($this->input->post());
-        $id = $this->M_Users->save($this->input->post(), $id);
+        $id = $this->m_users->save($this->input->post(), $id);
         
         //Return user to the page
         if ($id === 'new') $this->session->set_flashdata('message','Update Failed! Try Again.');
@@ -73,7 +73,7 @@ class User extends Config_Controller {
     /*public function delete($method_name, $view_file, $record_id = array(), $current_id = NULL) {
         $message = 'Success! Records Deleted';
         
-        $result = $this->M_Users->make_inactive($record_id);
+        $result = $this->m_users->make_inactive($record_id);
         //put some error reporting in here
         
         $this->session->set_flashdata('message', $message);
