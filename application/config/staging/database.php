@@ -48,7 +48,7 @@
 $active_record = TRUE;
 
 
-$db['staging']['hostname'] = '10.168.1.57';
+$db['staging']['hostname'] = '10.168.1.56';
 $db['staging']['username'] = 'campaign2_master';
 $db['staging']['password'] = 'r7g63S*UZ^n?';
 $db['staging']['database'] = 'campaign2_staging';
