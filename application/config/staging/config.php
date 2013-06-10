@@ -130,7 +130,7 @@ $config['index_page'] = '';
 */
 ###NOTE: the server enviuronment we use needs $config['uri_protocol']	= 'ORIG_PATH_INFO';
 #### however the dev environment need $config['uri_protocol']	= 'PATH_INFO';
-$config['uri_protocol']	= 'ORIG_PATH_INFO';
+$config['uri_protocol']	= 'PATH_INFO';
 
 /*
 |--------------------------------------------------------------------------
