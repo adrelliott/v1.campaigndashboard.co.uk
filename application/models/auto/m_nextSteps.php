@@ -14,7 +14,7 @@ if (!defined('BASEPATH'))
 class M_NextSteps extends App_Model {
 
     //Define vars used throught the process
-    public $table_name = 'nextSteps';
+    public $table_name = 'next_steps';
 
     //public $order_by = '';   //This is set in CRM_Model. Overwrite here 
     //public $primary_key = ''; //This is set in CRM_Model. Overwrite here

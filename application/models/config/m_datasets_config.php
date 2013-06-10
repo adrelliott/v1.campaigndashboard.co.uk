@@ -14,7 +14,7 @@ if (!defined('BASEPATH'))
 class M_Datasets_config extends Config_Model {
 
     //Define vars used throught the process
-    public $table_name = 'configDatasets';
+    public $table_name = 'config_datasets';
     public $order_by = 'Name ASC';   //This is set in CRM_Model. Overwrite here if needs be
     //public $primary_key = 'xxxxxxx'; This is set in CRM_Model. Overwrite here if needs be
     public $cols = array
