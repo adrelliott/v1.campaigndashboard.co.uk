@@ -11,12 +11,12 @@ if (!defined('BASEPATH'))
  * Description goes here
  * 
  */
-class M_Datasets_config extends Config_Model {
+class m_Datasets_config extends Config_Model {
 
     //Define vars used throught the process
     public $table_name = 'config_datasets';
-    public $order_by = 'Name ASC';   //This is set in CRM_Model. Overwrite here if needs be
-    //public $primary_key = 'xxxxxxx'; This is set in CRM_Model. Overwrite here if needs be
+    public $order_by = 'Name ASC';   //This is set in CRm_Model. Overwrite here if needs be
+    //public $primary_key = 'xxxxxxx'; This is set in CRm_Model. Overwrite here if needs be
     public $cols = array
         (
             'Id' => 'Id',
@@ -37,12 +37,12 @@ class M_Datasets_config extends Config_Model {
     
     public $model_names = array
         (
-            'M_Broadcasts', 'M_Campaigns', 'M_Comms', 'M_ContactActions', 'M_Contacts', 'M_Datasets', 'M_Leads', 'M_Links', 'M_OrderItems', 'M_Orders', 'M_Products', 'M_QuickActions', 'M_Relationships', 'M_Steps', 'M_TagJoins', 'M_Tags', 'M_Templates', 'M_Vehicles'
+            'm_broadcasts', 'm_campaigns', 'm_comms', 'm_contact_actions', 'm_contacts', 'm_datasets', 'm_leads', 'm_links', 'm_order_items', 'm_orders', 'm_products', 'm_quick_actions', 'm_relationships', 'm_steps', 'm_tag_joins', 'm_tags', 'm_templates', 'm_vehicles'
         );
     
     public $controller_names = array
         (
-            'Broadcast', 'Campaign', 'Comm', 'ContactAction', 'Contact', 'Dataset', 'Lead', 'Link', 'OrderItem', 'Order', 'Product', 'QuickAction', 'Relationship', 'Step', 'TagJoin', 'Tag', 'Template', 'Vehicle'
+            'broadcast', 'campaign', 'comm', 'contact_action', 'contact', 'dataset', 'lead', 'link', 'order_item', 'order', 'product', 'quick_action', 'relationship', 'step', 'tag_join', 'tag', 'template', 'vehicle'
         );
     
     //public $table_names = array();

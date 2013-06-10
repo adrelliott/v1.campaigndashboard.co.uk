@@ -48,10 +48,10 @@
 $active_record = TRUE;
 
 
-$db['staging']['hostname'] = '10.168.1.56';
-$db['staging']['username'] = 'leadfarm_user';
+$db['staging']['hostname'] = '10.168.1.57';
+$db['staging']['username'] = 'campaign2_master';
 $db['staging']['password'] = 'DMmanch130';
-$db['staging']['database'] = 'leadfarm_test';
+$db['staging']['database'] = 'campaign2_staging';
 $db['staging']['dbdriver'] = 'mysql';
 $db['staging']['dbprefix'] = '';
 $db['staging']['pconnect'] = TRUE;
@@ -64,10 +64,10 @@ $db['staging']['swap_pre'] = '';
 $db['staging']['autoinit'] = TRUE;
 $db['staging']['stricton'] = FALSE;
 
-$db['production']['hostname'] = '10.168.1.56';
-$db['production']['username'] = 'leadfarm_prod';
+$db['production']['hostname'] = '10.168.1.57';
+$db['production']['username'] = 'campaign2_master';
 $db['production']['password'] = 'DMmanch130';
-$db['production']['database'] = 'leadfarm_production';
+$db['production']['database'] = 'campaign2_master';
 $db['production']['dbdriver'] = 'mysql';
 $db['production']['dbprefix'] = '';
 $db['production']['pconnect'] = TRUE;

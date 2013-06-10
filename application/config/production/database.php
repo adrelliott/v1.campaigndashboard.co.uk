@@ -47,10 +47,10 @@
 
 $active_record = TRUE;
 
-$db['production']['hostname'] = '10.168.1.56';
-$db['production']['username'] = 'leadfarm_prod';
+$db['production']['hostname'] = '10.168.1.57';
+$db['production']['username'] = 'campaign2_master';
 $db['production']['password'] = 'DMmanch130';
-$db['production']['database'] = 'leadfarm_production';
+$db['production']['database'] = 'campaign2_staging';
 $db['production']['dbdriver'] = 'mysql';
 $db['production']['dbprefix'] = '';
 $db['production']['pconnect'] = TRUE;

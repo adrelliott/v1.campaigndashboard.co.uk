@@ -11,7 +11,7 @@ if (!defined('BASEPATH'))
  * Description goes here
  * 
  */
-class M_NextSteps extends App_Model {
+class M_Next_steps extends App_Model {
 
     //Define vars used throught the process
     public $table_name = 'next_steps';
