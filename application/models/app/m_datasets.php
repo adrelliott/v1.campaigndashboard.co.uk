@@ -6,7 +6,7 @@ if (!defined('BASEPATH'))
 /**
  * Model - M_Datasets
  * @author Al Elliott
- * Table Name: configDatasets
+ * Table Name: config_datasets
  * 
  * Description goes here
  * 
@@ -14,7 +14,7 @@ if (!defined('BASEPATH'))
 class M_Datasets extends App_Model {
 
     //Define vars used throught the process
-    public $table_name = 'configDatasets';
+    public $table_name = 'config_datasets';
     public $cols = array
         (
             'Id' => 'Id', 
