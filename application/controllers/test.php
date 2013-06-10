@@ -10,7 +10,7 @@ if (!defined('BASEPATH'))
  * XXXXXXXXXXDescription_goes_hereXXXXXXXXXX
  * 
  */
-class Test extends CI_Controller {
+class Test extends App_Controller {
 
     public $model_name = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 
