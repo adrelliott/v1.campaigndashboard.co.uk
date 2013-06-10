@@ -12,6 +12,7 @@ if (!defined('BASEPATH'))
  */
 class Dashboard extends App_Controller {
 
+    public $model_name = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
     public function __construct() {
         parent::__construct();
     }
