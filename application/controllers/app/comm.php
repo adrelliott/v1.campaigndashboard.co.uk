@@ -10,7 +10,7 @@ if (!defined('BASEPATH'))
  * XXXXXXXXXXDescription_goes_hereXXXXXXXXXX
  * 
  */
-class Comm extends XXXXXXX_Controller {
+class Comm extends App_Controller {
 
     public $model_name = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 

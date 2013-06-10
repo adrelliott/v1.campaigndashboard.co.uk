@@ -16,10 +16,6 @@ class Dashboard extends App_Controller {
     public function __construct() {
         parent::__construct();
     }
-    
-    function index() {
-        echo "hello, im dashboard";
-    }
 }
 
 /* End of file Dashboard.php */
