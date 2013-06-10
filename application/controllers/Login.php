@@ -28,7 +28,7 @@ class Login extends Base_Controller {
     
     public function index($message_flag = 0, $reference = '') {
         //$this->is_logged_in();
-        
+        die('login_page here');
         //Set default message
         $this->data['message'] = $this->message_array[$message_flag] . $reference;
         

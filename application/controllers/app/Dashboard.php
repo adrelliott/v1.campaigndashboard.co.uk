@@ -10,7 +10,7 @@ if (!defined('BASEPATH'))
  * Dashboard for the application
  * 
  */
-class Dashboard extends CI_Controller {
+class Dashboard extends App_Controller {
 
     public function __construct() {
         parent::__construct();
