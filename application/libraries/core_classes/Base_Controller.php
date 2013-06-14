@@ -51,12 +51,14 @@ class Base_Controller extends CI_Controller {
      */
     public $input_data = array();
     
+    
+    
     public function __construct() {
         parent::__construct();
         //PHP Session started in index.php
         
         //Test for login
-        //?????????????? add me here!!!!!!!!   ??????????????????????
+        $this->_is_logged_in();
         
         //Set up vars to be used through the app
         $this->data['view_setup'] = $this->_set_up_vars();
@@ -134,36 +136,20 @@ $_SESSION['dID'] = 11110;  //delet me!
     * @return boolean (only if a param is passed)
     * @author Al Elliott
     */
-    protected function _is_logged_in($min_permission = NULL) {
-        $retval = FALSE;
-        $redirect = FALSE;
-        $mandatory_session_fields = array
-            ('Id', 'FirstName'. 'LastName', 'dID', 'EmailAddress1', 'CrmUserAdminLevel');
-        
-        //is 'logged_in flag intact & set?
-        if ($_SESSION('is_logged_in'))
+    
+    protected function _is_logged_in() {
+        //is the flag set?
+        if (element('is_logged_in', $_SESSION, FALSE)) return TRUE;
+        else
         {
-            //check session data is intact
-            foreach ($mandatory_session_fields as $key)
-            {
-                if ( ! element($_SESSION[$key], $_SESSION, FALSE)) 
-                        $redirect = TRUE;
-            }
+            session_destroy();  //destroys PHP session too
+            redirect (site_url('login/index/3'));
         }
-        else $redirect = TRUE;
-        
-        //Finally, if passed, does the user have permission to view this page?
-        if ($_SESSION['CrmUserAdminLevel'] >= $min_permission) $retval = TRUE;
-        
-        //Redirect, or return boolean
-        //if ($redirect) $this->log_out();
-        if ($redirect) redirect (site_url('login/log_out'));
-        else return $retval;
+        return;
     }
     
-   
-
-    ##################### MANIPULATING DATA ################
+    
+     ##################### MANIPULATING DATA ################
     
     
     /* 'Deletes' a record.
@@ -191,7 +177,58 @@ $_SESSION['dID'] = 11110;  //delet me!
     }
     
 
-}
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    //======================= OLD METHODS ===============================
+    
+    protected function _is_logged_in_old($min_permission = FALSE) {
+        $redirect = TRUE;
+        $target_url = $this->uri->uri_string();
+        $mandatory_session_fields = array
+            ('Id', 'FirstName'. 'LastName', 'dID', 'EmailAddress1', 'CrmUserAdminLevel');
+        
+        
+        //is 'logged_in flag intact & set?
+        if (element('is_logged_in', $_SESSION, FALSE) && isset($_SESSION['user_data']))
+        {
+//print_array($_SESSION, 0, 'session data dounf - here it is');            
+//check session data is intact
+            $count = 0;
+            foreach ($mandatory_session_fields as $key)
+            {
+                if (element($key, $_SESSION['user_data'], FALSE)) $count++;
+            }
+            
+            //Do we have all the fields intact?
+            if ($count == count($mandatory_session_fields)) $redirect = FALSE;
+        }
+        
+        //Finally, if passed, does the user have permission to view this page?
+        //if ($min_permission)
+        //    if ($_SESSION['CrmUserAdminLevel'] >= $min_permission) $retval = TRUE;
+        
+        //Redirect, or return boolean
+        if ($redirect)
+        {
+            $this->session->sess_destroy(); //Destroys CI session
+            session_destroy();  //destroys PHP session too
+            $_SESSION['target_url'] = $target_url; //adds destination URL (to redirect to when logged in)
+            redirect (site_url('login/index/3', 'refresh'));
+        }
+        else return;
+    }
+    
+   
+
+} 
 
 /* End of file Base_Controller.php */
 /* Location: ./application/core_classes/Base_Controller.php */

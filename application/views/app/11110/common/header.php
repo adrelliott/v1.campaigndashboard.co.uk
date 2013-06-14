@@ -6,7 +6,7 @@
 
         <link rel="apple-touch-con" href="" />
 
-        <title>LeadFarm.co.uk - Managed CRM</title>
+        <title>Campaign Dashboard</title>
 
         <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
 

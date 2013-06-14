@@ -57,7 +57,7 @@ class M_Logins extends Base_Model {
         }
         
         //do query
-        if (count($input)) 
+        if (count($input) == 2) 
         {
             $this->db->select(array_keys($this->cols));
             $this->db->where('CrmUserYN', 1);
@@ -82,33 +82,14 @@ class M_Logins extends Base_Model {
             {
                 //All good? Save to session, set flag and move on...
                 $_SESSION['user_data'] = $q;
-                $_SESSION['user_data']['is_logged_in'] = 1;
+                $_SESSION['is_logged_in'] = 1;
                 return TRUE;
             }
         }
+        
         else return $retval;
     }
     
-    
-    
-    /* Logs out the user, deletes all session data and redirects to the login page
-    * 
-    * @return nothing
-    * @author Al Elliott
-    */
-    public function log_out() {
-        //destroy session variables
-        $this->session->sess_destroy();
-        session_destroy();  //destroys PHP session too
-        
-        $this->session->set_flashdata('message', 'You\'ve been logged out! Please log back in here.');
-        
-        //redirect to login page
-        redirect(site_url('login', 'refresh'));
-        
-        return;
-    }
-
 }
 
 /* End of file M_Logins.php */

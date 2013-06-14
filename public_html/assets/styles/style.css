@@ -25,15 +25,15 @@ p {line-height: 1.5em; margin-bottom: 0.5em}
 
 #search {float: right}
 #search input[type='text'] {float:left; margin-left: 20px; border: 1px solid #000101; box-shadow: 0 1px 2px #C4C4C4 inset; height: 23px; line-height: 23px; padding: 0 5px;
-         background: #fff url(../images/header/ico_search.png) no-repeat 95% center; width: 15em}
+         background: #fff url(../common_images/header/ico_search.png) no-repeat 95% center; width: 15em}
 #search input[type='submit'] {float: right; text-indent: -999em}
 
 header .left {padding: 1px 0 1px}	/* was 8px 0 8px */
 header .right {position: relative; background: #cdcdcd}
 
-header .right li {padding: 0 10px 0 9px; float: left; /*background: url(../images/header/topnav/separator.png) no-repeat right*/}
+header .right li {padding: 0 10px 0 9px; float: left; /*background: url(../common_images/header/topnav/separator.png) no-repeat right*/}
 header .right ul {display: block}
-header .right li {padding: 0 10px 0 9px; float: left; background: url(../images/header/topnav/separator.png) no-repeat right}
+header .right li {padding: 0 10px 0 9px; float: left; background: url(../common_images/header/topnav/separator.png) no-repeat right}
 header .right li:last-child {border-right: none; padding-right: 0; background: none}
 
 header .right .sf-with-ul {text-indent: -9999em}
@@ -47,24 +47,24 @@ header .right li li {padding: 10px}
 /*#messages, #settings, #search {display: block; text-indent: -999em; height: 32px; width: 20px}*/
 #toolbar {line-height: 32px; padding: 0 10px}
 
-/*#loginarrow {width: 20px; display: inline-block; background: url(../images/header/topnav/downarrow.png) no-repeat center 90%; height: 20px} */
-#loginarrow {background: url(../images/header/topnav/mailicon.png) no-repeat center center}
-#messages {background: url(../images/header/topnav/mailicon.png) no-repeat center center}
-#settings {background: url(../images/header/topnav/settingsicon.png) no-repeat center center}
-#search {background: url(../images/header/topnav/searchicon.png) no-repeat center center}
-#user {background: url(../images/header/topnav/user.png) no-repeat center center}
+/*#loginarrow {width: 20px; display: inline-block; background: url(../common_images/header/topnav/downarrow.png) no-repeat center 90%; height: 20px} */
+#loginarrow {background: url(../common_images/header/topnav/mailicon.png) no-repeat center center}
+#messages {background: url(../common_images/header/topnav/mailicon.png) no-repeat center center}
+#settings {background: url(../common_images/header/topnav/settingsicon.png) no-repeat center center}
+#search {background: url(../common_images/header/topnav/searchicon.png) no-repeat center center}
+#user {background: url(../common_images/header/topnav/user.png) no-repeat center center}
 
-/*#help {background: url(../images/header/topnav/helpicon.png) no-repeat center center}*/
-#help {background: url(../images/buttons/lifebuoy.png) no-repeat center center}
+/*#help {background: url(../common_images/header/topnav/helpicon.png) no-repeat center center}*/
+#help {background: url(../common_images/buttons/lifebuoy.png) no-repeat center center}
 #searchdrop, #logindrop {background: #FFFFFF;box-shadow: 0 0 5px #212121; z-index: 99999;display: none; position: absolute;}
 
 #logindrop {  height:380px;  padding:10px 15px 20px;  right:0px;  top:32px;  width:350px;}
 #logindrop li {float: none; display: block; background: none}
 #logindrop li a {color: #444; display: block; line-height: 32px;}
 
-#editprofile a {background: url(../images/header/topnav/editicon.png) no-repeat right center !important}
+#editprofile a {background: url(../common_images/header/topnav/editicon.png) no-repeat right center !important}
 #logoutprofile {padding: 0 10px}
-#logoutprofile a {background: url(../images/header/topnav/logouticon.png) no-repeat right center !important;}
+#logoutprofile a {background: url(../common_images/header/topnav/logouticon.png) no-repeat right center !important;}
 
 #searchdrop {height: 50px;right: 0px;top: 32px;width: 200px;}
 
@@ -75,12 +75,12 @@ header .right li li {padding: 10px}
 
 #searchbox {width: 170px; margin: 10px auto; display: block}
 
-#titlediv {background: url(../images/header/pagetitle-bg.png) repeat-x; border-bottom: 1px solid #fff}
+#titlediv {background: url(../common_images/header/pagetitle-bg.png) repeat-x; border-bottom: 1px solid #fff}
 #pattern {padding-top: 10px; padding-bottom: 11px; }
 
 /* Navigation
 -------------------------------------------------------------------*/
-nav li, nav {background-image: url(../images/header/nav-bg.png); background-repeat: repeat-x; background-position: bottom; }
+nav li, nav {background-image: url(../common_images/header/nav-bg.png); background-repeat: repeat-x; background-position: bottom; }
 nav {height: 40px}
 
 nav li li a {line-height: 32px}
@@ -93,19 +93,19 @@ nav li img {position: relative; top: 2px}
 
 nav li ul {box-shadow: 0 0px 3px rgba(0, 0, 0, 0.5);}
 
-nav li.active, nav li:hover {background-image: url(../images/header/menu_hover.png); background-repeat: no-repeat; background-position: right top; text-transform: uppercase; font-weight: bold;}
+nav li.active, nav li:hover {background-image: url(../common_images/header/menu_hover.png); background-repeat: no-repeat; background-position: right top; text-transform: uppercase; font-weight: bold;}
 
 nav .iconed a {padding-left: 10px}
 nav .iconed img {vertical-align: text-bottom;}
 
 nav .mobile-only {font-size: 15px;height: 28px;margin: 0 auto;padding: 5px 0;position: relative;top: 5px;width: 90%;}
 
-nav li li, nav li li a {background: url(../images/header/1px_2.png) repeat}
-nav li li:hover {background:url(../images/header/1px.png) repeat;}
+nav li li, nav li li a {background: url(../common_images/header/1px_2.png) repeat}
+nav li li:hover {background:url(../common_images/header/1px.png) repeat;}
 
 /* Sidebar
 -------------------------------------------------------------------*/
-#sidebar {position:absolute;top:0;left:0;width:204px;height:100%;background-image: url("../images/header/header_bg.png"); background-repeat: repeat-y; background-position: top right}
+#sidebar {position:absolute;top:0;left:0;width:204px;height:100%;background-image: url("../common_images/header/header_bg.png"); background-repeat: repeat-y; background-position: top right}
 @media screen{
   body>div#sidebar{position:fixed;}
 }
@@ -122,12 +122,12 @@ nav li li:hover {background:url(../images/header/1px.png) repeat;}
 
 /* Page Title
 -------------------------------------------------------------------*/
-ul.breadcrumbs {background: url(../images/header/breadcrumbhome.png) no-repeat left center; padding-left: 16px; color: #fff}
+ul.breadcrumbs {background: url(../common_images/header/breadcrumbhome.png) no-repeat left center; padding-left: 16px; color: #fff}
 ul.breadcrumbs li:before {padding: 0 5px 0 0;}
 
 ul.breadcrumbs a {color: #fff;font-size: 0.917em}
 
-.pagetitle {background-image: url(../images/header/pagetitle_grad.png); background-repeat: repeat-x; border-bottom: 1px solid #fff;}
+.pagetitle {background-image: url(../common_images/header/pagetitle_grad.png); background-repeat: repeat-x; border-bottom: 1px solid #fff;}
 .pagetitle .row {height: 110px; padding-top: 10px}
 
 .row h1 {color: #fff; font-weight: normal; margin-top: 45px}
@@ -259,7 +259,7 @@ tr:nth-child(2n) .sorting_1 {background: #e9fdfc}
 .gallery li:hover .img_options {display: block}
 
 .img_options {position: absolute;z-index: 99; bottom: 5px; right: -1px; width: 55px; height: 25px; display: none}
-.img_options li {background-image: url(../images/buttons/gallery.png); display: inline-block;float: none;margin: 0 !important;text-align: center; text-indent: -999em; width: 25px; height: 25px; margin: 0}
+.img_options li {background-image: url(../common_images/buttons/gallery.png); display: inline-block;float: none;margin: 0 !important;text-align: center; text-indent: -999em; width: 25px; height: 25px; margin: 0}
 
 .img_options li{background-position: 0 -150px;}
 .img_options li:hover {background-position: 0 -120px;}
@@ -365,13 +365,13 @@ pre {background: #fff !important}
 -------------------------------------------------------------------*/
 .notification {display: block; padding: 1.3em 35px; margin-bottom: 1em}
 
-.notification.undone {border: 1px solid #c88383; background: url(../images/notifications/cross.png) no-repeat 10px center #fabbbb; color: #882626}
-.notification.done {border: 1px solid #90b96b; background: url(../images/notifications/tick.png) no-repeat 10px center #c2ee9b; color: #345f0e}
-.notification.information {border: 1px solid #7ea2bf; background: url(../images/notifications/information-balloon.png) no-repeat 10px center #b6d9f4; color: #1e4f74}
-.notification.setting {border: 1px solid #b7b7b7; background: url(../images/notifications/gear.png) no-repeat 10px center #e2e2e2; color: #454545}
-.notification.warning {border: 1px solid #c2c193; background: url(../images/notifications/exclamation.png) no-repeat 10px center #f1efb1; color: #6c6913}
+.notification.undone {border: 1px solid #c88383; background: url(../common_images/notifications/cross.png) no-repeat 10px center #fabbbb; color: #882626}
+.notification.done {border: 1px solid #90b96b; background: url(../common_images/notifications/tick.png) no-repeat 10px center #c2ee9b; color: #345f0e}
+.notification.information {border: 1px solid #7ea2bf; background: url(../common_images/notifications/information-balloon.png) no-repeat 10px center #b6d9f4; color: #1e4f74}
+.notification.setting {border: 1px solid #b7b7b7; background: url(../common_images/notifications/gear.png) no-repeat 10px center #e2e2e2; color: #454545}
+.notification.warning {border: 1px solid #c2c193; background: url(../common_images/notifications/exclamation.png) no-repeat 10px center #f1efb1; color: #6c6913}
 
-.informationbox {border: 1px solid #7ea2bf; background: url(../images/notifications/information-balloon.png) no-repeat 10px center #b6d9f4; color: #1e4f74; display: block; padding: 1.3em 35px; font-size:14px; margin: 10px 20px;}
+.informationbox {border: 1px solid #7ea2bf; background: url(../common_images/notifications/information-balloon.png) no-repeat 10px center #b6d9f4; color: #1e4f74; display: block; padding: 1.3em 35px; font-size:14px; margin: 10px 20px;}
 .informationbox p {color: #4F4F4F;}
 
 
@@ -472,9 +472,9 @@ button:active, input[type="submit"]:active, input[type="button"]:active, input[t
 
 .report .up, .report .down {color: #fff;}
 
-.report .up {background: url(../images/buttons/uparrow_sep.png) no-repeat left -65px; box-shadow:0 1px 0px #9CC49D inset; border-color: #4f6a05;}
-/*.report .down {background: url("../images/buttons/downarrow_sep.png") no-repeat left 0; box-shadow: 0 1px 0px #E7C351 inset; border-color: #9d6008;}*/
-.report .down {background: url("../images/buttons/downarrow_sep.png") no-repeat left -130px; box-shadow: 0 1px 0px #c58e8e inset; border-color: #450e0e;}
+.report .up {background: url(../common_images/buttons/uparrow_sep.png) no-repeat left -65px; box-shadow:0 1px 0px #9CC49D inset; border-color: #4f6a05;}
+/*.report .down {background: url("../common_images/buttons/downarrow_sep.png") no-repeat left 0; box-shadow: 0 1px 0px #E7C351 inset; border-color: #9d6008;}*/
+.report .down {background: url("../common_images/buttons/downarrow_sep.png") no-repeat left -130px; box-shadow: 0 1px 0px #c58e8e inset; border-color: #450e0e;}
 
 .report .value, .report .attr  {display: block; text-align: center}
 .report .value {font-size: 1.833em; padding: 4px 0 2px}
@@ -683,11 +683,11 @@ h3.index {
 	text-indent: 50px;  
 }
 h3.toggle_icon {
-	background: url('../images/buttons/plus.png') no-repeat 10px 5px;
+	background: url('../common_images/buttons/plus.png') no-repeat 10px 5px;
 	
 }
 h3.speech_icon {
-	background: url('../images/buttons/balloon.png') no-repeat 10px 5px;
+	background: url('../common_images/buttons/balloon.png') no-repeat 10px 5px;
 	
 }
 .hide_toggle {
