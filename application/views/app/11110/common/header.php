@@ -37,7 +37,12 @@
             <script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.min.js"></script> 
         <?php endif; ?>
             
-        <!-- Load any scripts here plus the main app.js file  -->
+        <!-- Load Datatables plugin  -->
+        <script type="text/javascript" charset="utf-8" src="<?php echo site_url(); ?>assets/scripts/datatables/DataTables-1.9.4/jquery.dataTables.min.js"></script>
+        
+        <!-- Load main app.js file (runs the show)  -->
+        <script type="text/javascript" src="<?php echo site_url(); ?>assets/scripts/app_vars.js"></script>	
+        <script type="text/javascript" src="<?php echo site_url(); ?>assets/includes/bespoke_app_vars/<?php echo $this->dID; ?>_app_vars.js"></script>	
         <script type="text/javascript" src="<?php echo site_url(); ?>assets/scripts/app.js"></script>	
         
             

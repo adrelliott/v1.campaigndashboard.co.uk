@@ -251,6 +251,11 @@ class Base_Model extends CI_Model {
         return;
     }
     
+    
+    public function ajax_get($fields) {
+        $this->db->select($fields);
+        return $this->get();
+    }
 }
 
 /* End of file Base_Model.php */

@@ -28,6 +28,8 @@ class M_Contacts extends App_Model {
         $this->condition = array('CrmUserYN =' => 1);
         return $this->get();
     }
+    
+    
 
 }
 

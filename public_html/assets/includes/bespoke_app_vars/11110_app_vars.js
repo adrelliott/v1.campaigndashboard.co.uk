@@ -1,19 +1,15 @@
 /* 
- * Sets up the JS for the app
+ * Overides the values in app_vars.js
  */
 
-$(function() {
+
+$(document).ready(function() {
     
-    /* Set up the tabs */
-    $('.tabs').tabs({
-        create : function (event, ui) {
-            $(this).data ('lastPanelSelector', ui.panel.selector);
-        },
-        activate : function (event, ui) {
-            $(this).data ('lastPanelSelector', ui.oldPanel.selector);
-        }
-    });
+    /* Set up Datatables */
+     globalOptions.iDisplayLength = 5;
+     
     
-    
+   
 });
+
 
