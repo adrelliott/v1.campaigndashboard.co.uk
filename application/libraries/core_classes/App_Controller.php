@@ -18,6 +18,12 @@ class App_Controller extends Base_Controller {
         parent::__construct();
         //Extract the view_setup array to allow us to use vars here
         extract($this->data['view_setup']);
+        
+        //Get the configs for the app & then for this client
+        $this->config->load('client_configs/master_config');
+        
+        //Get the configs for this client
+        $this->config->load('client_configs/' . $this->dID . '_config');
     }
 
     public function index($view_file = 'list', $id = FALSE) {
@@ -35,7 +41,8 @@ class App_Controller extends Base_Controller {
     public function view($view_file = 'edit', $id = 'new', $contact_id = NULL) {
         $this->id = $id;
         $this->contact_id = $contact_id;
-        if ($if === 'new') 
+        $this->data['display_none'] = '';
+        if ($id === 'new') 
             $this->data['display_none'] = 'class="display_none';
         
         //retrive datasets for this view 

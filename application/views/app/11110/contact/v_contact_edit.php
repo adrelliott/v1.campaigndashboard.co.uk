@@ -17,7 +17,7 @@
                 </ul>
                 <div class="widget_inside">
                     <div id="tab-1">
-                        <?php include('fieldset/v_fieldset_mainfields'); ?>
+                        <?php //include('fieldset/v_fieldset_mainfields'); ?>
                         <span class="notification done" style="display:none">Record Updated!</span>
                     </div><!-- End of form div-->
                     <p id="option1_toggle" class="button left">
@@ -25,14 +25,14 @@
                     </p> 
                     <div class="hide_toggle" id="option1">
                         <div class="form margin_top_30">
-                            <?php include('fieldset/v_fieldset_optin.php'); ?>
+                            <?php //include('fieldset/v_fieldset_optin.php'); ?>
                         </div>
                     </div>
                     <div id="tab-2">
-                        <?php include('fieldset/v_fieldset_contactnotes.php'); ?>
+                        <?php //include('fieldset/v_fieldset_contactnotes.php'); ?>
                     </div>
                     <div id="tab-3">
-                        <?php include('tables/v_table_relationships.php'); ?>
+                        <?php //include('tables/v_table_relationships.php'); ?>
                     </div>
                 </div>
             </div>
@@ -54,13 +54,13 @@
                 </ul>
                 <div class="widget_inside">
                     <div id="tab-5">
-                        <?php include('tables/v_table_relationships.php'); ?>
+                        <?php //include('tables/v_table_relationships.php'); ?>
                     </div>
                     <div id="tab-6">
-                        <?php include('tables/v_table_relationships.php'); ?>
+                        <?php //include('tables/v_table_relationships.php'); ?>
                     </div>
                     <div id="tab-7">
-                        <?php include('tables/v_table_relationships.php'); ?>
+                        <?php //include('tables/v_table_relationships.php'); ?>
                     </div>
                 </div>
             </div>
@@ -68,7 +68,7 @@
         <div class='row'>
             <div class="widget clearfix  form">
                 <h2>Quick Actions</h2>
-                    <?php include('fieldset/v_fieldset_quickactions.php'); ?>
+                    <?php //include('fieldset/v_fieldset_quickactions.php'); ?>
             </div>
         </div>        
     </div>
