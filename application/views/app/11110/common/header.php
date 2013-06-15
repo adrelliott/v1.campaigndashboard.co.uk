@@ -29,13 +29,19 @@
         <link rel="stylesheet" href="<?php echo site_url(); ?>assets/styles/custom_styles.php" type="text/css" media="screen" />
 
         <!-- Load Main Jquery libraries -->
-        <?php if ( strpos ( ENVIRONMENT, 'development') ) : //load local libs if in dev mode ?>
-            <script type="text/javascript" src="<?php echo site_url(); ?>assets/scripts/jquery-1.10.1.min.js"></script>	
-            <script type="text/javascript" src="<?php echo site_url(); ?>assets/scripts/jquery-ui.min"></script>  
+        <?php if (ENVIRONMENT == 'development'): //load local libs if in dev mode ?>
+            <script type="text/javascript" src="<?php echo site_url(); ?>assets/scripts/jquery/jquery-1.10.1/jquery-1.10.1.min.js"></script>	
+            <script type="text/javascript" src="<?php echo site_url(); ?>assets/scripts/jqueryui/jquery-1.10.3/jquery-ui.min.js"></script>  
         <?php else: ?>
             <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>	
-            <script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script> 
+            <script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.min.js"></script> 
         <?php endif; ?>
+            
+        <!-- Load any scripts here plus the main app.js file  -->
+        <script type="text/javascript" src="<?php echo site_url(); ?>assets/scripts/app.js"></script>	
+        
+            
+            
 
 
     </head>
