@@ -1,0 +1,49 @@
+//
+// Sangoma tabs
+// --------------------------------------------------
+
+
+.tab-content {
+	overflow: visible;
+}
+.tabbable .tab-content {
+	overflow: auto;
+}
+.tabs-left > .nav-tabs,
+.tabs-right > .nav-tabs,
+.tabs-top > .nav-tabs,
+.tabs-below > .nav-tabs {
+	border: none;
+}
+.tabs-left > .nav-tabs > li > a,
+.tabs-right > .nav-tabs > li > a,
+.tabs-top > .nav-tabs > li > a,
+.tabs-below > .nav-tabs > li > a {
+	font-weight: bold;
+	color: @sangomaGray;
+	border: none;
+	background: @sangomaWhite;
+	.border-radius(@baseBorderRadius);
+	.transition(all 300ms ease);
+	&:hover,
+	&:focus {
+		border: none;
+		color: @white;
+		background: @templateColor;
+	}
+}
+
+.tabs-left,
+.tabs-right,
+.tabs-top,
+.tabs-below {
+	& > .nav-tabs .active {
+		& > a,
+		& > a:hover,
+		& > a:focus {
+			border: none;
+			color: @white;
+			background: @templateColor;
+		}
+	}
+}

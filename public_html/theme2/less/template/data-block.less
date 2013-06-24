@@ -1,0 +1,174 @@
+//
+// Sangoma data blocks
+// --------------------------------------------------
+
+
+.data-block {
+	position: relative;
+	margin-bottom: @gridGutterWidth;
+	background: @white;
+	.border-radius(@borderRadiusLarge);
+	//.box-shadow(0 0 3px rgba(0,0,0,0.03));
+	section {
+		padding: @baseMargin;
+	}
+	
+	// Colors
+	&.turquoise {
+		header {
+			background: @sangomaTurquoise;
+			h2 + .btn li a,
+			h2 + .btn-group li a,
+			.data-header-actions li a {
+				color: mix(@sangomaTurquoise, @white, 50%);
+				background: darken(@sangomaTurquoise, 15%);
+			}
+			.header-search input {
+				color: mix(@sangomaTurquoise, @white, 50%);
+				border-color: darken(@sangomaTurquoise, 15%);
+				background-color: darken(@sangomaTurquoise, 15%);
+			}
+		}
+	}
+	&.orange {
+		header {
+			background: @sangomaOrange;
+			h2 + .btn li a,
+			h2 + .btn-group li a,
+			.data-header-actions li a {
+				color: mix(@sangomaOrange, @white, 50%);
+				background: darken(@sangomaOrange, 15%);
+			}
+			.header-search input {
+				color: mix(@sangomaOrange, @white, 50%);
+				border-color: darken(@sangomaOrange, 15%);
+				background-color: darken(@sangomaOrange, 15%);
+			}
+		}
+	}
+	&.purple {
+		header {
+			background: @sangomaPurple;
+			h2 + .btn li a,
+			h2 + .btn-group li a,
+			.data-header-actions li a {
+				color: mix(@sangomaPurple, @white, 50%);
+				background: darken(@sangomaPurple, 15%);
+			}
+			.header-search input {
+				color: mix(@sangomaPurple, @white, 50%);
+				border-color: darken(@sangomaPurple, 15%);
+				background-color: darken(@sangomaPurple, 15%);
+			}
+		}
+	}
+	&.green {
+		header {
+			background: @sangomaGreen;
+			h2 + .btn li a,
+			h2 + .btn-group li a,
+			.data-header-actions li a {
+				color: mix(@sangomaGreen, @white, 50%);
+				background: darken(@sangomaGreen, 15%);
+			}
+			.header-search input {
+				color: mix(@sangomaGreen, @white, 50%);
+				border-color: darken(@sangomaGreen, 15%);
+				background-color: darken(@sangomaGreen, 15%);
+			}
+		}
+	}
+	&.blue {
+		header {
+			background: @sangomaBlue;
+			h2 + .btn li a,
+			h2 + .btn-group li a,
+			.data-header-actions li a {
+				color: mix(@sangomaBlue, @white, 50%);
+				background: darken(@sangomaBlue, 13%);
+			}
+			.header-search input {
+				color: mix(@sangomaBlue, @white, 50%);
+				border-color: darken(@sangomaBlue, 15%);
+				background-color: darken(@sangomaBlue, 15%);
+			}
+		}
+	}
+	&.red {
+		header {
+			background: @sangomaRed;
+			h2 + .btn li a,
+			h2 + .btn-group li a,
+			.data-header-actions li a {
+				color: mix(@sangomaRed, @white, 50%);
+				background: darken(@sangomaRed, 15%);
+			}
+			.header-search input {
+				color: mix(@sangomaRed, @white, 50%);
+				border-color: darken(@sangomaRed, 15%);
+				background-color: darken(@sangomaRed, 15%);
+			}
+		}
+	}
+	&.gray {
+		header {
+			background: @sangomaGray;
+			h2 + .btn li a,
+			h2 + .btn-group li a,
+			.data-header-actions li a {
+				color: mix(@sangomaGray, @white, 50%);
+				background: darken(@sangomaGray, 15%);
+			}
+			.header-search input {
+				color: mix(@sangomaGray, @white, 50%);
+				border-color: darken(@sangomaGray, 15%);
+				background-color: darken(@sangomaGray, 15%);
+			}
+		}
+	}
+	&.dark {
+		header {
+			background: @sangomaDark;
+			h2 + .btn li a,
+			h2 + .btn-group li a,
+			.data-header-actions li a {
+				color: mix(@sangomaDark, @white, 50%);
+				background: darken(@sangomaDark, 10%);
+			}
+			.header-search input {
+				color: mix(@sangomaDark, @white, 50%);
+				border-color: darken(@sangomaDark, 15%);
+				background-color: darken(@sangomaDark, 15%);
+			}
+		}
+	}
+}
+
+/* Data block header */
+.data-block header {
+	padding: @baseMargin - 5 @baseMargin;
+	background: @templateColor;
+	.clearfix();
+	.border-top-radius(@borderRadiusLarge);
+	h2 {
+		margin: 0;
+		color: @white;
+		display: inline-block;
+		font-size: @fontSizeLarge;
+		line-height: 28px;
+		text-shadow: 0 1px 0 rgba(0,0,0,0.15);
+	}
+}
+
+/* Data block footer */
+.data-block footer {
+	text-transform: uppercase;
+	color: darken(@sangomaGray, 5%);
+	font-size: @fontSizeMini;
+	padding: @baseMargin / 2;
+	background: @sangomaSilver;
+	.border-bottom-radius(@borderRadiusLarge);
+	p {
+		margin: 0;
+	}
+}

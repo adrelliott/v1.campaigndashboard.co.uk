@@ -1,0 +1,107 @@
+//
+// Sangoma data block components
+// --------------------------------------------------
+
+
+/* Data block header controls */
+.data-block header {
+	h2 + .btn,
+	h2 + .btn-group,
+	.data-header-actions {
+		float: right;
+		.clear-list();
+		.clearfix();
+		& > li {
+			float: left;
+			display: block;
+			position: relative;
+			& + li {
+				margin-left: 5px;
+			}
+			a {
+				color: mix(@templateColor, @white, 50%);
+				cursor: pointer;
+				display: inline-block;
+				font-weight: bold;
+				font-size: @baseFontSize;
+				line-height: @baseLineHeight;
+				padding: 4px 12px;
+				text-align: center;
+				vertical-align: middle;
+				background: darken(@templateColor, 15%);
+				.transition(all 350ms ease);
+				.border-radius(@baseBorderRadius);
+			}
+			a:hover,
+			&.open a,
+			&.active a {
+				color: @sangomaDark;
+				background: @sangomaWhite;
+				text-decoration: none;
+			}
+			.loading {
+				display: block;
+			}
+		}
+	}
+}
+
+/* Data block nav */
+.data-block .data-block-nav {
+	background: @sangomaGrayLight;
+	ul {
+		padding: @baseMargin - 5 @baseMargin;
+		margin: 0;
+		list-style: none;
+		.clearfix();
+		& > li {
+			float: left;
+			display: block;
+			position: relative;
+			& + li {
+				margin-left: 5px;
+			}
+			a {
+				color: mix(@sangomaGray, @white, 40%);
+				cursor: pointer;
+				display: inline-block;
+				font-weight: bold;
+				font-size: @baseFontSize;
+				line-height: @baseLineHeight;
+				padding: 4px 12px;
+				text-align: center;
+				vertical-align: middle;
+				background: @sangomaGray;
+				.transition(all 350ms ease);
+				.border-radius(@baseBorderRadius);
+			}
+			a:hover,
+			&.open a,
+			&.active a {
+				color: @sangomaWhite;
+				background: darken(@sangomaGray, 18%);
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+/* Data block header search */
+.data-block header {
+	.header-search {
+		display: inline;
+		float: right;
+		border: none;
+		margin: 0;
+		input {
+			margin: 0;
+			width: 106px;
+			padding: 2px 10px;
+			font-size: @fontSizeSmall;
+			color: mix(@templateColor, @white, 50%);
+			border-color: darken(@templateColor, 15%);
+			background-color: darken(@templateColor, 15%);
+			.border-radius(15px);
+		}
+	}
+}

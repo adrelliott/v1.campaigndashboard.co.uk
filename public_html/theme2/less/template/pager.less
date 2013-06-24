@@ -1,0 +1,27 @@
+//
+// Sangoma pager
+// --------------------------------------------------
+
+
+.pager {
+	font-weight: bold;
+	.disabled a,
+	.disabled a:hover {
+		background-color: @sangomaSilver;
+		color: lighter(@sangomaGray, 5%);
+		.box-shadow(none);
+		.opacity(65);
+	}
+	li > a {
+		padding: 6px 14px;
+		border: none;
+		background-color: @sangomaSilver;
+		color: darken(@sangomaGray, 5%);
+		.box-shadow(none);
+		&:hover {
+			color: @white;
+			background-color: @templateColor;
+			.box-shadow(none);
+		}
+	}
+}

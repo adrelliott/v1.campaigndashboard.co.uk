@@ -1,0 +1,41 @@
+//
+// Sangoma pagination
+// --------------------------------------------------
+
+
+.pagination {
+	font-weight: bold;
+	ul {
+		.box-shadow(none);
+		li {
+			a {
+				border: none;
+				padding: 6px 12px;
+				color: darken(@sangomaGray, 5%);
+				.box-shadow(none);
+			}
+			&.disabled > span,
+			&.disabled a,
+			&.disabled a:hover {
+				background-color: @sangomaSilver;
+				color: lighter(@sangomaGray, 5%);
+				.box-shadow(none);
+				.opacity(65);
+			}
+			a:hover,
+			&.active a {
+				color: @white;
+				.box-shadow(none);
+			}
+			[class^="awe-"],
+			[class*=" awe-"],
+			[class^="icon-"],
+			[class*=" icon-"],
+			[class^="fam-"],
+			[class*=" fam-"] {
+				margin: -2px 0;
+				vertical-align: middle;
+			}
+		}
+	}
+}

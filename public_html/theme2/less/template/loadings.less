@@ -1,0 +1,67 @@
+//
+// Sangoma loadings
+// --------------------------------------------------
+
+
+.loading {
+	display: inline-block;
+	background-image: url("@{sangomaLoading}");
+	background-repeat: no-repeat;
+	background-position: center;
+	.hide-text();
+	.square(28px);
+	&.red {
+		background-image: url("@{sangomaRedLoading}");
+	}
+	&.blue {
+		background-image: url("@{sangomaBlueLoading}");
+	}
+	&.green {
+		background-image: url("@{sangomaGreenLoading}");
+	}
+	&.purple {
+		background-image: url("@{sangomaPurpleLoading}");
+	}
+	&.turquoise {
+		background-image: url("@{sangomaTurquoiseLoading}");
+	}
+	&.orange {
+		background-image: url("@{sangomaOrangeLoading}");
+	}
+	&.gray {
+		background-image: url("@{sangomaGrayLoading}");
+	}
+	&.dark {
+		background-image: url("@{sangomaDarkLoading}");
+	}
+}
+.data-header-actions {
+	.loading {
+		background-image: url("@{sangomaLoadingHeader}");
+		.square(28px);
+		&.red {
+			background-image: url("@{sangomaRedLoadingHeader}");
+		}
+		&.blue {
+			background-image: url("@{sangomaBlueLoadingHeader}");
+		}
+		&.green {
+			background-image: url("@{sangomaGreenLoadingHeader}");
+		}
+		&.purple {
+			background-image: url("@{sangomaPurpleLoadingHeader}");
+		}
+		&.turquoise {
+			background-image: url("@{sangomaTurquoiseLoadingHeader}");
+		}
+		&.orange {
+			background-image: url("@{sangomaOrangeLoadingHeader}");
+		}
+		&.gray {
+			background-image: url("@{sangomaGrayLoadingHeader}");
+		}
+		&.dark {
+			background-image: url("@{sangomaDarkLoadingHeader}");
+		}
+	}
+}

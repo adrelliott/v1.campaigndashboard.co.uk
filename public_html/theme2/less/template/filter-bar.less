@@ -1,0 +1,30 @@
+//
+// Sangoma filter bar
+// --------------------------------------------------
+
+
+.filter-bar .form-inline {
+	margin-bottom: 0;
+	.control-group,
+	.controls {
+		display: inline-block;
+	}
+	.control-group {
+		margin: 0;
+		& + .control-group {
+			margin-left: @baseMargin / 2;
+		}
+	}
+	.note-inline {
+		margin-left: @baseMargin / 2;
+		&:first-child {
+			margin-left: 0;
+		}
+	}
+	.control-label {
+		margin: 0 @baseMargin / 2 0 0;
+	}
+	.input-mini {
+		width: 30px;
+	}
+}

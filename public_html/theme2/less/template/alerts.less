@@ -1,0 +1,42 @@
+//
+// Sangoma alerts
+// --------------------------------------------------
+
+
+.alert {
+	color: @white;
+	text-shadow: none;
+	h4 {
+		color: @white;
+		margin: 0;
+	}
+	.close {
+		color: @white;
+		font-weight: bold;
+		text-shadow: none;
+		.opacity(40);
+		&:hover,
+		&:focus {
+			.opacity(80);
+		}
+	}
+	&.alert-gray {
+		color: darken(@sangomaGray, 5%);
+		background-color: @sangomaSilver;
+		border-color: @sangomaSilver;
+		h4 {
+			color: darken(@sangomaGray, 5%);
+		}
+	}
+	&.alert-inverse {
+		background-color: @templateDark;
+		border-color: @templateDark;
+	}
+}
+.container > .alert {
+	margin-bottom: @gridGutterWidth;
+}
+#wrapper > .alert {
+	margin-bottom: 0;
+	.border-radius(0);
+}

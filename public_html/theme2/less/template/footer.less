@@ -1,0 +1,48 @@
+//
+// Sangoma main footer
+// --------------------------------------------------
+
+
+#footer {
+	color: @sangomaGray;
+	height: @footerHeight;
+	background: @sangomaSilver;
+	.clearfix();
+	p {
+		margin: 15px 10px 0 0;
+		float: left;
+	}
+	a {
+		color: @sangomaWhite;
+		.transition(color 350ms ease);
+		&:hover {
+			color: @white;
+		}
+	}
+	ul {
+		margin: 15px 0;
+		padding: 0;
+		list-style: none;
+		float: left;
+		.clearfix();
+		li {
+			float: left;
+			display: block;
+			& + li {
+				margin-left: 10px;
+			}
+		}
+	}
+	.btn.btn-alt {
+		float: right;
+		color: @sangomaSilver;
+		margin-top: 14px;
+		padding: 1px 8px;
+		font-size: @fontSizeSmall;
+		background: @sangomaGray;
+		&:hover {
+			background: @sangomaWhite;
+			color: @sangomaSilver;
+		}
+	}
+}

@@ -1,0 +1,31 @@
+//
+// Sangoma main header
+// --------------------------------------------------
+
+#header {
+	padding: @baseMargin + 10 0 @baseMargin;
+	.clearfix();
+	& > h1 {
+		margin: @baseMargin - 5 0 0;
+		float: left;
+		color: @templateDark;
+		.brand {
+			.hide-text();
+			display: block;
+			width: 220px;
+			height: 60px;
+			background-repeat: no-repeat;
+			background-image: url("@{templateLogo}");
+		}
+		span {
+			margin: -20px 0 0 71px;
+			float: left;
+			clear: left;
+			line-height: normal;
+			color: #a6a8a8;
+			font-weight: bold;
+			font-size: @baseFontSize;
+			text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+		}
+	}
+}

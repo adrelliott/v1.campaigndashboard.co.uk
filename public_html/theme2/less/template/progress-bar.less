@@ -1,0 +1,66 @@
+//
+// Sangoma progress bar
+// --------------------------------------------------
+
+
+.progress {
+	margin-bottom: @baseMargin / 2;
+	background-image: none;
+	background-color: @sangomaWhite;
+	border: 1px solid @sangomaWhite;
+	.border-radius(@baseBorderRadius);
+	.box-shadow(none);
+	.reset-filter();
+	&:last-child {
+		margin-bottom: 0;
+	}
+	.bar:last-child {
+		.border-right-radius(@baseBorderRadius);
+	}
+	&.progress-line {
+		height: @baseLineHeight / 2;
+	}
+	.bar {
+		background: @templateColor;
+		font-weight: bold;
+		text-shadow: none;
+		.box-shadow(none);
+		.reset-filter();
+	}
+}
+.progress-striped .bar {
+	.background-size(20px 20px);
+}
+.progress .bar + .bar {
+	.box-shadow(none);
+}
+.progress-danger .bar, .progress .bar-danger {
+	background-color: @sangomaRed;
+}
+.progress-danger.progress-striped .bar, .progress-striped .bar-danger {
+	#gradient > .striped(@sangomaRed);
+}
+.progress-success .bar, .progress .bar-success {
+	background-color: @sangomaGreen;
+}
+.progress-success.progress-striped .bar, .progress-striped .bar-success {
+	#gradient > .striped(@sangomaGreen);
+}
+.progress-info .bar, .progress .bar-info {
+	background-color: @sangomaBlue;
+}
+.progress-info.progress-striped .bar, .progress-striped .bar-info {
+	#gradient > .striped(@sangomaBlue);
+}
+.progress-warning .bar, .progress .bar-warning {
+	background-color: @sangomaOrange;
+}
+.progress-warning.progress-striped .bar, .progress-striped .bar-warning {
+	#gradient > .striped(@sangomaOrange);
+}
+.progress-inverse .bar {
+	background-color: @sangomaDark;
+}
+.progress-inverse.progress-striped .bar {
+	#gradient > .striped(@sangomaDark);
+}

@@ -1,0 +1,71 @@
+//
+// Sangoma buttons
+// --------------------------------------------------
+
+
+.btn.btn-alt {
+	padding: 6px 12px;
+	.flatButtonBackground(@sangomaGrayLight, @sangomaGray);
+	&.btn-primary {
+		.flatButtonBackground(@templateColor, @white);
+	}
+	&.btn-warning {
+		.flatButtonBackground(@sangomaOrange, @white);
+	}
+	&.btn-danger {
+		.flatButtonBackground(@sangomaRed, @white);
+	}
+	&.btn-success {
+		.flatButtonBackground(@sangomaGreen, @white);
+	}
+	&.btn-info {
+		.flatButtonBackground(@sangomaBlue, @white);
+	}
+	&.btn-inverse {
+		.flatButtonBackground(@sangomaDark, @white);
+	}
+	&.btn-large {
+		padding: @paddingLarge;
+	}
+	&.btn-small {
+		padding: @paddingSmall;
+	}
+	&.btn-mini {
+		padding: @paddingMini;
+	}
+}
+.btn-group.open {
+	.dropdown-toggle {
+		background-image: none;
+		.box-shadow(none);
+	}
+	.btn.dropdown-toggle {
+		background-color: darken(@sangomaGrayLight, 10%);
+	}
+	.btn-primary.dropdown-toggle {
+		background-color: darken(@templateColor, 10%);
+	}
+	.btn-warning.dropdown-toggle {
+		background-color: darken(@sangomaOrange, 10%);
+	}
+	.btn-danger.dropdown-toggle {
+		background-color: darken(@sangomaRed, 10%);
+	}
+	.btn-success.dropdown-toggle {
+		background-color: darken(@sangomaGreen, 10%);
+	}
+	.btn-info.dropdown-toggle {
+		background-color: darken(@sangomaBlue, 10%);
+	}
+	.btn-inverse.dropdown-toggle {
+		background-color: darken(@sangomaDark, 10%);
+	}
+}
+.btn.disabled,
+.btn[disabled] {
+	cursor: default;
+	background-color: darken(@white, 10%);
+	background-image: none;
+	.opacity(65);
+	.box-shadow(none);
+}

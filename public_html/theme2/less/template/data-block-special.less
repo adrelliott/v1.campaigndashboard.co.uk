@@ -1,0 +1,135 @@
+//
+// Sangoma special data blocks 
+// --------------------------------------------------
+
+
+/* Data block accordion */
+.data-block.accordion-block {
+	.accordion {
+		margin-bottom: 0;
+		.accordion-inner {
+			background: @white;
+		}
+		.accordion-group {
+			border-color: @bodyBackground;
+		}
+	}
+	section {
+		padding: 0;
+	}
+}
+
+/* Data block todo list */
+.data-block.todo-block {
+	form,
+	table {
+		margin: 0;
+	}
+	table th,
+	table td {
+		border-left: none;
+	}
+	table td:first-child {
+		width: 13px;
+	}
+	table tr {
+		&.done {
+			.transition(all 300ms ease);
+			.opacity(40);
+			p {
+				text-decoration: line-through;
+				& + span {
+					height: 0;
+					.transition(all 300ms ease);
+					.opacity(0);
+				}
+			}
+			&:hover {
+				.opacity(100);
+				p {
+					text-decoration: none;
+					& + span {
+						height: auto;
+						.opacity(100);
+					}
+				}
+			}
+		}
+		p {
+			margin: 0;
+			color: darken(@sangomaGray, 15%);
+			font-weight: bold;
+			line-height: normal;
+			& + span {
+				display: block;
+				font-size: @fontSizeMini;
+				color: @sangomaGray;
+			}
+		}
+		input {
+			margin-top: -3px;
+		}
+	}
+}
+
+/* Data block widgets */
+.data-block.widget-block {
+	display: block;
+	text-align: center;
+	.transition(all 300ms ease);
+	section > span,
+	strong {
+		color: @linkColor;
+		display: block;
+		font-size: @fontSizeSmall * 4;
+		line-height: 1;
+	}
+	strong {
+		margin-top: @baseMargin / 4;
+		font-size: @baseFontSize + 2;
+	}
+	.sparkline {
+		display: block;
+		margin: 5px auto;
+		canvas {
+			display: block !important;
+			margin: 0 auto;
+		}
+	}
+	.sparkline + strong,
+	.sparkline + a {
+		color: @sangomaGray;
+		font-size: @baseFontSize;
+		font-weight: bold;
+		.transition(color ease 0.3s);
+	}
+	.sparkline + a:hover {
+		color: @linkColor;
+	}
+}
+a.data-block.widget-block:hover {
+	text-decoration: none;
+	background: @linkColor;
+	span,
+	strong {
+		color: @white;
+	}
+}
+
+/* Data block plans */
+.data-block.plan-block {
+	text-align: center;
+	span {
+		color: @sangomaSilver;
+		display: block;
+		font-size: @fontSizeMini * 10;
+		line-height: normal;
+		margin: @baseMargin / 2 0;
+	}
+	h3 {
+		margin: 0;
+	}
+	p + .btn {
+		margin-top: @baseMargin;
+	}
+}

@@ -1,0 +1,21 @@
+//
+// Sangoma wells
+// --------------------------------------------------
+
+
+.well {
+	border: none;
+	.border-radius(@baseBorderRadius);
+	.box-shadow(none);
+	blockquote {
+		border-color: rgba(0,0,0,0.15);
+	}
+	&.large {
+		padding: 24px;
+		.border-radius(@baseBorderRadius * 2);
+	}
+	&.small {
+		padding: 9px;
+		.border-radius(@baseBorderRadius);
+	}
+}

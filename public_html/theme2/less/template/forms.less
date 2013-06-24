@@ -1,0 +1,93 @@
+//
+// Sangoma forms
+// --------------------------------------------------
+
+
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+	border-width: 2px;
+	margin-bottom: 0;
+	.box-shadow(none);
+	&:focus {
+		border-color: @sangomaGray;
+		.box-shadow(none);
+	}
+}
+legend {
+	color: @sangomaDark;
+	font-weight: bold;
+	border-bottom: 2px solid @inputBorder;
+}
+label {
+	font-weight: bold;
+	&.radio,
+	&.checkbox {
+		font-weight: normal;
+	}
+}
+.form-horizontal .control-group,
+.control-group {
+	margin: 0;
+	& + .control-group {
+		margin-top: @baseMargin - 5;
+	}
+}
+.form-actions {
+	padding: (@baseLineHeight - 1) 20px @baseLineHeight 0;
+	border: none;
+	margin: 0;
+}
+.help-block,
+.help-inline {
+	color: @sangomaSilver;
+}
+.form-horizontal {
+	input,
+	select,
+	textarea,
+	.uneditable-input,
+	.input-prepend,
+	.input-append {
+		+ .help-block {
+			margin-top: 0;
+		}
+	}
+}
+.input-append .add-on,
+.input-prepend .add-on {
+	color: @sangomaGray;
+	font-weight: bold;
+	text-shadow: none;
+	border-width: 2px;
+	border-color: @inputBorder;
+	background: @inputBorder;
+}
+input[disabled],
+select[disabled],
+textarea[disabled],
+input[readonly],
+select[readonly],
+textarea[readonly] {
+	color: @sangomaGray;
+}
+.input-xxlarge {
+	width: 90%;
+}
+.input-xlarge {
+	width: 75%;
+}

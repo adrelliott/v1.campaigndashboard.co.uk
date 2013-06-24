@@ -1,0 +1,105 @@
+//
+// Sangoma main navigation
+// --------------------------------------------------
+
+.main-navigation {
+	float: right;
+	.navbar {
+		margin-top: -40px;
+	}
+	.btn-navbar {
+		margin: 0;
+	}
+	.nav-collapse {
+		clear: both;
+		& > ul {
+			.clear-list();
+			.clearfix();
+			margin: 10px 0;
+			& > li {
+				float: left;
+				display: block;
+				position: relative;
+				& + li {
+					margin-left: 2px;
+				}
+				& > a {
+					display: block;
+					padding: 10px 15px;
+					font-weight: bold;
+					font-size: @fontSizeLarge - 2;
+					color: darken(@sangomaSilver, 10%);
+					background: @white;
+					.transition(color 350ms ease);
+				}
+				& > a:hover,
+				&.open > a,
+				&.active > a {
+					color: @white;
+					background: @templateColor;
+					text-decoration: none;
+				}
+				&.open > a {
+					background: darken(@templateColor, 5%);
+					margin-bottom: -2px;
+					padding-bottom: 12px;
+					.border-bottom-radius(0);
+				}
+				&:first-child > a {
+					.border-left-radius(@borderRadiusLarge);
+				}
+				&:last-child > a {
+					.border-right-radius(@borderRadiusLarge);
+				}
+				&.open:first-child > a,
+				&.open:last-child > a {
+					.border-bottom-radius(0);
+				}
+				.dropdown-menu {
+					border: none;
+					color: @white;
+					width: 100%;
+					min-width: 150px;
+					background: darken(@templateColor, 5%);
+					.box-shadow(none);
+					.border-radius(0 0 @borderRadiusLarge @borderRadiusLarge);
+					.divider {
+						background: darken(@templateColor, 8%);
+						border-color: darken(@templateColor, 8%);
+					}
+					& > li {
+						position: relative;
+						a {
+							color: @white;
+							font-weight: bold;
+							padding: 3px 15px;
+							.opacity(70);
+							.transition(all 350ms ease);
+						}
+					}
+					& > li > a:hover,
+					& > li > a:focus,
+					.dropdown-submenu:hover > a,
+					.dropdown-submenu:focus > a {
+						color: @white;
+						background: darken(@templateColor, 5%);
+						.opacity(100);
+					}
+					.badge {
+						top: -2px;
+					}
+				}
+			}
+		}
+	}
+	.badge {
+		color: @white;
+		text-shadow: none;
+		background: @sangomaRed;
+		position: absolute;
+		top: -5px;
+		right: -10px;
+		z-index: 1;
+		.border-radius(@baseBorderRadius);
+	}
+}

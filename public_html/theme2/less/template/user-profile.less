@@ -1,0 +1,57 @@
+//
+// Sangoma user profile
+// --------------------------------------------------
+
+
+.user-profile {
+	margin: @baseMargin / 2 0 @baseMargin / 2;
+	.clearfix();
+	figure {
+		margin: 0;
+		float: right;
+		.clearfix();
+	}
+	img {
+		float: left;
+		.square(40px);
+		.border-radius(@baseBorderRadius);
+	}
+	figcaption {
+		float: right;
+		margin-left: @baseMargin / 2;
+		padding-top: 4px;
+		strong {
+			display: block;
+			font-size: @baseFontSize + 2;
+			line-height: @baseFontSize;
+			a {
+				color: darken(@sangomaSilver, 20%);
+				&:hover {
+					color: @templateColor;
+					text-decoration: none;
+				}
+			}
+		}
+		ul {
+			.clear-list();
+			.clearfix();
+			& > li {
+				float: left;
+				display: block;
+				a {
+					color: darken(@sangomaSilver, 10%);
+					&:hover {
+						color: @templateColor;
+						text-decoration: none;
+					}
+				}
+				& + li {
+					margin-left: 8px;
+				}
+			}
+		}
+	}
+}
+.ie8 .user-profile figure {
+	width: 190px;
+}
