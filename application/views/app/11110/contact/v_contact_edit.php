@@ -18,14 +18,32 @@
                 <div class="widget_inside">
                     <div id="tab-1">
                         <?php //include('fieldset/v_fieldset_mainfields'); ?>
+                        <a href="<?php echo site_url("/contact/delete_record/"); ?>" class="open_dialog small button green left" onclick="return deletechecked();">Delete this record</a>
                         <span class="notification done" style="display:none">Record Updated!</span>
                     </div><!-- End of form div-->
-                    <p id="option1_toggle" class="button left">
+                    <p id="option_toggle" title="testing" class="button left">
                         <span>View Opt In Settings</span>
                     </p> 
-                    <div class="hide_toggle" id="option1">
+                    <div class="hide_toggle option" id="testing ">
                         <div class="form margin_top_30">
                             <?php //include('fieldset/v_fieldset_optin.php'); ?>
+                            found me!
+                        </div>
+                    </div>
+                    <p id="option1_toggle" title="testing" class="button left">
+                        <span>test toggle</span>
+                    </p>
+                    <div class="hide_toggle" id="option1">
+                        <div class="form margin_top_30">
+                            found me1!
+                        </div>
+                    </div>
+                    <p id="" title="testing" class="button left option_toggle">
+                        <span>test toggle 2</span>
+                    </p>
+                    <div class="hide_toggle" id="testing">
+                        <div class="form margin_top_30">
+                            found me2!
                         </div>
                     </div>
                     <div id="tab-2">
@@ -33,6 +51,11 @@
                     </div>
                     <div id="tab-3">
                         <?php //include('tables/v_table_relationships.php'); ?>
+                        <div class="clearfix margin_top_15">
+                            <a href="<?php echo site_url('url_goes_here'); ?>" class="large blue button right iframe" data-table-id="">
+                                <span>Button_text</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

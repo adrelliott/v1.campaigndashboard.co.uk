@@ -25,17 +25,35 @@ $(function() {
         minLength: 2
     });
     
+    
+    
+    /* Set up Datatables */
+    //Datatables settings - these can be set up in app_vars.js and overidden
+    //in assets/includes/bespoke_app_vars/{dID}_app_vars.js
     var dataTable_ajaxoptions = {
         "bProcessing": true,
         "bServerSide": true,
         "sServerMethod": "POST",
-        "sAjaxSource": $(".ajax-table").attr("data-table-source"),
+        "sAjaxSource": $(".ajax-table").attr("data-table-source"),  //passed by the view
         "sPaginationType": "full_numbers",
         "bJQueryUI": true,
         "iDisplayLength": globalOptions.iDisplayLength_ajax,
         "aaSorting": [],   //disables sorting when page loads, but users can still sort manually
         "bRetrieve": true, 
         "bDestroy": true,
+        "sDom": '<"H"Tfr>t<"F"ip>',
+        "oTableTools": {
+            "aButtons": [
+                "copy", "csv", "xls", "pdf",
+                {
+                    "sExtends": "collection",
+                    "sButtonText": "Save",
+                    "aButtons": ["csv", "xls", "pdf"]
+                }
+            ],
+            "sSwfPath": "datatables/TableTools/media/swf/copy_csv_xls_pdf.swf",
+        },
+        
         /*"fnDrawCallback": function(  ) {
             $(".iframe").colorbox({
                 iframe:true,
@@ -67,18 +85,27 @@ $(function() {
         }*/
     };
     
-    //initialise Datatable
+    $("#option1_toggle").click(function(){
+          $("#option1").toggle("slow","swing");
+    });
+    $(".option_toggle").click(function(){
+        var div_id = $(this).attr("title");
+        $("#" + div_id).toggle("slow","swing");
+    });
+    
+   //Initialise the 2 types of table 
     $('.dataTable').dataTable(dataTable_standardoptions);
     $('.ajax-table').dataTable(dataTable_ajaxoptions);
+   
+    
+    /* Dialog confirmation */
     
     
-    //$('.ajax-table').dataTable( {} );
-    
-    /* Set up Datatables */
-    //Datatables settings - these can be set up in app_vars.js and overidden
-    //in assets/includes/bespoke_app_vars/{dID}_app_vars.js
-    
-    
+    /* Toggle divs */
+    /*$(".option_toggle").click(function(){
+        var div_id = $(this).attr("title");
+        $(".option #" + div_id).toggle("slow","swing");
+    });*/
     
     
     

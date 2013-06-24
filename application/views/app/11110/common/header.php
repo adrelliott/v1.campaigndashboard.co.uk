@@ -10,40 +10,46 @@
         <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
 
         <!-- The Columnal Grid and mobile stylesheet -->
-        <link rel="stylesheet" href="<?php echo site_url(); ?>assets/styles/columnal/columnal.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="<?php echo site_url('assets/styles/columnal/columnal.css'); ?>" type="text/css" media="screen" />
 
         <!-- Fixes for IE -->
 
         <!--[if lt IE 9]>
-            <link rel="stylesheet" href="<?php echo site_url(); ?>assets/styles/columnal/ie.css" type="text/css" media="screen" />
-            <link rel="stylesheet" href="<?php echo site_url(); ?>assets/styles/ie8.css" type="text/css" media="screen" />
+            <link rel="stylesheet" href="<?php echo site_url('assets/styles/columnal/ie.css'); ?>" type="text/css" media="screen" />
+            <link rel="stylesheet" href="<?php echo site_url('assets/styles/ie8.css'); ?>" type="text/css" media="screen" />
             <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
         <![endif]-->        
 
 
         <!-- Now that all the grids are loaded, we can move on to the actual styles. --> 
-        <link rel="stylesheet" href="<?php echo site_url(); ?>assets/scripts/jqueryui/jqueryui.css" type="text/css" media="screen" />
-        <link rel="stylesheet" href="<?php echo site_url(); ?>assets/styles/style.css" type="text/css" media="screen" />
-        <link rel="stylesheet" href="<?php echo site_url(); ?>assets/styles/global.css" type="text/css" media="screen" />
-        <link rel="stylesheet" href="<?php echo site_url(); ?>assets/styles/config.css" type="text/css" media="screen" />
-        <link rel="stylesheet" href="<?php echo site_url(); ?>assets/styles/custom_styles.php" type="text/css" media="screen" />
+        <link rel="stylesheet" href="<?php echo site_url('assets/scripts/jqueryui/jqueryui.css'); ?>" type="text/css" media="screen" />
+        <link rel="stylesheet" href="<?php echo site_url('assets/styles/style.css'); ?>" type="text/css" media="screen" />
+        <link rel="stylesheet" href="<?php echo site_url('assets/styles/global.css'); ?>" type="text/css" media="screen" />
+        <link rel="stylesheet" href="<?php echo site_url('assets/styles/config.css'); ?>" type="text/css" media="screen" />
+        <link rel="stylesheet" href="<?php echo site_url('assets/styles/custom_styles.php'); ?>" type="text/css" media="screen" />
+        <!-- Load custom css for this client --> 
+        <link rel="stylesheet" href="<?php echo site_url('assets/includes/' . $this->dID . '/custom_css.css'); ?>" type="text/css" media="screen" />
+        
 
         <!-- Load Main Jquery libraries -->
         <?php if (ENVIRONMENT == 'development'): //load local libs if in dev mode ?>
-            <script type="text/javascript" src="<?php echo site_url(); ?>assets/scripts/jquery/jquery-1.10.1/jquery-1.10.1.min.js"></script>	
-            <script type="text/javascript" src="<?php echo site_url(); ?>assets/scripts/jqueryui/jquery-1.10.3/jquery-ui.min.js"></script>  
-        <?php else: ?>
+            <script type="text/javascript" src="<?php echo site_url('assets/scripts/jquery/jquery-1.10.1/jquery-1.10.1.min.js'); ?>"></script>	
+            <script type="text/javascript" src="<?php echo site_url('assets/scripts/jqueryui/jquery-1.10.3/jquery-ui.min.js'); ?>"></script>  
+        <?php else: //Use CDNs ?>
             <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>	
             <script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.min.js"></script> 
         <?php endif; ?>
             
-        <!-- Load Datatables plugin  -->
-        <script type="text/javascript" charset="utf-8" src="<?php echo site_url(); ?>assets/scripts/datatables/DataTables-1.9.4/jquery.dataTables.min.js"></script>
+        <!-- Load Datatables plugin(s)  -->
+        <script type="text/javascript" charset="utf-8" src="<?php echo site_url('assets/scripts/datatables/DataTables-1.9.4/jquery.dataTables.min.js'); ?>"></script>
+        <script type="text/javascript" charset="utf-8" src="<?php echo site_url('assets/scripts/datatables/TableTools/media/js/TableTools.min.js'); ?>"></script>
+        <link rel="stylesheet" href="<?php echo site_url('assets/scripts/datatables/TableTools/media/css/TableTools.css'); ?>" type="text/css" media="screen" />
         
-        <!-- Load main app.js file (runs the show)  -->
-        <script type="text/javascript" src="<?php echo site_url(); ?>assets/scripts/app_vars.js"></script>	
-        <script type="text/javascript" src="<?php echo site_url(); ?>assets/includes/bespoke_app_vars/<?php echo $this->dID; ?>_app_vars.js"></script>	
-        <script type="text/javascript" src="<?php echo site_url(); ?>assets/scripts/app.js"></script>	
+        
+        <!-- Load main main settings, then client settings then app.js file (runs the show) -->
+        <script type="text/javascript" src="<?php echo site_url('assets/scripts/app_vars.js'); ?>"></script>	
+        <script type="text/javascript" src="<?php echo site_url('assets/includes/' . $this->dID . '/app_vars.js'); ?>"></script>	
+        <script type="text/javascript" src="<?php echo site_url('assets/scripts/app.js'); ?>"></script>	
         
             
             
@@ -56,7 +62,7 @@
                 <header class="container">
                     <div class="row clearfix">
                         <div class="left">
-                            <a href="<?php echo site_url('app/dashboard'); ?>"><img src="<?php echo site_url('assets/includes/logos/logo_11110.png'); ?>" /></a>
+                            <a href="<?php echo site_url('app/dashboard'); ?>"><img src="<?php echo site_url('assets/includes/' . $this->dID . '/logo.png'); ?>" /></a>
                         </div>                
                         <div class="right">
                             <ul id="toolbar">
