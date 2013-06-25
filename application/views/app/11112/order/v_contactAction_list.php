@@ -1,0 +1,3 @@
+ contactAction
+
+<?php print_array($this->data); ?>
