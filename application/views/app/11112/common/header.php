@@ -1,84 +1,70 @@
-<html lang="en-us">
-    <head>
-        <meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1" >
-        <meta charset="utf-8" />
+<!DOCTYPE html>
+<!--[if IE 8]>    <html class="no-js ie8 ie" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9 ie" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <title>CampaignDashboard.co.uk | All your marketing in one place</title>
+    <meta name="description" content="">
+    <meta name="author" content="Dallas Matthews | http://DallasMatthews.co.uk">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="apple-touch-con" href="" />
+    <!-- jQuery FullCalendar Styles -->
+    <link rel='stylesheet' type='text/css' href="<?php echo site_url('v2.2/css/plugins/jquery.fullcalendar.css'); ?>">
 
-        <title>Campaign Dashboard</title>
+    <!-- jQuery prettyCheckable Styles -->
+    <link rel='stylesheet' type='text/css' href="<?php echo site_url('v2.2/css/plugins/prettyCheckable.css'); ?>">
 
-        <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    <!-- Styles -->
+    <link rel='stylesheet' type='text/css' href="<?php echo site_url('v2.2/css/sangoma-blue.css'); ?>">
 
-        <!-- The Columnal Grid and mobile stylesheet -->
-        <link rel="stylesheet" href="<?php echo site_url('assets/styles/columnal/columnal.css'); ?>" type="text/css" media="screen" />
+    <!-- Fav and touch icons -->
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo site_url('v2.2/img/icons/apple-touch-icon-114-precomposed.png'); ?>">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo site_url('v2.2/img/icons/apple-touch-icon-72-precomposed.png'); ?>">
+    <link rel="apple-touch-icon-precomposed" href="<?php echo site_url('v2.2/img/icons/apple-touch-icon-57-precomposed.png'); ?>">
 
-        <!-- Fixes for IE -->
+    <!-- JS Libs -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js); ?>"></script>
+    <script>window.jQuery || document.write('<script src="<?php echo site_url('v2.2/js/libs/jquery.js'); ?>"><\/script>')</script>
 
-        <!--[if lt IE 9]>
-            <link rel="stylesheet" href="<?php echo site_url('assets/styles/columnal/ie.css'); ?>" type="text/css" media="screen" />
-            <link rel="stylesheet" href="<?php echo site_url('assets/styles/ie8.css'); ?>" type="text/css" media="screen" />
-            <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
-        <![endif]-->        
+    <script src="<?php echo site_url('v2.2/js/libs/modernizr.js'); ?>"></script>
+    <script src="<?php echo site_url('v2.2/js/libs/selectivizr.js'); ?>"></script>
 
+    <script>
+        $(document).ready(function() {
 
-        <!-- Now that all the grids are loaded, we can move on to the actual styles. --> 
-        <link rel="stylesheet" href="<?php echo site_url('assets/scripts/jqueryui/jqueryui.css'); ?>" type="text/css" media="screen" />
-        <link rel="stylesheet" href="<?php echo site_url('assets/styles/style.css'); ?>" type="text/css" media="screen" />
-        <link rel="stylesheet" href="<?php echo site_url('assets/styles/global.css'); ?>" type="text/css" media="screen" />
-        <link rel="stylesheet" href="<?php echo site_url('assets/styles/config.css'); ?>" type="text/css" media="screen" />
-        <link rel="stylesheet" href="<?php echo site_url('assets/styles/custom_styles.php'); ?>" type="text/css" media="screen" />
-        <!-- Load custom css for this client --> 
-        <link rel="stylesheet" href="<?php echo site_url('assets/includes/' . $this->dID . '/custom_css.css'); ?>" type="text/css" media="screen" />
+            // Tooltips
+            $('[title]').tooltip({
+                placement: 'top',
+                container: 'body'
+            });
+
+            // Tabs
+            $('.demoTabs a, .demoTabs2 a').click(function(e) {
+                e.preventDefault();
+                $(this).tab('show');
+                $('.fullcalendar').fullCalendar('render'); // Refresh jQuery FullCalendar for hidden tabs
+            })
+
+        });
+    </script>
+
+</head>
+
+<body>
+
+    <!-- Full height wrapper -->
+    <div id="wrapper">
         
+        <!-- navbar placed here by controller - edit it in in views/{dID}/common/navbar.php -->
+        <?php include('navbar.php'); ?>
 
-        <!-- Load Main Jquery libraries -->
-        <?php if (ENVIRONMENT == 'development'): //load local libs if in dev mode ?>
-            <script type="text/javascript" src="<?php echo site_url('assets/scripts/jquery/jquery-1.10.1/jquery-1.10.1.min.js'); ?>"></script>	
-            <script type="text/javascript" src="<?php echo site_url('assets/scripts/jqueryui/jquery-1.10.3/jquery-ui.min.js'); ?>"></script>  
-        <?php else: //Use CDNs ?>
-            <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>	
-            <script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.min.js"></script> 
-        <?php endif; ?>
-            
-        <!-- Load Datatables plugin(s)  -->
-        <script type="text/javascript" charset="utf-8" src="<?php echo site_url('assets/scripts/datatables/DataTables-1.9.4/jquery.dataTables.min.js'); ?>"></script>
-        <script type="text/javascript" charset="utf-8" src="<?php echo site_url('assets/scripts/datatables/TableTools/media/js/TableTools.min.js'); ?>"></script>
-        <link rel="stylesheet" href="<?php echo site_url('assets/scripts/datatables/TableTools/media/css/TableTools.css'); ?>" type="text/css" media="screen" />
-        
-        
-        <!-- Load main main settings, then client settings then app.js file (runs the show) -->
-        <script type="text/javascript" src="<?php echo site_url('assets/scripts/app_vars.js'); ?>"></script>	
-        <script type="text/javascript" src="<?php echo site_url('assets/includes/' . $this->dID . '/app_vars.js'); ?>"></script>	
-        <script type="text/javascript" src="<?php echo site_url('assets/scripts/app.js'); ?>"></script>	
-        
-            
-            
+    <!-- Full height wrapper tag closed in views/{dID}/common/footer.php -->
+    
+    
 
-
-    </head>
-    <body>
-        <div id="wrap">
-            <div id="main">
-                <header class="container">
-                    <div class="row clearfix">
-                        <div class="left">
-                            <a href="<?php echo site_url('app/dashboard'); ?>"><img src="<?php echo site_url('assets/includes/' . $this->dID . '/logo.png'); ?>" /></a>
-                        </div>                
-                        <div class="right">
-                            <ul id="toolbar">
-                                <li>Logged in as 
-                                    <?php echo anchor('user/view/edit/' . $this->session->userdata('UserId') . '/' . $this->session->userdata('UserId'), $this->session->userdata('FirstName') . ' ' . $this->session->userdata('LastName')); ?> (<?php echo anchor('login/log_out', 'Log out?'); ?>) </li>
-                                <?php //<li><?php echo anchor('settings', 'Settings', 'id="settings" class="iframe"');  //</li>?>
-                                <li><?php echo anchor('help/view/edit/___' . uri_string(), 'Help', 'id="help" class=" iframe "'); ?></li>
-                            </ul>
-                        </div>
-                    </div>
-                </header>
-                <!-- Start Navbar-->
-                <nav class="container">
-                    <ul class="sf-menu mobile-hide row clearfix">
-                        <?php include('navbar.php'); ?>
-                    </ul>
-                </nav>
-                <!-- End Navbar-->
-                <div class="container" id="actualbody"><!-- Start body -->
+<?php
+    /* End of file header.php */
+    /* Location: ./application/views/{dID}/common/header.php */

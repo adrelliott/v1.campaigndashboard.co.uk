@@ -63,7 +63,7 @@ class Base_Controller extends CI_Controller {
         //Set up vars to be used through the app
         $this->data['view_setup'] = $this->_set_up_vars();
         
-$_SESSION['dID'] = 11110;  //delet me!
+$_SESSION['dID'] = 11112;  //delet me!
 
         $this->dID = $_SESSION['dID'];
         
